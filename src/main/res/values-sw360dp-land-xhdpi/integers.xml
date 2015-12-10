@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Begin:show -->
+    <integer name="is_show_button_on_actionbar">0</integer>
+    <integer name="is_continue_write">0</integer>
+    <!-- End:show -->
+</resources>

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">ป้อน</string>
+    
+    <!-- <string name="go" description="Go" maxwidth="">Go</string> -->
+    <string name="edit" description="Edit" maxwidth="">แก้ไข</string>
+    <string name="back" description="Back" maxwidth="">กลับ</string>
+    <string name="setting" description="Settings" maxwidth="">การตั้งค่า</string>
+    <string name="backup" description="Backup" maxwidth="">สำรอง</string>
+    <string name="restore" description="Restore" maxwidth="">กู้คืน</string>
+    <string name="next" description="Next" maxwidth="">ถัดไป</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">ป้อนอย่างเร็ว</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">ค่ามาตรฐานคือ 400ms</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">ชื่อสมุดโน้ต</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">สีหน้า</string>
+    <string name="notebook" description="Notebook" maxwidth="">สมุดโน้ต</string>
+    <string name="password" description="Password" maxwidth="">รหัสผ่าน</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">โปรดป้อนรหัสผ่าน 4 ถึง 7 ตัวอักษร/หลัก</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">รหัสผ่านปัจจุบัน</string>
+    <string name="password_newpin" description="New password" maxwidth="">รหัสผ่านใหม่</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">ยืนยันรหัสผ่านใหม่</string>
+    <string name="password_hint" maxwidth="">โปรดทราบ: รหัสผ่านสามารถเป็นตัวเลข และ/หรือตัวอักษรที่มีความยาว 4 ถึง 7 หลักก็ได้ </string>
+    <string name="password_set" description="Set/Change password" maxwidth="">ตั้งค่า/เปลี่ยนรหัสผ่าน</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">รหัสผ่านปัจจุบันไม่ถูกต้อง</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">รหัสผ่านไม่ตรง</string>
+    <string name="no_thanks" description="No, thanks" maxwidth="">ไม่ ขอบคุณ</string>
+    <string name="yes" description="Yes" maxwidth="">ใช่</string>
+    <string name="share_to" description="Share to..." maxwidth="">แชร์ไปยัง...</string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">ส่งออกไฟล์ภาพไปยังคลังภาพ</string>
+    <!-- <string name="prompt_pg_export" description="Export will create a ZIP file (/sdcard) for future Import." formatted="false" maxwidth="">Export will create a ZIP file (%s) for future Import.</string> -->
+    
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">รหัสผ่าน SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">ในวันที่ %s รหัสผ่านของ SuperNote ถูกเปลี่ยนแปลง รหัสผ่านใหม่คือ: %s</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">ชื่อสมุดโน้ต</string>
+    <string name="prompt" description="Prompt" maxwidth="">โปรดทราบ</string>
+    <string name="name" description="Name" maxwidth="">ชื่อ</string>
+    <string name="del" description="Delete" maxwidth="">ลบ</string>
+    <string name="prompt_import" description="Import..." maxwidth="">นำเข้า...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">นำเข้าบันทึก</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">ไม่พบวิธีการเปิดที่เชื่อมโยงกับไฟล์นี้</string>
+    <!-- <string name="prompt_saving" description="Saving..." maxwidth="">Saving</string> -->
+    <!-- <string name="prompt_select_text" description="Slide your finger to expand the range of selection." maxwidth="">Slide your finger to expand the range of selection.</string> -->
+    
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">กู้คืนสำเร็จ!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">กู้คืนล้มเหลว ไฟล์เสียหาย</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">สำรอง...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">สำรองสำเร็จ!</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">นำเข้าสำเร็จ!</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">ย้ายไปยัง</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">คัดลอกไปยัง</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">ลบหน้าที่เลือกหรือไม่?</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_left">    |</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_middum">|</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_right">|    </string>
+    <!-- NOT TRANSLATED -->
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">กดค้างบนหน้า และลากเพื่อจัดลำดับหน้าใหม่ </string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">หน้าแรก</string>
+    <string name="phone_book_name" description="Phone book name">สมุดโทรศัพท์</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">หน้าใหม่</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">ชื่อไฟล์สำรอง</string>
+    <string name="clear_all" description="Clear all">ล้างทั้งหมด</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">แน่ใจหรือว่าคุณต้องการลบภาพวาดทั้งหมดหรือไม่? การกระทำนี้ไม่สามารถเลิกทำได้</string>
+    <string name="delete_alert" description="warning of deleting">คุณต้องการลบภาพวาดหรือไม่?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">ใช้นิ้วของคุณเพื่อย้าย หรือเปลี่ยนขนาดวัตถุ</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">แทปเพื่อเลือก หรือลากวัตถุหนึ่งชิ้น หรือหลายชิ้น</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">หน้านี้เต็ม</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">ปากกา &amp; สี</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">ปากกา</string>
+    
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">หน้านี้ว่าง</string>
+    
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">ภาพบันทึกถูกบันทึกแล้ว</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">สมุดโน้ต</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">รหัสผ่านยังไม่ถูกตั้งค่า</string>
+    <string name="warning_activity_not_found" description="Activity not found">PadFone ของคุณไม่สนับสนุนชนิดไฟล์หรือชนิด codec นี้</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">ไม่มีภาพในคลิปบอร์ดเพื่อวาง</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">ลบ</string>
+
+    
+
+    <string name="add_new" description="Add New Notebook" maxwidth="7">เพิ่มใหม่</string>
+
+    <!-- 2nd -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">เล็ก</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">ปกติ</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">ใหญ่</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">สีขาว</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">สีเหลือง</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">สีน้ำเงิน</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">เส้น</string>
+    <string name="book_grid_grid" description="the background style of the notebook">ตาราง</string>
+    <!-- [END]Note, grids + lines = 14 -->
+    
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">แสดงข้อมูลสมุดโน้ต</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">โปรดตั้งรหัสผ่านสำหรับซ่อนสมุดโน้ต</string>
+    
+    <string name="memo_link" description="press this button to link the page where the memo from">ลิงค์ไปยัง:\n%s</string>
+    <string name="page_index" description="show the page index">หน้า %d</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">โปรดสร้างสมุดโน้ต</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">ไม่มีสมุดหรือหน้าสำหรับอ่าน</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">ไม่มีหน้าบุ๊คมาร์ก</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">ไม่มีสมุดในรายการส่วนตัว</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">ลบ?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">แน่ใจหรือว่าคุณต้องการลบหน้านี้หรือไม่?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">ตัวหนา</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">สี</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">คัดลอก</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">ตัด</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">แก้ไข</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">กลุ่ม</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">เลิกจัดกลุ่ม</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">เบสไลน์</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">บุ๊คมาร์ก                </string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">สร้างบันทึก</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">อ่านอย่างเดียว</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">แชร์</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">เลิกทำ</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">ทำซ้ำ</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">แทรก</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">เลือก</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">วาง</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">ลบ</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">สโตรก</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">แปรง</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">ยางลบ</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">ยกเลิก</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">เสร็จ</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">ถัดไป</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">คัดลอกหนึ่งครั้ง</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">รีเซ็ต</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">แชร์ข้อความเท่านั้น</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">ซ่อนตาราง</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">ความกว้าง:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">ความสูง:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">ขนาด:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">เกี่ยวกับ SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">เปิด</string>
+    <string name="set_off" description="Off" maxwidth="">ปิด</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">โหมดการอ่านเป็นค่าเริ่มต้น</string>
+    <!--string name="app_name">SuperNote</string-->
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s หน้าถูกลบ</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">คัดลอกหน้าไปยัง</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">ย้าย %d หน้าไปยัง</string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">ส่งออกหน้า</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">เลือกทั้งหมด</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">ลบหน้า</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">ย้ายหน้า</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">คุณสามารถใช้เกสเจอร์สัมผัส เพื่อพลิกหรือเลื่อนหน้า</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">สี</string>
+    <string name="memo_del" description="Deleted memo">ลบบันทึกย่อที่เลือกหรือไม่?</string>
+    <string name="pg_selected" description="show how many pages are selected">%d หน้าถูกเลือก</string>
+    <string name="memo_count" description="show how many memos in this view">%s บันทึกย่อ</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">บันทึกย่อว่าง</string>
+    <string name="book_grid_title" description="the title of the page display property">สไตล์เส้น</string>
+    <string name="page_counter" description="show the total page number the book has">%d หน้า</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">คัดลอกหน้า</string>
+    <string name="wrong_file_type" description="wrong_file_type">ชนิดไฟล์ไม่ถูกต้อง</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     สมุดโน้ตถูกซ่อนในมุมมองส่วนตัวในขณะนี้\r\n
+        บุ๊คมาร์กทั้งหมดในสมุดโน้ตจะถูกลบออกจากมุมมองบุ๊คมาร์ก\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">อย่าแสดงข้อความนี้อีก</string>
+    <string name="editor_menu_share">แชร์</string>
+
+    <string-array name="pg_size">
+        <item>สำหรับแพด</item>
+        <item>สำหรับโทรศัพท์</item>
+    </string-array>
+
+    
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d หน้าถูกคัดลอกไปยัง %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">ขนาดหน้า</string>
+    <string name="editor_menu_addpage" maxwidth="12">เพิ่มหน้า</string>
+    <string name="editor_menu_rmpage" maxwidth="12">ลบหน้า</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">ไฟล์เสีย ไม่สามารถนำเข้าไฟล์</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">ย้ายหน้าไปยัง</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">ไม่มีหน้า</string>
+    
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">หน้าสุดท้าย</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">คุณอยู่ในโหมดอ่านได้อย่างเดียว คุณสามารถใช้เกสเจอร์สัมผัส เพื่อพลิกหรือเลื่อนหน้า</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">รูปแบบหน้าใช้ด้วยกันไม่ได้</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">ว่าง</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">โปรดสร้างสมุดโน้ตใหม่</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">คุณต้องการกู้คืนไฟล์ที่บันทึกไว้ก่อนหน้าทั้งหมดของคุณจาก SD การ์ดหรือไม่?</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">เขียน</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">ประเภท</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">วาดรูป</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">กำลังโหลดบทช่วยสอน...</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">ขนาดหน้า</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">จากรายการแบบหล่นลง เลือกขนาดหน้าสำหรับหน้าเอกสารในโน้ตบุ๊กเป็น สำหรับ Pad หรือ สำหรับโทรศัพท์</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">ขนาดโทรศัพท์</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">ขนาด Pad</string>
+    <string name="load_tutorial" description="" maxwidth="">กำลังโหลดส่วนฝึกสอน...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">เพิ่มเป็นบุ๊กมาร์ก</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">ลบจากบุ๊กมาร์ก</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">ลบจากบุ๊กมาร์กหรือไม่?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">แสดงบุ๊กมาร์ก</string>
+    <!-- 5th -->
+    
+
+    <string-array name="handwrite_recognition_speed_values">
+        <item>เร็ว</item>
+        <item>ปกติ</item>
+        <item>ช้า</item>
+    </string-array>
+    
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">หน้า %s</string>
+    <string name="reset_password_title" description="reset the password">รีเซ็ตรหัสผ่าน</string>
+    <string name="reset_password_summary">ล้างรหัสผ่าน</string>
+    <string name="reset_password_dialog_title">รีเซ็ตรหัสผ่าน</string>
+    <string name="reset_password_dialog_password_invalid">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="confirm_reset_dialog_title">รีเซ็ตรหัสผ่าน</string>
+    <string name="no_memory_dialog_title">โปรดทราบ</string>
+    <string name="no_memory_dialog_content">มีหน่วยความจำไม่เพียงพอ</string>
+    <string name="personal_book">สมุดบันทึก\nส่วนบุคคล</string>
+    <string name="backup_fail">สำรองล้มเหลว</string>
+
+    
+    <!-- 6th -->
+    <string name="dialog_file_name">ชื่อไฟล์</string>
+    <string name="dialog_save_to">จัดเก็บไปยัง</string>
+    
+	<!-- 10th, Start New String -->
+	<string name="new_page" description="Create New Page" maxwidth="15">สร้างหน้าใหม่</string>
+	
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">สมุดโน้ตถูกส่งออกไปยัง</string>
+	<string name="notebook_selected" description="show how many pages are selected">%s สมุดโน้ตถูกเลือก</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s บุ๊คมาร์ก</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">สมุดโน้ต</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">บุ๊คมาร์ก				</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">ประทับเวลา</string>
+ 
+	<string-array name="pg_sort">
+        <item>ตามชื่อ</item>
+        <item>ตามการแก้ไขครั้งล่าสุด</item>
+	</string-array>
+    
+	<string-array name="notebook_sort">
+        <item>ตามชื่อ</item>
+        <item>ตามการแก้ไขครั้งล่าสุด</item>
+	</string-array>
+ 
+	<string-array name="nb_show">
+        <item>มุมมองสมุดโน้ต</item>
+        <!--  item>All pages</item>-->
+        <item>มุมมองบุ๊คมาร์ก</item>
+        <!-- <item>Memo board</item> -->
+        <!--<item>Personal</item> -->
+  		<item>มุมมองประทับเวลา</item>
+	</string-array>
+    
+	<string-array name="week_of_day">
+       <item>วันอาทิตย์</item>
+       <item>วันจันทร์</item>
+       <item>วันอังคาร</item>
+       <item>วันพุธ</item>
+       <item>วันพฤหัสบดี</item>
+       <item>วันศุกร์</item>
+       <item>วันเสาร์</item>
+       <item>วันนี้</item>
+       <item>เมื่อวานนี้</item>
+       <item>สัปดาห์ที่แล้ว</item>
+       <item>สองสัปดาห์ที่แล้ว</item>
+       <item>สามสัปดาห์ที่แล้ว</item>
+       <item>พรุ่งนี้</item>
+       <item>สัปดาห์ถัดไป</item>
+       <item>สองสัปดาห์ต่อมา</item>
+       <item>สามสัปดาห์ต่อมา</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>มกราคม</item>
+       <item>กุมภาพันธ์</item>
+       <item>มีนาคม</item>
+       <item>เมษายน</item>
+       <item>พฤษภาคม</item>
+       <item>มิถุนายน</item>
+       <item>กรกฎาคม</item>
+       <item>สิงหาคม</item>
+       <item>กันยายน</item>
+       <item>ตุลาคม</item>
+       <item>พฤศจิกายน</item>
+       <item>ธันวาคม</item>
+       <item>เดือนที่แล้ว</item>
+       <item>ครึ่งปีที่แล้ว</item>
+       <item>มากกว่าหนึ่งปีมาแล้ว</item>
+       <item>เดือนถัดไป</item>
+       <item>ครึ่งปีต่อมา</item>
+       <item>หลังจากหนึ่งปี</item>
+	</string-array>
+   
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">คุณต้องการลบสมุดโน้ตหรือไม่?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">เปลี่ยนชื่อ</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">ซ่อน</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">ลบ</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">ส่งออก</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">คร็อป</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">แก้ไข</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">แทนที่</string>	<!--by show-->
+    
+    
+    
+    <string name="latest_edited_lable" description="the latest edited page">หน้าที่แก้ไขครั้งล่าสุด</string>
+    
+    
+    <string name="handwrite_recognition_speed" description="" maxwidth="">ความเร็วการรับรู้สิ่งที่ป้อน</string>
+    
+    <!-- add by Better -->
+    <string name="password_or_account_empty">ฟิลด์บัญชีหรือรหัสผ่านไม่สามารถว่างได้</string>
+   
+    <string name="nb_sync">เปิดทำงานคลาวด์ซิงค์</string>
+    <string name="nb_async">ยกเลิกคลาวด์ซิงค์</string>
+    
+    <string name="sync_status_none">ไม่มีงานซิงค์</string>
+    <string name="sync_status_last_sync">อัปเดตครั้งล่าสุด: </string>
+    <string name="sync_status_syncing">กำลังซิงค์...</string>
+    <string name="sync_status_failed">ไม่สามารถซิงค์ข้อมูล</string>
+    <string name="sync_status_starting">กำลังเริ่มซิงค์…</string>
+    <string name="sync_account_text">บัญชี</string>
+    <string name="sync_sign_on">เข้าระบบ</string>
+    <string name="sync_sign_off">ออกจากระบบ</string>
+    <string name="account_space_usage">พื้นที่ที่ใช้</string>  	<!-- by show -->
+    <string name="account_and_sync">การตั้งค่าซิงค์บัญชี</string>
+    <string name="sync_setting_auto">ซิงค์อัตโนมัติ</string>
+    <string name="sync_setting_auto_frequency">ความถี่การซิงค์อัตโนมัติ</string>
+    <string name="sync_auto_interval_1">ทุก 1 นาที</string>
+    <string name="sync_auto_interval_15">ทุก 15 นาที</string>
+    <string name="sync_auto_interval_30">ทุก 30 นาที</string>
+    <string name="sync_auto_interval_60">ทุก 60 นาที</string>
+    <string name="sync_auto_interval_1d">ทุกวัน</string>
+    <!-- add by Better -->
+    
+    <!-- begin show -->
+	<string name="webstorage_register">ลงทะเบียน</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">ยกเลิก</string>
+	<string name="webstorage_ok">ตกลง</string>-->
+	<string name="webstorage_signon">เข้าระบบ</string>
+	<!-- end show -->
+	
+    
+    <string name="export_pdf_prompt">ไฟล์ PDF ถูกบันทึกใน </string>
+    <string name="share_type_image">ภาพ</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">เสร็จ</string>  
+    <string name="Crop_Cancel">ยกเลิก</string>	
+    <string name="Crop_Free">บ่วงบาศ</string>	
+    <string name="Crop_Rect">สี่เหลี่ยม</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">กำลังถ่ายโอน…</string>
+    <string name="prompt_export_pdf_to">ไฟล์ PDF ถูกบันทึกใน</string>
+    <string name="browse_folder">เรียกดู</string>
+    <string name="export_supernote_format">ส่งออกเป็นรูปแบบ Supernote </string>
+    <string name="file_export">ส่งออกไฟล์</string>
+    <string name="editor_func_button_search">ค้นหา</string>
+    <string name="no_search_result">ไม่มีรายการที่ตรงกับการค้นหา</string>
+    <string name="editor_func_button_shape">รูปทรง</string>
+    <string name="SearchResultItemInfo_Loading">กำลังโหลด...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">ไม่สามารถอ่านไฟล์</string>
+    <string name="SearchResultItemInfo_NoteBooks">สมุดโน้ต</string>
+    <string name="SearchResultItemInfo_Pages">หน้า</string>
+    <string name="SearchResultItemInfo_Personal">ส่วนตัว</string> 
+    <string name="SearchResultItemInfo_Page_Space">หน้า </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">การรับรู้ข้อความที่เขียน</string>
+    <string name="reset_index_language_title">รีเซ็ตภาษาดัชนี</string>  
+      <!-- wendy  -->
+    <string name="latest_edit_page">หน้าที่แก้ไขครั้งล่าสุด</string>
+    <string name="password_not_set_sync">สมุดโน้ตที่ถูกบันทึกบนคลาวด์ถูกจัดเป็นแบบส่วนตัวและสาธารณะ คุณต้องการสร้างรหัสผ่านสำหรับสมุดโน้ตส่วนตัวหรือไม่? ถ้าไม่ สมุดโน้ตทั้งหมดจะถูกจัดเป็นแบบสาธารณะ</string>
+
+    <string name="bookpicker_name">ชื่อ</string>
+    <string name="bookpicker_date">วันที่</string>
+   	<string name="bookpicker_sync_books_list">ซิงค์รายการหนังสือ</string>
+   	<string name="bookpicker_cancel">ยกเลิก</string>
+   	<string name="bookpicker_ok">ตกลง</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">สโตรก</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">ความทึบแสง</string>
+   	<string name="share_to_image">ภาพ</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">ข้อความ</string>  
+   	<string name="export">ส่งออก</string>
+   	<string name="transfer">ถ่ายโอน</string>
+   	<string name="book_export">ส่งออกสมุดโน้ต</string>
+   	<string name="prompt_exports_pdf_to">ไฟล์ PDF ถูกบันทึกใน</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">ชื่อ  </string>  
+   	<string name="template_travel_tips_date">วันที่ </string>
+   	<string name="template_meeting_tips_title">หัวข้อ </string>
+   	<string name="template_meeting_tips_time">เวลา </string>
+   	<string name="template_meeting_tips_contact">ผู้เข้าร่วม </string>
+   	<string name="template">แม่แบบ</string>
+   	<string name="template_input_tips">คลิกที่นี่เพื่อแก้ไขเนื้อหา</string>
+   	<string name="template_eidt_content">แก้ไขเนื้อหา</string>
+   	<!--wendy begin -->
+	<string name="select_all">ทั้งหมด</string>
+   	<string name="prompt_no_book_selected">ไม่ได้เลือกหนังสือ</string>
+   	
+
+   	<!-- begin :darwin -->
+   	<string name="latestedit">แก้ไขครั้งล่าสุด</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">ไม่มีเวอร์ชั่น</string>
+   	<string name="loading_page">กำลังโหลดข้อมูลหน้า...</string>
+   	<string name="prompt_transfer_format">คุณต้องจัดรูปแบบหนังสือนี้ใหม่ และกระบวนการอาจใช้เวลาพอสมควร คุณต้องการทำต่อหรือไม่?</string>
+   	<string name="prompt_saving">กำลังจัดเก็บ...</string>
+   	<string name="prompt_transferring">กำลังถ่ายโอน…</string> 
+   	<string name="prompt_incompatible_syncing">%s ไม่ได้เป็นเวอร์ชั่นที่คอมแพทิเบิล โปรดอัปเดต SuperNote</string>
+   	<string name="prompt_incompatible_file">%s ไม่ได้เป็นเวอร์ชั่นที่คอมแพทิเบิล</string>
+   	<!-- END: Better -->
+	
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">กำลังเข้าระบบ โปรดรอ...</string>
+   	<string name="webstorage_login_account_password_wrong">บัญชีหรือรหัสผ่านผิด</string>
+   	<string name="sync_setting_sign_failure">ไม่สามารถเข้าระบบ %s</string>
+   	<string name="sync_setting_sign_success">เข้าระบบ %s</string>
+   	<string name="sync_setting_networkless_title">ไม่มีการเชื่อมต่อ</string>
+   	<string name="sync_setting_networkless">คุณจำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อใช้บริการนี้ โปรดเปิดทำงานการเชื่อมต่อเครือข่ายมือถือของคุณ หรือ Wi-Fi ในการตั้งค่า</string>
+   	
+   	<!-- END: show -->
+    
+	<!-- 10th, End New String --> 
+
+    <!-- 11th, Begin New String --> 
+
+<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">มีอีก</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    
+    <!-- Begin Allen -->
+    <string name="Sort">เรียง</string>
+    <!-- End Allen -->   
+  	
+
+ 	<string-array name="editor_func_insert_array">
+        <item>ภาพถ่าย</item>
+        <item>รูปภาพจากไฟล์</item>
+        <item>ภาพข้อความ</item>
+        <item>หน้า PDF</item>
+        <item>การบันทึกเสียง</item>
+        <item>วิดีโอ</item>
+        <item>ไฟล์ข้อความ</item>
+        <item>ประทับเวลา</item>
+        <item>งานศิลป์จากคลิปบอร์ด</item>
+	</string-array>
+	
+ 	<!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>ภาพถ่าย</item>
+        <item>รูปภาพจากไฟล์</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+ 	
+	<string name="sync_setting_sign_out">กำลังออกจากระบบ %s</string>
+	<string name="sync_setting_sign_out_msg">การออกจากระบบจะลบการเข้าถึงยังสมุดโน้ตบนบัญชีคลาวด์ของคุณ และปิดทำงานการซิงค์คลาวด์ คุณต้องการทำต่อหรือไม่?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">รหัสผ่านของคุณเปลี่ยนแล้ว คุณต้องการส่งรหัสผ่านของคุณไปยังบัญชีอีเมลสำหรับการอ้างอิงในอนาคตหรือไม่? นี่จะป้องกันไม่ให้สูญเสียการเข้าถึงยังสมุดโน้ตที่ซ่อนไว้\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">ล็อค</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">ปลดล็อค</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">ล็อคเพื่อซ่อน</string>
+	<string name="editor_phone_toast_seletext">ลากเพื่อไฮไลต์ข้อความ</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">ล็อค</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">คุณต้องการล็อคสมุดโน้ตหรือไม่?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">ปลดล็อค</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">คุณต้องการปลดล็อคสมุดโน้ตหรือไม่?</string>
+    
+    <string name="set_password_dialog_title">ตั้งรหัสผ่าน</string>
+    <string name="editor_func_button_recognize">รับรู้</string>
+    <string name="editor_func_button_transform">แปลง</string>   
+    <string name="editor_phone_toast_readonly">โหมดอ่านได้อย่างเดียว: คุณอยู่ในโหมดอ่าน ใช้นิ้วของคุณเพื่อพลิก หรือเลื่อนหน้าขึ้น/ลง</string>   
+		<!-- Modify 0817-0822 End: Show --> 
+		
+		<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">ส่งออกเป็น PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">ค้นหาล้มเหลว</string>
+		<!-- Modify 0823 End: Show -->
+	<!-- 11th, End New String --> 
+	
+	<!-- 11.5th, Begin New String --> 
+	<!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">เส้น</string>
+    <string name="book_type_grid">เส้นตาราง</string>
+    <string name="book_type_meeting">การประชุม</string>
+    <string name="book_type_diary">ไดอารี่</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>อังกฤษ</item>
+        <item>จีนแผ่นดินใหญ่และอังกฤษ</item>
+        <item>จีนไต้หวันและอังกฤษ</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">เจสเจอร์ถอยหลัง</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">ในโหมดลายมือ ปัดนิ้วจากขวาไปซ้าย เพื่อลดข้อความที่ป้อนล่าสุด</string>
+    <!-- Modify 0825 END: Show -->
+    
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">วันที่เริ่ม</string>
+    <string name="template_meeting_end_date_tips">วันที่สิ้นสุด</string>
+    <string name="template_meeting_start_time_tips">เวลาเริ่ม</string>
+    <string name="template_meeting_end_time_tips">เวลาสิ้นสุด</string>
+    <!-- End Allen -->    
+    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">แสดงสมุดโน้ตที่ล็อค </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">ซ่อนสมุดโน้ตที่ล็อค </string>
+    <!-- END: Darwin -->        
+    
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">เขียนเส้นต่อเนื่อง</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">เมื่อการเขียนของคุณผ่านเส้นสีแดง ตัวอักษรที่เขียนจะเลื่อนไปทางซ้ายโดยอัตโนมัติ</string>
+    <string name="text_continue" description="continue" max_width="-1">ทำต่อ</string>
+    <!-- END: Better -->
+    
+    <string name="nb_Write_Text_Recognition_dialog_msg">Supernote จะรับรู้ข้อความที่เขียนทั้งหมดเป็นข้อความที่พิมพ์ และทำซ้ำสมุดโน้ตนี้</string>
+    <string name="set_index_language_title">ตั้งค่าภาษาของการรับรู้</string> 
+    
+	<!-- 11.5th, End New String --> 
+	
+	<!-- 13th, Begin New String  -->
+	<string name="allpage_view" description="allpage_view" maxwidth="20">หน้าทั้งหมด</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">คุณสามารถล็อกอินโดยใช้บัญชี ASUS WebStorage ของคุณ</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">ชื่อผู้ใช้</string>
+	<string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">สมุดโน้ตที่ล็อคถูกซ่อนแล้ว</string>
+	<string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">ขณะนี้สมุดโน้ตที่ล็อคสามารถอ่านได้แล้ว</string>
+	<!-- 13th, End New String  -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">เขียนคำยาวอย่างต่อเนื่อง โดยไม่คำนึงถึงขนาดหน้าจอ</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s ประทับเวลา</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">กำลังค้นหา, โปรดรอ</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">ค้นหาเนื้อหา</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+       <string name="share_large" description="Large" max_width="5">ใหญ่</string>
+       <string name="share_medium" description="Medium" max_width="6">กลาง</string>
+       <string name="share_small" description="Small" max_width="5">เล็ก</string>
+       <string name="share_size" description="Size" max_width="4">ขนาด</string>
+       <string name="recognizing" description="Recognizing" max_width="15">กำลังรับรู้</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">ต้องทำ</string>-->
+	<string name="book_type_blank">ว่าง</string>
+	<!-- End: Allen --> 
+	<!-- 14th, End New String -->
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">บันทึกหน้า</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">โปรดรอสักครู่...</string>
+	<string name="password_not_set_import">สมุดโน้ตสามารถถูกจัดระเบียบเป็นส่วนตัว และสาธารณะ คุณต้องการสร้างรหัสผ่านสำหรับสมุดโน้ตส่วนตัวของคุณหรือไม่? ถ้าไม่ได้สร้างรหัสผ่าน สมุดโน้ตทั้งหมดจะถูกจัดเป็นแบบสาธารณะ</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">ไม่มี</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">ดูตาราง</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">สมุดโน้ตของฉัน</string>
+   	<string name="widget_bt_add_a_notebook">เพิ่มสมุดโน้ต</string>
+   	<string name="widget_passwordTip">โปรดป้อนรหัสผ่าน</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">แก้ไขปก</string>
+    <string name="nb_editcover_name">ปก</string>
+    <string name="nb_editcover_original_preview">ค่าเริ่มต้น</string>
+    <string name="nb_editcover_choose_title">เลือกภาพ</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">แทนที่สมุดโน้ต</string>
+	<string name="widget_all_book_template">สมุดโน้ตของฉัน และเพิ่มใหม่</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!--<string name="todo_widget_voice" description="voice input from todo widget">เสียง</string>-->
+	<string name="todo_widget_add" description="Add">เพิ่ม</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">เพิ่มไปยัง</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">สิ่งที่ต้องทำทั้งหมด</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>เรียงตามหน้า</item>
+        <item>เรียงตามเวลา</item>
+    </string-array>
+    	
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">ตั้งความสำคัญ</string>
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>สูง</item>
+        <item>ปกติ</item>
+        <item>ต่ำ</item>
+    	</string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">สมบูรณ์</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+  	<string name="meeting_form" description="meeting start time">จาก</string>
+    <string name="meeting_to" description="meeting end time">ถึง</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">เลือกสมุดบันทึก</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">คำพูด</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >รู้จัก</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >ไม่มีสิ่งที่ต้องทำ</string>-->
+    <string name="sync_cancel_confirmText">ยืนยัน</string>
+    <string name="sync_cancel_promptTop">รายการซิงค์ที่ถูกลบจะถูกลบบนอุปกรณ์อื่นด้วย</string>
+    <string name="sync_cancel_promptBottom">คุณต้องการเลิกซิงค์สมุดบันทึกเหล่านี้หรือไม่?</string>
+    <string name="sync_cancel_noMoreHint">อย่าเตือนฉันอีก</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >ส่งออกเป็น</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>รูปแบบซุปเปอร์โน้ต</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >เลือกรูปแบบ</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>รูปภาพ</item>
+        <!--<item>ข้อความ</item>-->
+        <item>PDF</item>
+        <item>รูปแบบซุปเปอร์โน้ต</item>
+    </string-array>
+    <string name="pen_only_enabled">ใช้ปากกาเท่านั้น</string>
+    <string name="pen_only_disabled">ปิดทำงานปากกาเท่านั้น</string>
+    <string name="todo_title" description="memo template title" >บันทึกย่อ</string>
+    <string name="todo_widget_all_todos" description="All memos" >บันทึกย่อทั้งหมด</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >ไม่มีบันทึกย่อ</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">รวม</string>
+    <string name="quicknote_funcbar_play">เล่น</string>
+    <string name="quicknote_funcbar_pause">หยุดชั่วคราว</string>
+    <string name="quicknote_funcbar_save">จัดเก็บ</string>
+    <!--<string name="quicknote_savehint_dlg_first">ภาพวาดไม่ถูกจัดเก็บ</string>-->
+    <string name="quicknote_savehint_dlg_sec">คุณต้องการจัดเก็บเดี๋ยวนี้หรือไม่?</string>
+    <string name="quicknote_savehint_dlg_saved">ภาพวาดถูกจัดเก็บไปยัง ภาพ</string>
+    <string name="quicknote_savehint_dlg_cleaned">ภาพวาดถูกล้าง</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >เลือกแม่แบบสำหรับสมุดบันทึกของคุณ</string>
+    <!-- End: 28th New String -->
+
+    <string name="editor_phone_readonly">โหมดอ่านได้อย่างเดียว</string> <!--Carol-->
+
+</resources>

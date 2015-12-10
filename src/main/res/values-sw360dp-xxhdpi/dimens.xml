@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">46.6666667px</dimen>
+        
+    <!-- Begin Siupo value = 1080/2328-->
+    <dimen name="edittext_scale_pad">0.463918px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo -->
+    <dimen name="dpi_base_dpi">2.0px</dimen> 
+    <!-- End Siupo -->
+
+	<dimen name="default_share_dialog_width">360dp</dimen>
+	<!-- Siupo -->
+</resources>

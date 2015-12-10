@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    
+    <!-- Begin:show -->
+    <integer name="is_orientation_allow">1</integer>
+    <integer name="orientation_lock_init_horizontal">0</integer>
+    <integer name="is_show_button_on_actionbar">1</integer>
+    <!-- End:show -->
+
+   	<!-- BEGIN: RICHARD -->
+	<integer name="device_type">2</integer>
+	<!-- END: RICHARD -->
+	
+	<!-- Shane -->
+	<integer name="eraser_popup_menu_position_x">-20</integer>
+	<integer name="eraser_popup_menu_position_y">7</integer>	
+	
+    <!-- Begin:show -->
+    <!-- tutorial load mode:0,phone;1,pad;2,both -->
+    <integer name="tutorial_mode">0</integer> 
+    <integer name="cropimage_out_view_height">150</integer>
+    <!-- End:show --> 
+  
+	    <!-- Begin  Darwin -->
+	<integer name="default_share_dialog_height">1200</integer>
+    <!-- End    darwin -->
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="pref_is_sync_files_inited" description="书籍的同步信息是否被初始化过">pref_is_sync_files_inited</string>
+    <string name="pref_first_load" description="程式是否第一次啟動">first_load</string>
+    <string name="pref_first_start" description="程式是否第一次啟動">first_start</string>
+    <string name="pref_first_book_title" description="第一本書預設名稱">1st Notebook</string>
+    <string name="pref_page_id">page_id</string>
+    <string name="pref_has_password" description="是否已經設定密碼">has_password</string>
+    <string name="pref_password" description="密碼">password</string>
+    <string name="pref_default_selected_book" description="所選擇的書本">default_selected_book</string>
+    <string name="pref_default_read_mode" description="預設為閱讀模式">default_read_mode</string>
+    <string name="pref_fast_input_value" description="輸入截斷時間">default_fast_input_value</string>
+    <string name="pref_gesture_back" description="是否手勢翻頁">default_gesture_back</string>
+    <string name="pref_picker_display_type" description="PICKER顯示方式">picker_display_type</string>
+    <string name="pref_about" description="SuperNote版本">about</string>
+    <string name="pref_hide_hint">show_hide_hint</string>
+    <string name="book_id" description="bookId for all page view">bookId</string>
+    <string name="page_id" description="pageId for all page view">pageId</string>
+    <string name="widget_id" description="memoId">memoId</string>
+    <string name="memo_info" description="memo_info of that page">memoInfo</string>
+    <string name="pref_pad_tutorial_id" description="pad tatorial book id">pad_tutorial_id</string>
+    <string name="pref_phone_tutorial_id" description="phone tatorial book id">phone_tutorial_id</string>
+    <string name="pref_load_phone_page_size_tutorial">phone_page_size_tutorial</string>
+    <string name="pref_load_pad_page_size_tutorial">pad_page_size_tutorial</string>
+    <string name="pref_default_sync_time">default_sync_time</string>
+    <string name="pref_AsusAccount">AsusAccount</string>
+    <string name="pref_AsusPassword">AsusPassword</string>
+    <string name="pref_Asus_AccountUsed">Asus AccountUsed</string>  <!-- By Show -->
+    <string name="pref_asus_auto_sync">Asus Auto Sync</string>    
+    <string name="pref_reset_password">reset_password</string>
+    <string name="pref_export_dir">export_dir</string>
+    <string name="pref_backup_dir">backup_dir</string>
+    <string name="timestamp_pos">timestamp_pos</string>
+    <string name="timestampid">timestampid</string>
+    <string name="pref_export_pdf_dir">export_pdf_dir</string>
+    <string name="lock_state">lock_state</string>
+    <string name="last_sync_time">last_sync_time</string>
+    
+    <string name="pref_index_language">select index language</string>
+    <string name="pref_backspace_gesture">select backspace gesture</string>
+    <string name="pref_prompt_handwriting_animating">prompt_handwriting_animating</string>
+    <string name="pref_license">license</string>
+    
+    <!-- BEGIN: Better -->
+    <string name="pref_upgrade_first_time">pref_upgrade_first_time</string>
+    <string name="pref_sync_upgrade_first_time">pref_sync_upgrade_first_time</string>
+    <!-- END: Better -->
+    <string name="pref_imported_bookid">imported_bookid</string>
+    
+    <string name="pref_hide_syncpompt">show_hide_prompt</string> <!--Carol-add for confirming sync removal-->
+</resources>

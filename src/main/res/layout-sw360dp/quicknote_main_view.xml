@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.instantpage.view.QuickNoteFrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    
+    <com.asus.draw.doodleview.DoodleView
+        android:id="@+id/paintView"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent" >
+	</com.asus.draw.doodleview.DoodleView>
+	
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="67.44dp" >
+	    <ViewStub
+            android:id="@+id/quicknote_doodlefuncViewStub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/asus_quick_note_actionbar"
+            android:layout="@layout/quicknote_editor_func_bar_doodle"
+            android:orientation="horizontal"
+            android:visibility="invisible" />
+	</FrameLayout>
+	
+</com.asus.instantpage.view.QuickNoteFrameLayout>

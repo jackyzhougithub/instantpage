@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="left_handle_width">48</integer>
+    <integer name="right_handle_width">17</integer>
+    <integer name="selector_handle_height">77</integer>
+    <integer name="color_picker_width">303</integer>
+    <integer name="color_picker_height">70</integer>
+
+</resources>

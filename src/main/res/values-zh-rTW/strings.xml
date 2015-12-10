@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">進入</string>
+    <string name="edit" description="Edit" maxwidth="">編輯</string>
+    <string name="back" description="Back" maxwidth="">返回</string>
+    <string name="setting" description="Settings" maxwidth="">設定</string>
+    <string name="backup" description="Backup" maxwidth="">備分</string>
+    <string name="restore" description="Restore" maxwidth="">復原</string>
+    <string name="next" description="Next" maxwidth="">下一步</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">快速輸入</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">預設值為400ms。</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">筆記本名稱</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">頁面顏色</string>
+    <string name="notebook" description="Notebook" maxwidth="">筆記本</string>
+    <string name="password" description="Password" maxwidth="">密碼</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">請輸入4至7個字元/數字做為密碼。</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">目前密碼</string>
+    <string name="password_newpin" description="New password" maxwidth="">新密碼</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">確認新密碼</string>
+    <string name="password_hint" maxwidth="">注意：密碼需為4至7個字元或數字。</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">設定/變更密碼</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">目前密碼輸入錯誤</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">密碼不符。</string>
+    <string name="share_to" description="Share to..." maxwidth="">分享至...</string>
+    <string name="sharing">分享中...</string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">匯出影像至圖片庫</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote密碼</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">我的SuperNote於%s變更密碼，新的密碼是：%s。</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">筆記本名稱</string>
+    <string name="prompt" description="Prompt" maxwidth="">提示</string>
+    <string name="name" description="Name" maxwidth="">名稱</string>
+    <string name="del" description="Delete" maxwidth="">刪除</string>
+    <string name="prompt_import" description="Import..." maxwidth="">匯入...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">匯入筆記</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">找不到可開啟此檔案的相關程式</string>
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">復原成功!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">復原失敗，檔案錯誤。</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">備分中...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">備分成功!</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">匯入成功!</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">移動至</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">複製至</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">確定刪除選擇的頁面?</string>
+    <string name="pointer_left">    |</string>
+    <string name="pointer_middum">|</string>
+    <string name="pointer_right">|    </string>
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">請長按並拖曳頁面以重新排序</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">第一頁</string>
+    <string name="phone_book_name" description="Phone book name">電話簿</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">新頁面</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">備分檔案名稱</string>
+    <string name="clear_all" description="Clear all">全部清除</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">是否確定要清除所有圖畫？清除後將無法復原。</string>
+    <string name="delete_alert" description="warning of deleting">是否確定要清除圖畫？</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">請使用手指移動或縮放物件</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">點選以選擇或拖曳物件</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">頁面已滿</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">筆畫&amp;顏色</string>
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">本頁面空白</string>
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">便條影像已儲存</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">筆記本</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">密碼尚未設定</string>
+    <string name="warning_activity_not_found" description="Activity not found">裝置不支援此檔案格式或編碼</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">剪貼薄中無可貼上的圖像</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">移除</string>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">新增</string>
+    <!-- 2nd -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">小</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">中</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">大</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">白色</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">黃色</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">藍色</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">線條</string>
+    <string name="book_grid_grid" description="the background style of the notebook">格線</string>
+    <!-- [END]Note, grids + lines = 14 -->
+
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">顯示筆記本資訊</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">請設定密碼以隱藏筆記本。</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">連結至:\n%s</string>
+    <string name="page_index" description="show the page index">%d頁</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">請新增筆記本</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">無筆記本或頁面</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">無書籤</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">個人清單中無筆記本</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">刪除?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">是否確定要刪除此頁面？</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">粗細</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">顏色</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">複製</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">剪下</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">編輯</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">群組</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">解散群組</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">輔助線</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">書籤</string>
+    <!-- <string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">新增便條</string> -->
+    <!-- by smilefish -->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">唯讀</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">分享</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">還原</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">重做</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">插入</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">選擇</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">貼上</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">刪除</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">筆觸</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">筆刷</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">橡皮擦</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">取消</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">完成</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">下一步</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">複製一次</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">重設</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">僅分享文字</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">隱藏格線</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">寬度:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">高度:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">尺寸:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">關於SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">開啟</string>
+    <string name="set_off" description="Off" maxwidth="">關閉</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">閱讀模式</string>
+    <string name="app_name">即時筆記</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">已刪除%s頁</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">複製頁面至</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">移動%d頁至</string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">匯出頁面</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">全選</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">取消全選</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">刪除頁面</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">移動頁面</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">請使用手指於觸控螢幕上滑動或捲動頁面</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">顏色</string>
+    <string name="memo_del" description="Deleted memo">是否確定要刪除選擇的便條？</string>
+    <string name="pg_selected" description="show how many pages are selected">已選擇%s頁</string>
+    <string name="memo_count" description="show how many memos in this view">%s便條</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">無便條內容</string>
+    <string name="book_grid_title" description="the title of the page display property">線條樣式</string>
+    <string name="page_counter" description="show the total page number the book has">%d頁</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">複製頁面</string>
+    <string name="wrong_file_type" description="wrong_file_type">檔案類型錯誤</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">筆記本已隱藏\r\n所有書籤將由書籤清單中移除\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">不再顯示此訊息</string>
+    <string name="editor_menu_share">分享</string>
+
+    <string-array name="pg_size">
+        <item>Pad</item>
+        <item>Phone</item>
+    </string-array>
+
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%s頁已複製至%s</string>
+    <string name="page_size" description="Page Size" maxwidth="">頁面大小</string>
+    <string name="editor_menu_addpage" maxwidth="12">新增頁面</string>
+    <string name="editor_menu_rmpage" maxwidth="12">移除頁面</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">檔案錯誤，匯入檔案失敗</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">移動頁面至</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">頁面不存在</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">最後一頁</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">現在為唯讀模式，請使用手指於觸控螢幕上滑動或捲動頁面</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">頁面格式不相容</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">空白</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">是否要新增筆記？</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">是否確定要由SD記憶卡回復已儲存的檔案？</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">手寫</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">鍵盤</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">繪圖</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">載入說明文件中...</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">頁面大小</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">您可以選擇「手機」以使用符合手機螢幕大小的頁面，或是選擇「平板」以使用符合平板大小的頁面</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">手機</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">平板</string>
+    <string name="load_tutorial" description="" maxwidth="">初始化SuperNote...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">新增至書籤</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">由書籤中移除</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">確定由書籤中移除？</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">顯示書籤</string>
+    <!-- 5th By UE, not by TRANSLATORS -->
+
+
+    <!--
+    <string name="handwrite_recognition_speed" description="" maxwidth="">手寫辨識速度</string>
+    <string-array name="handwrite_recognition_speed_values">
+        <item>快</item>
+        <item>正常</item>
+        <item>慢</item>
+    </string-array>
+
+    <string name="latest_edit_page_info" description="" maxwidth="">第 %s 頁</string>
+    <string name="reset_password_title">重設密碼</string>
+    <string name="reset_password_summary">清除密碼</string>
+    <string name="reset_password_dialog_title">重設密碼</string>
+    <string name="reset_password_dialog_password_invalid">密碼錯誤</string>
+    <string name="confirm_reset_dialog_title">重設密碼</string>
+    <string name="confirm_reset_dialog_content">是否清除密碼?</string>
+    -->
+
+
+    <!-- 5th -->
+    <!--
+    A little bad
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">移動至個人</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">是否確定移動至個人?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">由個人移除</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">是否確定由個人移除?</string>
+    <string name="latest_edited_lable" description="the latest edited page">上次編輯的頁面</string>
+    -->
+
+    <string-array name="handwrite_recognition_speed_values">
+        <item>快速</item>
+        <item>普通</item>
+        <item>緩慢</item>
+    </string-array>
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">%s 頁</string>
+    <string name="reset_password_title" description="reset the password">重設密碼</string>
+    <string name="reset_password_summary">清除密碼</string>
+    <string name="reset_password_dialog_title">重設密碼</string>
+    <string name="reset_password_dialog_password_invalid">密碼無效</string>
+    <string name="confirm_reset_dialog_title">重設密碼</string>
+    <string name="no_memory_dialog_title">注意</string>
+    <string name="no_memory_dialog_content">儲存空間不足</string>
+    <string name="personal_book">個人\n筆記本</string>
+    <string name="backup_fail">備份失敗</string>
+
+    <!--
+    A little bad 
+    <string-array name="nb_show">
+        <item>筆記本</item>
+        <item>全部頁面</item>
+        <item>書籤</item>
+        <item>個人</item>
+    </string-array>
+    -->
+    <!-- 6th -->
+    <string name="dialog_file_name">檔案名稱</string>
+    <string name="dialog_save_to">儲存至</string>
+
+    <!-- 10th, Start New String -->
+    <string name="new_page" description="Create New Page" maxwidth="15">新增頁面</string>
+    <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">筆記本將匯出至</string>
+    <string name="notebook_selected" description="show how many pages are selected">已選擇%s本筆記本</string>
+    <string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s個書籤</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">筆記本</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">書籤</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">時間戳記</string>
+
+    <string-array name="pg_sort">
+        <item>依名稱</item>
+        <item>依最後修改時間</item>
+    </string-array>
+    <string-array name="notebook_sort">
+        <item>依名稱</item>
+        <item>依最後修改時間</item>
+    </string-array>
+    <string-array name="nb_show">
+        <item>檢視筆記本</item>
+        <!-- item>All pages</item> -->
+        <item>檢視書籤</item>
+        <!-- <item>Memo board</item> -->
+        <!-- <item>Personal</item> -->
+        <item>檢視時間戳記</item>
+    </string-array>
+    <string-array name="week_of_day">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>今天</item>
+        <item>昨天</item>
+        <item>上週</item>
+        <item>兩週前</item>
+        <item>三週前</item>
+        <item>明天</item>
+        <item>下週</item>
+        <item>兩週後</item>
+        <item>三週後</item>
+    </string-array>
+    <string-array name="month_of_year">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+        <item>上個月</item>
+        <item>半年前</item>
+        <item>一年以上</item>
+        <item>下個月</item>
+        <item>半年後</item>
+        <item>一年以後</item>
+    </string-array>
+
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">是否確定要刪除筆記本?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">重新命名</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">隱藏</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">刪除</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">匯出</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">裁切</string>
+ <!-- by show -->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">編輯</string>
+ <!-- by show -->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">變更</string>
+ <!-- by show -->
+
+    <string name="latest_edited_lable" description="the latest edited page">最後編輯頁面</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">手寫輸入辨識速度</string>
+
+    <!-- add by Better -->
+    <string name="password_or_account_empty">帳戶或密碼不得空白</string>
+    <string name="nb_sync">開啟雲端同步功能</string>
+    <string name="nb_async">關閉雲端同步功能</string>
+    <string name="sync_status_none">未同步</string>
+    <string name="sync_status_last_sync">上次同步時間:</string>
+    <string name="sync_status_syncing">同步中...</string>
+    <string name="sync_status_failed">同步失敗</string>
+    <string name="sync_status_starting">開始同步...</string>
+    <string name="sync_account_text">帳戶</string>
+    <string name="sync_sign_on">登入</string>
+    <string name="sync_sign_off">登出</string>
+    <string name="account_space_usage">帳戶使用空間</string>
+ <!-- by show -->
+    <string name="account_and_sync">帳戶與同步</string>
+    <string name="sync_setting_auto">自動同步</string>
+    <string name="sync_setting_auto_frequency">自動同步頻率</string>
+    <string name="sync_auto_interval_1">每1分鐘</string>
+    <string name="sync_auto_interval_15">每15分鐘</string>
+    <string name="sync_auto_interval_30">每30分鐘</string>
+    <string name="sync_auto_interval_60">每60分鐘</string>
+    <string name="sync_auto_interval_1d">每1天</string>
+    <!-- add by Better -->
+
+
+    <!-- begin show -->
+    <string name="webstorage_register">註冊</string>
+    <!-- not used any more -->
+    <!--
+	<string name="webstorage_cancel">取消</string>
+	<string name="webstorage_ok">確認</string>
+    -->
+    <string name="webstorage_signon">登入</string>
+    <!-- end show -->
+
+    <string name="export_pdf_prompt">PDF儲存於</string>
+    <string name="share_type_image">圖片</string>
+    <string name="share_type_pdf">PDF</string>
+    <!-- BEGIN: Show -->
+    <string name="Crop_Done">完成</string>
+    <string name="Crop_Cancel">取消</string>
+    <string name="Crop_Free">自由剪裁</string>
+    <string name="Crop_Rect">矩形剪裁</string>
+    <!-- END: Show -->
+    <string name="tranferring_v1_to_cloud_book">傳送中...</string>
+    <string name="prompt_export_pdf_to">PDF儲存於</string>
+    <string name="browse_folder">瀏覽</string>
+    <string name="export_supernote_format">以Supernote格式匯出</string>
+    <string name="file_export">匯出檔案</string>
+    <string name="editor_func_button_search">搜尋</string>
+    <string name="no_search_result">找不到符合的項目</string>
+    <string name="editor_func_button_shape">變形</string>
+    <string name="SearchResultItemInfo_Loading">載入中</string>
+    <string name="SearchResultItemInfo_Read_File_Error">檔案讀取錯誤</string>
+    <string name="SearchResultItemInfo_NoteBooks">筆記本</string>
+    <string name="SearchResultItemInfo_Pages">頁面</string>
+    <string name="SearchResultItemInfo_Personal">個人</string>
+    <string name="SearchResultItemInfo_Page_Space">頁面</string>
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">手寫輸入辨識</string>
+
+    <!-- wendy -->
+    <string name="latest_edit_page">最後編輯頁面</string>
+    <string name="bookpicker_name">名稱</string>
+    <string name="bookpicker_date">日期</string>
+    <string name="bookpicker_sync_books_list">筆記本同步清單</string>
+    <string name="bookpicker_cancel">取消</string>
+    <string name="bookpicker_ok">確定</string>
+
+    <string name="share_to_image">圖片</string>
+    <string name="share_to_pdf">PDF</string>
+    <string name="share_to_text">文字</string>
+    <string name="export">匯出</string>
+    <string name="transfer">傳送</string>
+    <string name="book_export">匯出筆記本</string>
+    <string name="prompt_exports_pdf_to">PDF儲存於</string>
+    <!-- wendy allen++ begin -->
+    <string name="template_travel_tips_title">標題</string>
+    <string name="template_travel_tips_date">日期</string>
+    <string name="template_meeting_tips_title">主題</string>
+    <string name="template_meeting_tips_time">時間</string>
+    <string name="template_meeting_tips_contact">參加者</string>
+    <string name="template">版型</string>
+    <string name="template_input_tips">點選此處以編輯內容</string>
+    <string name="template_eidt_content">編輯內容</string>
+    <string name="template_eidt_input">Input</string>
+    <!-- wendy begin -->
+    <string name="template_meeting_tips_time_to">~    </string>
+    <string name="select_all">全部</string>
+    <string name="prompt_no_book_selected">未選擇筆記本</string>
+
+    <!-- begin :darwin -->
+    <string name="latestedit">最後編輯頁面</string>
+    <!-- end : darwin -->
+    <!-- BEGIN: Better -->
+    <string name="sync_file_no_version">找不到版本資訊</string>
+    <string name="loading_page">載入頁面資料中...</string>
+    <string name="prompt_transfer_format">此筆記本為舊格式，必須先轉換為新格式才可進行同步，格式轉換可能需幾分鐘時間，是否要繼續?</string>
+    <string name="prompt_saving">儲存中...</string>
+    <string name="prompt_transferring">傳送中...</string>
+    <string name="prompt_incompatible_syncing">找到%s個不相容的檔案,請更新SuperNote版本</string>
+    <string name="prompt_incompatible_file">找到%s個不相容的檔案</string>
+    <!-- END: Better -->
+
+
+    <!-- BEGIN: show -->
+    <string name="webstorage_login_signing_in">登入中，請稍候...</string>
+    <string name="webstorage_login_account_password_wrong">帳號或密碼錯誤</string>
+    <string name="sync_setting_sign_failure">無法登入%s</string>
+    <string name="sync_setting_sign_success">登入%s</string>
+    <string name="sync_setting_networkless_title">無網路連線</string>
+    <string name="sync_setting_networkless">使用本服務需建立網路連線，請開啟行動網路或Wi-Fi無線網路\n</string>
+
+    <!-- END: show -->
+    <!-- 10th, End New String -->
+
+
+    <!-- 11th, Modify 0823 Begin: Show -->
+    <!-- Modify 0817-0822 BEGIN: Show -->
+    <!-- BEGIN: Better -->
+    <string name="editor_func_button_more">更多</string>
+    <!-- END: Better -->
+    <!-- End New String -->
+
+
+    <!-- Begin Allen -->
+    <string name="Sort">排序</string>
+    <!-- End Allen -->
+
+    <string-array name="editor_func_insert_array">
+        <item>照片</item>
+        <item>檔案中的照片</item>
+        <item>文字圖片</item>
+        <item>PDF頁面</item>
+        <item>音訊檔案</item>
+        <item>影片</item>
+        <item>文字檔</item>
+        <item>時間戳記</item>
+        <item>剪貼簿檔案</item>
+
+        <!-- Begin jason for A86 -->
+        <item>圖章</item>
+        <item>形狀</item>
+        <!-- end jason -->
+    </string-array>
+
+    <!-- Begin:Darwin -->
+    <string-array name="nb_editcover_choose_item">
+        <item>相機</item>
+        <item>檔案中的照片</item>
+    </string-array>
+    <!-- End  :Darwin -->
+
+    <string name="sync_setting_sign_out">登出%s</string>
+    <string name="sync_setting_sign_out_msg">登出帳戶後將無法存取雲端帳戶的筆記本，同時關閉同步功能，是否確定要繼續？\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">密碼已變更，為避免日後遺失密碼而無法開啟隱藏筆記本，是否要傳送新密碼至您的電子郵件？\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">鎖定</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">解除鎖定</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">鎖定以隱藏</string>
+    <string name="editor_phone_toast_seletext">拖曳以標註文字</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">鎖定</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">鎖定筆記本?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">解除鎖定</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">解除鎖定筆記本?</string>
+    <string name="password_not_set_sync">筆記本可設定為公開或個人，您是否要為個人筆記本設定密碼？未設定密碼時所有筆記本均為公開</string>
+    <string name="set_password_dialog_title">設定密碼</string>
+    <string name="editor_func_button_recognize">辨識</string>
+    <string name="editor_func_button_transform">變形</string>
+    <string name="editor_phone_toast_readonly">唯讀模式:您正在唯讀模式中，請滑動手指翻頁或向上/下捲動頁面</string>
+    <!-- Modify 0817-0822 End: Show -->
+
+
+    <!-- Modify 0823 Begin: Show -->
+    <string name="export_pdf">匯出為PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">搜索失敗</string>
+    <!-- Modify 0823 End: Show -->
+    <!-- 11th, Modify 0823 End: Show -->
+
+
+    <!-- 11.5th, Being New String -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">線條</string>
+    <string name="book_type_grid">格線</string>
+    <string name="book_type_meeting">會議</string>
+    <string name="book_type_diary">日記</string>
+    <!-- Modify 0824 BEGIN： Show -->
+
+
+    <!-- Modify 0825 BEGIN: Show -->
+    <!--
+                 <item>簡英辨識（簡體中文為主）</item>
+        <item>繁英辨識（繁體中文為主）</item>
+    -->
+    <string-array name="index_language_values">
+        <item>英文辨識</item>
+        <item>簡英辨識 </item>
+        <item>繁英辨識</item>
+    </string-array>
+
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">手勢刪除功能</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">在手寫模式時，將手指由右到左滑動以刪除文字</string>
+    <!-- Modify 0825 END: Show -->
+
+
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">開始日期</string>
+    <string name="template_meeting_end_date_tips">結束日期</string>
+    <string name="template_meeting_start_time_tips">開始時間</string>
+    <string name="template_meeting_end_time_tips">結束時間</string>
+    <!-- End Allen -->
+
+
+    <!-- BEGIN: Darwin -->
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">顯示加鎖筆記本</string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">隱藏加鎖筆記本</string>
+    <!-- END: Darwin -->
+
+
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">連續手寫線</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">當手寫字超過右邊紅線時，內容會自動往螢幕左方移動。</string>
+    <string name="text_continue" description="continue" max_width="-1">繼續</string>
+    <!-- END: Better -->
+
+    <string name="nb_Write_Text_Recognition_dialog_msg">Supernote將把所有手寫輸入文本識別為鍵盤輸入文本並複製這個筆記本。</string>
+    <string name="set_index_language_title">設定手寫識別語言</string>
+    <!-- 11.5th, End New String -->
+
+    <string name="license_agreement_title" description="User License Agreement title" maxwidth="">使用者同意書</string>
+    <string name="license_agreement" description="User License Agreement" maxwidth="">本使用者軟體授權同意書是一份 華碩電腦股份有限公司 (以下簡稱本公司)與您之間，
+   	    基於彼此理解與相互同意所做成，而具有法律約束力的使用者同意書，其目的在於規範您使用本公司授權軟體(明確定義詳如下述)之相關權利義務，敬請詳細閱讀。您一旦安裝執行並
+   	    繼續使用本公司授權軟體，即代表您已經仔細閱讀過本同意書並已充分理解其內容，而願意接受本同意書中所有條款的約束。
+	  \n\n一、	授權使用\n
+	  在您遵守本同意書所有條款的前提下，本公司授權您有限的、個別的、不可作為商業用途的、非專屬的權利，得以將該授權軟體安裝使用於本公司的產品中。本授權禁止再授權，
+	  亦不可移轉；除非您將安裝有授權軟體的本公司產品併同基於本同意書所享有之權利，全部而終局地轉讓給他人，自己則毫不保留授權軟體任何的複本或備份，並以該繼受者亦同意接
+	  受本同意書之所有條款為前提條件。
+	  \n\n二、	授權軟體\n
+	  授權軟體系指結合於或適用於本公司產品內之軟體，包括但不限於其將來的重新編製、更新、升級或其他修改版本。
+	  \n\n三、	使用限制\n
+	  除了前述許可外，您不得自行對授權軟體進行還原工程、解譯破解或反向組譯，亦不可容許或引誘他人從事彼等工作；
+	  但若相關法令明文禁止上述限制，則不在此限。
+	  \n\n四、	保密義務\n
+	  對於本授權軟體相關的機密資訊，包括但不限於以任何形式呈現的商業機密、著作權或其他智慧財產權，您皆有予以保密的義務，並應防止第三者知悉。
+	  \n\n五、	智慧財產權\n
+	  您認知並且同意，本授權軟體的智慧財產權、版權、及其他相關利益，皆仍保留於本公司，本授權僅允許您依合約條款使用授權軟體，唯其智慧財產權並未隨同移轉予您。
+	  任何未經合法授權的使用行為，除了違反本同意書，亦將構成對相關智慧財產權法規的違反，包括但不限於著作權法與商標法。您一旦利用本軟體傳送任何個人資訊以外
+	  之資訊、資料、想法、觀念或技術(以下簡稱回饋)至本公司，您認知並且同意，(1)您的回饋不含有機密或專有資訊；(2)本公司對該回饋不負任何明示或默示的保密義務；
+	  (3)本公司有權自行決定使用或揭露該回饋於任何目的、任何地域；(4)您的回饋將成為本公司之資產，且本公司對此不負任何義務；以及(5)本公司對您不負任何賠償或補償之責任。
+	  \n\n六、	期間與終止\n
+	  本同意書自您安裝授權軟體之時起開始生效，您可在停止使用並自行移除本軟體的前提下，隨時終止本同意書。若您未能遵守本同意書之任何條款或條件，本公司亦有權不予事先通知即逕行終止本同意書。
+	  \n\n七、	賠償責任限制\n
+	  您必須自行承擔使用授權軟體之風險與責任。除非本同意書書另有明文約定，授權軟體係按現狀提供，本公司不做任何適售性、適用於特定用途、不侵害他人智慧財產權等諸如此類之明示或默示責任保證，
+	  或任何法律、法規、交易或經銷程序之責任保證。此外，本公司不擔保您因使用本軟體而遭受的直接或間接損害，亦不保證本軟體的正確性、有效性、可靠性與通用性。任何由本公司之經銷商或員工提供
+	  予您的保證若與本條款意旨相互牴觸者，該保證皆屬無效。
+	  \n\n八、	儘管上述各條款已有所陳明，或在相關學說理論上有所提示，無論如何，對於因本同意書所生之一切訴訟上請求、責任或義務，本公司不負任何責任。在任何情況下，本公司對於因本同意書
+	  所生或與本同意書相關之任何直接的、間接的、懲罰性的、特殊的、附隨的或不可避免的損害（包括但不限於資料的遺失或損毀、干擾中斷、電腦錯誤及金錢損失），本公司概不負責。縱使不同於相關的
+	  責任理論，或者違反本同意書其他條款之約定，或違反侵權行為法（包含過失的情形），甚至無論本公司是否已知悉或事先被告知此種損害或傷害發生的可能性，此條款之責任限制亦應適用之。本公司的
+	  賠償責任悉應依前所述予以限制或排除，不論是否尚存在任何有效的救濟方法，乃至於該救濟方法在本質上並無助於補救目的之達成，亦然。
+	  \n\n九、	一般事項\n
+	  本同意書受中華民國法律管轄，並依中華民國相關法律解釋之。任何由本同意書所生或與本同意書有關之爭議，皆應提交中華民國仲裁協會依中華民國仲裁法及該協會之仲裁規則，由單一仲裁人於台北以
+	  仲裁解決之。本授權合約之任何條款若經權責機關宣告為無效或無法執行，雙方同意其他條款之效力並不因此而受影響，並同意另以一個最接近該等無效條款之目的本旨與經濟效力的有效條款，增訂納入
+	  本同意書並取而代之。</string>
+
+    <!-- 13th, Begin New String -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">所有頁面</string>
+ <!-- darwin add -->
+    <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">您可以使用ASUS WebStorage帳號登入</string>
+    <string name="username" description="User Name" maxwidth="15">帳號</string>
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">鎖定的筆記本已隱藏</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">鎖定的筆記本已可檢視</string>
+    <!-- 13th, End New String -->
+
+
+    <!-- 14th, Begin New String -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">不論螢幕大小持續手寫較長的單字</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s個時間戳記</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">搜尋中,請稍候</string>
+    <!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">搜尋內容</string>
+    <!-- End Allen -->
+    <!-- Begin Darwin -->
+    <string name="share_large" description="Large" max_width="5">大</string>
+    <string name="share_medium" description="Medium" max_width="6">中</string>
+    <string name="share_small" description="Small" max_width="5">小</string>
+    <string name="share_size" description="Size" max_width="4">尺寸</string>
+    <string name="recognizing" description="Recognizing" max_width="15">辨識</string>
+    <!-- End   Darwin -->
+    <!-- Begin: Allen -->
+    <!-- <string name="todo_title">待辦事項</string> -->
+    <string name="book_type_blank">空白</string>
+    <!-- End: Allen -->
+    <!-- 14th, End New String -->
+
+
+    <!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">沒有文件管理器</string>
+    <!-- End:clare -->
+    <!-- Begin: Better -->
+    <string name="memo_board" description="memo board" maxwidth="">便條</string>
+    <!-- End: Better -->
+
+
+    <!-- 16th, Begin New String -->
+    <string name="editor_menu_savepage" maxwidth="12">儲存頁面</string>
+    <!-- 16th, End New String -->
+
+
+    <!-- 17th, Begin New String -->
+    <string name="my_bit_cast_wait_text">請稍候...</string>
+    <!-- Begin: Better -->
+    <string name="password_not_set_import">筆記本可設定為公開或個人，是否要為個人筆記本設定密碼？未設定密碼時，所有筆記本將被設定為公開</string>
+    <!-- End: Better -->
+    <!-- 17th, End New String -->
+
+
+    <!-- 18th, Begin New String -->
+    <string name="book_grid_none" description="the background style of the notebook">無</string>
+
+    <!-- Begin: Better -->
+    <string name="quicknote_menu_view_grid">檢視網格</string>
+    <!-- End: Better -->
+
+    <string name="widget_bt_my_notebooks">我的筆記本</string>
+    <!-- <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">選擇筆記本</string> -->
+    <string name="widget_bt_add_a_notebook">新增筆記本</string>
+    <string name="widget_passwordTip">請輸入密碼:</string>
+
+    <!-- darwin begin -->
+    <string name="nb_editcover">編輯封面</string>
+    <string name="nb_editcover_name">封面</string>
+    <string name="nb_editcover_original_preview">預設值</string>
+    <string name="nb_editcover_choose_title">選擇圖片</string>
+    <!-- darwin end -->
+    <!-- 18th, End New String -->
+
+
+    <!-- Begin: Better -->
+    <string name="quicknote_notification_title">Instant note</string>
+    <string name="quicknote_notification_content">Instant note</string>
+    <!-- End: Better -->
+
+
+    <!-- 20th, Begin New String -->
+    <string name="widget_dialog_replace_notebook">取代筆記本</string>
+    <!-- <string name="widget_all_book_template">我的筆記本並新增</string> -->
+    <!-- 20th, End New String -->
+
+
+    <!-- 21th, Begin New String -->
+    <!-- Begin Allen -->
+    <string name="todo_widget_voice" description="voice input from todo widget">語音</string>
+    <string name="todo_widget_add" description="Add">新增</string>
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">新增至</string>
+    <!-- <string name = "todo_widget_all_todos" description="All todos">所有待辦事項</string> -->
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>依頁面分類</item>
+        <item>依時間分類</item>
+    </string-array>
+
+    <string name="set_priority" description="set priority dialog title" maxwidth="12">設定優先度</string>
+    <!-- End Allen -->
+    <!-- 21th, End New String -->
+
+
+    <!-- 22th, Begin New String -->
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>高</item>
+        <item>正常</item>
+        <item>低</item>
+    </string-array>
+
+    <string name="todo_item_completed" description="todo item is completed">完成</string>
+    <!-- 22th, End New String -->
+
+
+    <!-- 23rd, Begin New String Carol -->
+    <!--
+    <string name="meeting_form" description="meeting start time">開始時間</string>
+    <string name="meeting_to" description="meeting end time">結束時間</string>
+    -->
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">選擇筆記本</string>
+    <string name="meeting_form" description="meeting start time">從</string>
+ <!-- Carol -->
+    <string name="meeting_to" description="meeting end time">至</string>
+    <!-- 23rd, End New String -->
+
+
+    <!-- 24th, Begin New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">辨識</string>
+    <!-- <string description="no todo item tips" name="todo_widget_no_item_tips" maxwidth="">無待辦事項</string> -->
+    <!-- add for 'SyncCancelDialogFragment' -->
+    <string name="sync_cancel_confirmText">確認</string>
+    <string name="sync_cancel_promptTop">若取消同步，其他裝置都將移除以上筆記本。</string>
+    <string name="sync_cancel_promptBottom">確定要取消同步筆記本？</string>
+    <string name="sync_cancel_noMoreHint">以後不再提示</string>
+    <!-- 24th, End New String -->
+
+
+    <!-- 25th, Begin New String -->
+    <string name="pen_only_enabled"> 筆輸入模式</string>
+    <string name="pen_only_disabled"> 無限制輸入模式</string>
+
+    <!-- Carol- add for export-fomat chooser -->
+    <string name="export_as" description="used as title of export_format dialog">匯出為</string>
+
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Supernote格式</item>
+    </string-array>
+
+    <string name="share_title" description="title of share dialog">選擇格式</string>
+
+    <string-array name="share_format_array" description="share format chooser">
+        <item>圖片</item>
+        <!-- <item>文字</item> -->
+        <item>PDF</item>
+        <item>Supernote格式</item>
+    </string-array>
+
+    <string name="todo_title" description="memo template title" maxwidth="">備忘錄</string>
+    <string name="todo_widget_all_todos" description="All memos">所有備忘錄</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">沒有備忘錄</string>
+    <!-- 25th, End New String -->
+
+
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">合併</string>
+    <string name="quicknote_funcbar_play">播放</string>
+    <string name="quicknote_funcbar_pause">暫停</string>
+    <string name="quicknote_funcbar_save">儲存</string>
+    <string name="quicknote_savehint_dlg_first">圖畫未儲存</string>
+    <string name="quicknote_savehint_dlg_sec">是否要立即儲存？</string>
+    <string name="quicknote_savehint_dlg_saved">圖畫已儲存至圖片庫</string>
+    <string name="quicknote_savehint_dlg_cleaned">圖畫已清除</string>
+    <string name="choose_a_template" description="choose a template for your notebook">為筆記本選擇樣式</string>
+    <!-- End: 28th New String -->
+
+
+    <!-- Start: 29th New String [Carol] -->
+    <string name="quick_note_share_to">共享至: </string>
+    <string name="quicknote_funcbar_merge_1">合併底圖</string>
+    <string name="quicknote_funcbar_merge_2">描圖紙</string>
+    <string name="quicknote_funcbar_merge_3">白紙</string>
+    <!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">選擇一個圖章</string>
+    <string name="insert_shape_dlg">選擇一個形狀</string>
+    <string name="insert_stamp">圖章</string>
+ <!-- copy it to name = editor_func_insert_array -->
+    <string name="insert_shape">形狀</string>
+ <!-- copy it to name = editor_func_insert_array -->
+    <!-- end Jason -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">標題</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">新增與會者</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">會議記錄 &#8230;</string>
+    <string name="statusbar_login">登入</string>
+    <string name="editcover_photo">照片</string>
+    <string name="editcover_save">儲存</string>
+    <string name="brush_edit_dialog_library">預設</string>
+    <string name="brush_edit_dialog_back">返回</string>
+    <string name="brush_edit_dialog_pencil">鉛筆</string>
+    <string name="brush_edit_dialog_rollerpen">原子筆</string>
+    <string name="brush_edit_dialog_pen">鋼筆</string>
+    <string name="brush_edit_dialog_marker">馬克筆</string>
+    <string name="brush_edit_dialog_brush">毛筆</string>
+    <string name="brush_edit_dialog_airbrush">噴槍</string>
+    <string name="brush_edit_dialog_save">已存在</string>
+    <string name="brush_edit_dialog_save_successful">儲存成功</string>
+    <string name="todo_title_task">新增任務</string>
+    <string name="brush_edit_dialog_full">已儲存最大數量12個</string>
+    <!-- start noah; for data copy;6.8 -->
+    <string name="data_fomat_upgrade">數據格式升級</string>
+    <string name="the_book">筆記</string>
+    <string name="exits">已經存在</string>
+    <string name="replace_the_book">是否覆蓋該筆記?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="successful_upgrade">升級成功，將重啟SuperNote</string>
+    <string name="upgrade_fails">升級失敗</string>
+    <string name="not_enough_space">sd卡剩餘空間不足</string>
+    <string name="try_again">請刪除無用的文件，重啟SuperNote再試一次</string>
+    <!-- end noah; for data copy;6.8 -->
+    <!-- End: 29th New String [Carol] -->
+    <string name="quicknote_close">關閉</string>
+ <!-- jason -->
+    <string name="airview_type">類型</string>
+ <!-- jason -->
+    <string name="editor_phone_readonly">唯讀模式</string>
+ <!-- Carol -->
+    <string name="widget_password_hint">輸入密碼</string>
+    <string name="widget_all_book_template">所有筆記本</string>
+    <string name="tutorial_title">使用教學</string>
+    <string name="editor_color_picker_title">顏色選擇器</string>
+    <string name="editor_color_picker">請按下為筆刷選擇一種顏色</string>
+    <string name="content_is_too_long" description="content_is_too_long">內容過長</string>
+    <string name="vo_only_support_ball_pen">只支援原子筆筆觸</string>
+ <!-- smilefish -->
+    <string name="vo_shape_failed">此次繪圖無法校正</string>
+ <!-- smilefish -->
+    <string name="todo_title_max_character_num">最大字符數為50</string>
+    <string name="todo_widget_create" description="Create">新增</string>
+ <!-- Carol -->
+    <string name="instantpage_phone_called_with_background">即時筆記被中斷，你想恢復工作狀態以及背景截圖嗎？</string>
+ <!-- jason -->
+    <string name="instantpage_phone_called">即時筆記被中斷，你想恢復工作狀態嗎？</string>
+ <!-- jason -->
+    <string name="instantpage_close">關閉即時筆記?</string>
+ <!-- jason -->
+
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">筆刷顏色&amp;粗細</string>
+    <string name="newto_editor_func_popup_d_brush_stroke">筆觸</string>
+    <string name="newto_editor_func_popup_d_brush_alpha">透明度</string>
+
+</resources>

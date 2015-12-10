@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">46.6666667px</dimen>
+    <dimen name="memo_link_text_size">13.33dp</dimen>
+        
+    <!-- Begin Siupo value = 800/1552-->
+    <dimen name="edittext_scale_pad">0.515464px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo all multifid by dpi_base_dpi-->
+    <dimen name="dpi_base_dpi">1.3333333px</dimen>
+    <!-- End Siupo -->
+    
+    <!-- Begin  Darwin -->
+    <dimen name="default_share_dialog_width">360dp</dimen>
+    <!-- End    darwin -->
+</resources>

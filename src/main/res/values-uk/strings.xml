@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 1st, Begin New String -->
+    <string name="pg_reorder" description="Reorder the page(s)" maxwidth="">Переставити стор.</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Перша стор.</string>
+    <string name="phone_book_name" description="Phone book name">Тел. книга</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">нова стор.</string>
+    <string name="backup_filename" description="Backup's file name" maxwidth="">Рез. копія назви файлу</string>
+    <string name="clear_all" description="Clear all">Очистити все</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Ви справді бажаєте видалити всі малюнки? Це незворотня дія.</string>
+    <string name="delete_alert" description="warning of deleting">Бажаєте видалити цей малюнок?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">За допомогою пальця можна переміщати або змінювати розмір об\'єкту.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Натисніть, щоб вибрати або перетягти об\'єкт або багато об\'єктів.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Ця сторінка заповнена.</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">Ручка &#38; Колір</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Ручка</string>
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Ця сторінка порожня.</string>
+    <string name="editor_share_to_gallery" description="editor_share_to_gallery">Ділитися в: /sdcard/AsusSuperNote/Export/</string>
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">Зображення мемо збережено.</string>
+    <string name="nb_edit_menu_title" description="The title of context menu of the book edit menu" maxwidth="">Опція ред.</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Блокнот</string>
+    <string name="note_content_limit" description="Page overflow. So you cannot write any more on the current page." maxwidth="">Перепов. змістом. На цій стор. більше не можна писати.</string>    
+    <string name="note_end" description="The end. So you cannot goto the next or the previous page." maxwidth="">Кінець ел. аудіо-книги. Неможливо повернутися на попер. стор.</string>
+    <string name="no_data" description="No data">Не знайдено жодної книги.</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">Пароль ще не встановлено</string>
+    <string name="warning_activity_not_found" description="Activity not found">Ваш Padfone не підтримує цей тип файлу або кодеку.</string>
+    <string name="warning_data_has_exported" description="data has exported">Дані експортовано.</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">У буфері обміну нема зображення для вставлення.</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Видал.</string>
+    <string-array name="nb_sort">
+        <item>Напрямок за назвою</item>
+        <item>Напрямок за зміною дати</item>
+    </string-array>
+    <string-array name="edit_all_array">
+        <item>Видалити</item>
+        <item>Копія</item>
+        <item>Перемістити</item>
+        <item>Експортувати</item>
+        <item>Імпортувати</item>
+    </string-array>
+    <string-array name="jump_array">
+        <item>Видалити з закладок</item>
+        <item>Показати закладки</item>
+    </string-array>
+    <!-- 1st, End New String -->
+    
+    <!-- 2nd, Begin New String -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">мал.</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">звич.</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">вел.</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Білий</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Жовтий</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">Синій</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">Лінії</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Клітинки</string>
+    <!-- [END]Note, grids + lines = 14 -->
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Показ. інформацію блокнота</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">Будь ласка, встан. пароль, щоб прихов. нотатки.</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Посилання на:\n%s</string>
+    <string name="page_index" description="show the page index">Стор. %d</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">Створіть блокнот</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Немає книги або стор. для чит.</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Немає закл. на стор.</string>  
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">Немає книг у спис. Приватне.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Видалити!?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Ви справді бажаєте видалити цю стор.?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">Жирний</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Колір</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Копія</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Вирізати</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Редагув.</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Об\'єд. в групу</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Роз\'єд. групу</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Опірна лінія</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Закладка</string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">Створити мемо</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Лише чит.</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">Сп. корист.</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Скасув.</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Повернути</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Вставити</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Вибрати</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Вставити</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Видалити</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">Риска</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Пензель</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Стерти</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Скасув.</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Виконано</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">Далі</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">Копіюв. один раз</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">Скинути</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Ділитися лише текстом</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Прихов. клітинку</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">Ширина:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">Висота:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Розмір:</string> 
+    <!-- 2nd, End New String -->
+    
+    <!-- 3rd, Begin New String -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Про SuperNote</string>
+	<string name="set_on" description="On" maxwidth="">Увімк.</string>
+	<string name="set_off" description="Off" maxwidth="">Вимк.</string>
+	<string name="set_readOnly" description="Reading mode as default" maxwidth="">Реж. чит. за замовч.</string>
+	
+	<string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">Було видалено %s сторінок.</string>
+	<string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Копіюв. стор. до</string>
+	<string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Переміст. стор. %d до </string>
+	<string name="pg_export" description="export the page(s)" maxwidth="">експортув. стор.</string>
+	<string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Вибрати все</string>
+	<string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Зняти вибір з усіх</string>
+	<string name="pg_delete" description="delete the page(s)" maxwidth="">Видалити сторінку(и)</string>
+	<string name="pg_move" description="move the page(s)" maxwidth="">переміст. стор.</string>
+	<string name="editor_readonlymode_hint" description="hint in read only mode">Жестом-дотиком можна гортати або прокручувати сторінку.</string>
+	<string name="editor_color_dialog_title" description="editor_color_dialog_title">Колір</string>
+	<string name="memo_del" description="Deleted memo">Видалити вибраний(і) мемо?</string>
+	<string name="pg_selected" description="show how many pages are selected">вибрано %s сторінку(ок)</string>
+	<string name="memo_count" description="show how many memos in this view">%s мемо</string>
+	<string name="memo_not_exists" description="no memo in SuperNote">Мемо порожнє</string>
+	<string name="book_grid_title" description="the title of the page display property">Стиль лінії</string>
+	<string name="page_counter" description="show the total page number the book has">%d сторінка(ок)</string>
+	<string name="pg_copy" description="copy the page(s)" maxwidth="">копіювати стор.</string>
+	<string name="wrong_file_type" description="wrong_file_type">Невірний тип файлу.</string>
+	<string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     Блокнот прихований лише для Приватного перегляду.\r\n
+	        Всі закладки у блокноті будуть видалені з перегляду блокноту.\r\n</string>
+	<string name="note_hide_hint_dont_show" description="dont show the messgae again">Більше не показувати це повідомлення.</string>
+	<string name="editor_menu_share">Спільне користування</string>
+	    <string-array name="pg_size">
+	        <item>Для планшету</item>
+	        <item>Для телефону</item>
+	    </string-array>
+	<string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d сторінка(ок) скопійовано в %s</string>
+	<string name="page_size" description="Page Size" maxwidth="">Розмір стор.</string>
+	<string name="editor_menu_addpage" maxwidth="12">Додати стор.</string>
+	<string name="editor_menu_rmpage" maxwidth="12">Видал. стор.</string>
+	<string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Зіпсований файл. Файл не імпортовано.</string>
+	<string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Переміст. стор. до</string>
+	<string name="pg_not_exist" description="The page does not exist" maxwidth="">Сторінки не існує</string>
+	<string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Ост. сторінка</string>
+	<string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">Ви в режимі лише читання. Жестом-дотиком можна гортати або прокручувати стор.</string>
+	<string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Формат сторінки несумісний</string>
+	<string name="nb_empty" description="the book list is empty" maxwidth="">Порожня</string>
+	<string name="page_empty" description="notify there is no page and please create a new notebook">Будь ласка, створіть новий блокнот</string>
+	<string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">Бажаєте відновити всі попередньо збережені файли з SD-картки?</string>
+	<string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Писати</string>
+	<string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Набирати</string>
+	<string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Малювати</string>
+	<string name="loading_tutorial" description="loading tutorial file" maxwidth="">Завант. посібника...</string>
+    <!-- 3rd, End New String -->
+    
+    <!-- 4th, Begin New String -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">Розмір сторінки</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">З випливаючого списку вибрати "Для планшету" або "Для телефону" як розмір сторінки для сторінок блокноту.</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">Розмір телефону</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">Розмір планшета</string>
+    <string name="load_tutorial" description="" maxwidth="">Завантаження посібника...</string>
+	<string name="add_to_list" description="Add to Favorites" maxwidth="">Додати до закладок</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">Видалити з закладок</string>
+	<string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Видалити з закладок?</string>
+	<string name="show_favorite_list" description="Show favorite list" maxwidth="">Показати закладки</string>
+	<!-- 4th, End New String -->
+	
+	<!-- 5th, Begin New String -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Швидко</item>
+        <item>Звичайно</item>
+        <item>Повільно</item>
+    </string-array>
+    <string-array name="editor_func_insert_array_from">
+        <item>Зняти фото з</item>
+        <item>Вставити зображення з</item>
+        <item>Вставити текст з</item>
+        <item>Вставити аудіо з</item>
+        <item>Вставити відео з</item>
+        <item>Вставити текстовий файл з</item>
+        <item>Вставити штамп часу з</item>
+    </string-array>
+    
+    <!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>Зняти фото з</item>
+        <item>Вставити зображення з</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+    
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">сторінка %s</string>
+    <string name="reset_password_title" description="reset the password">Скинути пароль</string>
+    <string name="reset_password_summary">Очистити пароль</string>
+    <string name="reset_password_dialog_title">Скинути пароль</string>
+    <string name="reset_password_dialog_password_invalid">Недійсний пароль</string>
+    <string name="confirm_reset_dialog_title">Скинути пароль</string>
+    <string name="no_memory_dialog_title">Увага</string>
+	<string name="no_memory_dialog_content">Недостатньо пам\'яті</string>
+	<string name="personal_book">Особистий\nблокнот</string>
+	<string name="backup_fail">Не зроблено резервної копії</string>
+	<!-- 5th, End New String -->
+	
+	<!-- 6th, Begin New String -->
+	<string name="dialog_file_name">Назва файлу</string>
+    <string name="dialog_save_to">Зберегти на</string>
+	<!-- 6th, End New String -->
+	
+	<!-- 10th, Begin New String -->
+	<string name="new_page" description="Create New Page" maxwidth="15">Створити нову сторінку.</string>
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Блокнот експортовано в</string>
+	<string name="notebook_selected" description="show how many pages are selected">вибрано %s блокнот(ів)</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s закладок</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">Блокноти</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">Закладка</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">Штамп часу</string>
+	<string-array name="pg_sort">
+        <item>За назвою</item>
+        <item>За останніми змінами</item>
+	</string-array>
+	<string-array name="notebook_sort">
+        <item>За назвою</item>
+        <item>За останніми змінами</item>
+	</string-array>
+	<string-array name="nb_show">
+        <item>Вигляд блокноту</item>
+        <!--  item>All pages</item>-->
+        <item>Вигляд закладок</item>
+        <!-- <item>Memo board</item> -->
+  		<item>Вигляд штампу часу</item>
+  		<item>Особисте</item>
+	</string-array>
+	<string-array name="week_of_day">
+       <item>Неділя</item>
+       <item>Понеділок</item>
+       <item>Вівторок</item>
+       <item>Середа</item>
+       <item>Четвер</item>
+       <item>П\'ятниця</item>
+       <item>Субота</item>
+       <item>Сьогодні</item>
+       <item>Вчора</item>
+       <item>Минулий тиждень</item>
+       <item>Два тижні тому</item>
+       <item>Три тижні тому</item>
+       <item>Завтра</item>
+       <item>Наступного тижня</item>
+       <item>За два тижні</item>
+       <item>За три тижні</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>Січень</item>
+       <item>Лютий</item>
+       <item>Березень</item>
+       <item>Квітень</item>
+       <item>Травень</item>
+       <item>Червень</item>
+       <item>Липень</item>
+       <item>Серпень</item>
+       <item>Вересень</item>
+       <item>Жовтень</item>
+       <item>Листопад</item>
+       <item>Грудень</item>
+       <item>Останній місяць</item>
+       <item>Півроку тому</item>
+       <item>Понад рік тому</item>
+       <item>Наступний місяць</item>
+       <item>Через півроку</item>
+       <item>Через рік</item>
+	</string-array>
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">Бажаєте видалити цей блокнот?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Перейменувати</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Приховати</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Видалити</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Експортувати</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Обрізати</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Редагувати</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">Замінити</string>	<!--by show-->
+    <string name="latest_edited_lable" description="the latest edited page">Остання редагована сторінка</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Швидкість розпізнавання введення</string>
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Поле облікового запису або паролю не може бути порожнім.</string>
+    <string name="nb_sync">Активувати Cloud Sync</string>
+    <string name="nb_async">Скасувати Cloud Sync</string>
+    <string name="sync_status_none">Нема задач синхронізації.</string>
+    <string name="sync_status_last_sync">Останнє поновлення: </string>
+    <string name="sync_status_syncing">Синхронізація...</string>
+    <string name="sync_status_failed">Дані не синхронізовано.</string>
+    <string name="sync_status_starting">Початок синхронізації...</string>
+    <string name="sync_account_text">Обліковий запис</string>
+    <string name="sync_sign_on">Увійти до системи</string>
+    <string name="sync_sign_off">Вийти з системи</string>
+    <string name="account_space_usage">Використаного місця</string>  	<!-- by show -->
+    <string name="account_and_sync">Налаштування синхронізації облікового запису</string>
+    <string name="sync_setting_auto">Автосинхронізація</string>
+    <string name="sync_setting_auto_frequency">Частота автосинхронізації</string>
+    <string name="sync_auto_interval_1">Кожну 1 хвилину</string>
+    <string name="sync_auto_interval_15">Кожні 15 хвилин</string>
+    <string name="sync_auto_interval_30">Кожні 30 хвилин</string>
+    <string name="sync_auto_interval_60">Кожні 60 хвилин</string>
+    <string name="sync_auto_interval_1d">Щодня</string>
+    <!-- add by Better -->
+    <!-- begin show -->
+	<string name="webstorage_register">Зареєструватися</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">Скасувати</string>
+	<string name="webstorage_ok">OK</string>-->
+	<string name="webstorage_signon">Увійти до</string>
+	<!-- end show -->
+    <string name="export_pdf_prompt">Файл PDF збережено в </string>
+    <string name="share_type_image">Зображення</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">Виконано</string>  
+    <string name="Crop_Cancel">Скасувати</string>	
+    <string name="Crop_Free">Лассо</string>	
+    <string name="Crop_Rect">Прямокутник</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">Передача...</string>
+    <string name="prompt_export_pdf_to">Файл PDF збережено в</string>
+    <string name="browse_folder">Переглянути</string>
+    <string name="export_supernote_format">Експортувати у форматі суперпримітки</string>
+    <string name="file_export">Експортувати файл</string>
+    <string name="editor_func_button_search">Пошук</string>
+    <string name="no_search_result">Не знайдено пунктів, які відповідали б критеріям пошуку.</string>
+    <string name="editor_func_button_shape">Форма</string>
+    <string name="SearchResultItemInfo_Loading">Завантаження...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Файл не прочитано.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Блокноти</string>
+    <string name="SearchResultItemInfo_Pages">Сторінки</string>
+    <string name="SearchResultItemInfo_Personal">Особисте</string> 
+    <string name="SearchResultItemInfo_Page_Space">Сторінка </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Розпізнання писаного тексту</string>
+    <string name="reset_index_language_title">Скинути мову покажчика</string>  
+    <!-- wendy  -->
+    <string name="latest_edit_page">Остання редагована сторінка</string>
+    <string name="bookpicker_name">Назва</string>
+    <string name="bookpicker_date">Дата</string>
+   	<string name="bookpicker_sync_books_list">Синхронізувати список книг</string>
+   	<string name="bookpicker_cancel">Скасувати</string>
+   	<string name="bookpicker_ok">OK</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">Риска</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Прозорість</string>
+   	<string name="share_to_image">Зображення</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">Тексти</string>  
+   	<string name="export">Експортувати</string>
+   	<string name="transfer">Передача</string>
+   	<string name="book_export">Експортувати блокнот</string>
+   	<string name="prompt_exports_pdf_to">Файли PDF збережено в</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Назва:</string>  
+   	<string name="template_travel_tips_date">Дата:</string>
+   	<string name="template_meeting_tips_title">Тема:</string>
+   	<string name="template_meeting_tips_time">Час:</string>
+   	<string name="template_meeting_tips_contact">Присутні:</string>
+   	<string name="template">Шаблон</string>
+   	<string name="template_input_tips">Клацніть тут, щоб редагувати зміст.</string>
+   	<string name="template_eidt_content">Редагувати зміст</string>
+   	<!--wendy begin -->
+	<string name="select_all">Все</string>
+   	<string name="prompt_no_book_selected">Не вибрано книгу.</string>
+   	<!-- begin :darwin -->
+   	<string name="latestedit">Останнє редагування</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">Версія недоступна.</string>
+   	<string name="loading_page">Завантаження даних сторінки...</string>
+   	<string name="prompt_transfer_format">Слід переформатувати цю книгу. Ця процедура займе деякий час. Бажаєте продовжити?</string>
+   	<string name="prompt_saving">Збереження...</string>
+   	<string name="prompt_transferring">Передача...</string> 
+   	<string name="prompt_incompatible_syncing">%s - несумісна версія. Будь ласка, поновіть SuperNote.</string>
+   	<string name="prompt_incompatible_file">%s - несумісна версія.</string>
+   	<!-- END: Better -->
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">Вхід до системи. Будь ласка, почекайте...</string>
+   	<string name="webstorage_login_account_password_wrong">Обліковий запис або пароль неправильні</string>
+   	<string name="sync_setting_sign_failure">Неможливо увійти до %s</string>
+   	<string name="sync_setting_sign_success">Увійти до %s</string>
+   	<string name="sync_setting_networkless_title">Нема підключення</string>
+   	<string name="sync_setting_networkless">Для користування цією послугою знадобиться підключення до Інтернету. Будь ласка, активуйте підключення мобільної мережі або Wi-Fi у "Налаштуваннях".</string>
+   	<!-- END: show -->
+	<!-- 10th, End New String -->
+	
+	<!-- 11th, Begin New String -->
+	<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">Більше</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    <!-- Begin Allen -->
+    <string name="Sort">Сортувати</string>
+    <!-- End Allen -->   
+ 	<string-array name="editor_func_insert_array">
+        <item>Фото</item>
+        <item>Зображення з файлу</item>
+        <item>Текстове зображення</item>
+        <item>Сторінка PDF</item>
+        <item>Аудіозапис</item>
+        <item>Відео</item>
+        <item>Текстовий файл</item>
+        <item>Штамп часу</item>
+        <item>Графіка з буферу обміну</item>
+	</string-array>
+	<string name="sync_setting_sign_out">Вихід з системи %s</string>
+	<string name="sync_setting_sign_out_msg">Вихід з системи закриє доступ до блокнотів у обліковому запису хмари і вимкне синхронізацію хмари. Бажаєте продовжити?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Пароль змінено. Бажаєте надіслати пароль на свою електронну пошту для подальшого користування? Так можна запобігти втраті доступу до прихованих блокнотів.\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Блокувати</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">Розблокувати</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">Блокувати, щоб приховати</string>
+	<string name="editor_phone_toast_seletext">Перетягнути, щоб виділити текст</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">Блокувати</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Бажаєте блокувати цей блокнот?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Розблокувати</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Бажаєте розблокувати цей блокнот?</string>
+    <string name="password_not_set_sync">Особистим блокнотам у вашій бібліотеці не призначено пароль. Якщо не призначити пароль, ці блокноти будуть публічними.</string>
+    <string name="set_password_dialog_title">Встановити пароль</string>
+    <string name="editor_func_button_recognize">Розпізнати</string>
+    <string name="editor_func_button_transform">Перетворити</string>   
+    <string name="editor_phone_toast_readonly">Режим лише читання: Ви в режимі читання. Пальцем гортати або прокручувати сторінки вгору/вниз.</string>   
+	<!-- Modify 0817-0822 End: Show --> 
+	<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">Експортувати як PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Пошук не вдався.</string>
+	<!-- Modify 0823 End: Show -->  
+	<!-- 11th, End New String -->
+	
+	<!-- 11.5th, Begin New String -->
+	<!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Лінійка</string>
+    <string name="book_type_grid">Клітинка</string>
+    <string name="book_type_meeting">Зустріч</string>
+    <string name="book_type_diary">Щоденник</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>Англійська</item>
+        <item>Спрощена китайська і англійська</item>
+        <item>Традиційна китайська і англійська</item>
+        <item>Спрощена китайська (КНР) і англійська</item>
+        <item>Традиційна китайська (КНР) і англійська</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Жест Backspace</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">У режимі письма від руки протягніть пальцем від правого до лівого кутка, щоб видалити останній введений текст.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">Дата початку</string>
+    <string name="template_meeting_end_date_tips">Дата закінчення</string>
+    <string name="template_meeting_start_time_tips">Час початку</string>
+    <string name="template_meeting_end_time_tips">Час закінчення</string>
+    <!-- End Allen -->    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Показати заблокований блокнот </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Приховати заблокований блокнот </string>
+    <!-- END: Darwin -->        
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Тривала лінія письма</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Коли написане вами перетне червону лінію, написані літери автоматично зсунуться ліворуч.</string>
+    <string name="text_continue" description="continue" max_width="-1">Продовжити</string>
+    <!-- END: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">Суперпримітка перетворить всі написані тексти на друковані і збереже копію цього блокноту.</string>
+    <string name="set_index_language_title">Встановити розпізнання мови</string> 
+    <!-- Modify 0904 End -->
+	<!-- 11.5th, End New String -->
+	
+	<!-- 13th, Begin New String -->
+   	<string name="allpage_view" description="allpage_view" maxwidth="20">Всі сторінки</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Можна увійти до системи за допомогою вашого облікового запису ASUS WebStorage.</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">Ім\'я користувача</string>
+	<string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Блоковані блокноти приховані.</string>
+	<string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Тепер можна читати блоковані блокноти.</string>
+	<!-- 13th, End New String -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Написати суцільне довге слово, не зважаючи на розмір екрану.</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s штампів часу</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Пошук триває. Почекайте, будь ласка.</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">Пошук змісту</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Великий</string>
+    <string name="share_medium" description="Medium" max_width="6">Середній</string>
+    <string name="share_small" description="Small" max_width="5">Маленький</string>
+    <string name="share_size" description="Size" max_width="4">Розмір</string>
+    <string name="recognizing" description="Recognizing" max_width="15">Розпізнавання</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">Зробити</string>-->
+	<string name="book_type_blank">Порожнє</string>
+	<!-- End: Allen --> 
+	<!-- 14th, End New String -->
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">Зберегти сторінку</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">Будь ласка, почекайте...</string>
+	<string name="password_not_set_import">Блокноти можна зробити особистими або публічними. Бажаєте створити пароль для приватних блокнотів? Якщо не створено пароль, всі блокноти будуть організовані як публічні.</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">Жодних</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">Переглянути таблицю</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">Мої блокноти</string>
+  	<string name="widget_bt_add_a_notebook">Додати блокнот</string>
+  	<string name="widget_passwordTip">Будь ласка, введіть пароль</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">Редагувати обкладинку</string>
+    <string name="nb_editcover_name">Обкладинка</string>
+    <string name="nb_editcover_original_preview">За промовчанням</string>
+    <string name="nb_editcover_choose_title">Вибрати зображення</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 18.5th, Begin New String -->
+	<string name="setting" description="Settings" maxwidth="">Налаштування</string>
+	<string name="nb_name_hint" description="Notebook Name" maxwidth="">Назва блокноту</string>
+	<string name="name" description="Name" maxwidth="">Назва</string>
+	<string name="pagecolor" description="Page Color" maxwidth="">Колір сторінки</string>
+	<string name="password" description="Password" maxwidth="">Пароль</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Будь ласка, введіть від 4 до 7 символів/цифр.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Поточний пароль</string>
+    <string name="password_newpin" description="New password" maxwidth="">Новий пароль</string>
+   	<string name="password_tryagain" description="Confirm new password" maxwidth="">Підтвердити новий пароль</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Увага: Пароль може містити від 4 до 7 цифр/символів.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Встановити/Змінити пароль</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Паролі не співпадають.</string>
+	<string name="password_mail_subject" description="SuperNote password" maxwidth="">Пароль SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Пароль до мого SuperNote було змінено %s. Новий пароль: %s</string>
+	<string name="del" description="Delete" maxwidth="">Delete (Видалити):</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Почати імпорт з</string>
+	<string name="pg_import" description="Import Notes" maxwidth="">Імпортувати блокнот</string>
+	<string name="prompt_import_ok" description="Import successful!" maxwidth="">Успішно імпортовано!</string>
+	<string name="pg_move_to" description="Move to" maxwidth="">Перемістити</string>
+   	<string name="pg_copy_to" description="Copy to" maxwidth="">Копіювати в</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Видалити вибрану(і) сторінку(и)?</string>
+	<string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Довго натискайте на сторінку і перетягуйте, щоб поміняти послідовність сторінок.</string>
+	<string name="add_new" description="Add New Notebook" maxwidth="7">Новий блокнот</string>
+	<string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Не знайдено метод відкривання файлу</string>
+	<!-- 18.5th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">Замінити блокнот</string>
+	<string name="widget_all_book_template">Мої блокноти. Додати нове</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!--<string name="todo_widget_voice" description="voice input from todo widget">Голос</string>-->
+	<string name="todo_widget_add" description="Add">Додати</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">Додати до</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">Всі в dos</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Сортувати за сторінкою</item>
+        <item>Сортувати за часом</item>
+    </string-array>
+    		
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">Встановити пріоритет</string>	
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Високий</item>
+        <item>Звичайний</item>
+        <item>Низький</item>
+   	</string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">Виконано</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+  	<string name="meeting_form" description="meeting start time">З</string>
+    <string name="meeting_to" description="meeting end time">У</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Виберіть блокнот</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">Мовлення</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >Розпізнано</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >Нема запланованих справ</string>-->
+    <string name="sync_cancel_confirmText">Підтвердити</string>
+    <string name="sync_cancel_promptTop">Видалені синхронізовані пункти також будуть видалені на іншому пристрої.</string>
+    <string name="sync_cancel_promptBottom">Бажаєте розсинхронізувати ці блокноти?</string>
+    <string name="sync_cancel_noMoreHint">Більше не нагадувати</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >Експортувати як</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Формат суперпримітки</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >Вибрати формат</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>Зображення</item>
+        <!--<item>Тексти</item>-->
+        <item>PDF</item>
+        <item>Формат суперпримітки</item>
+    </string-array>
+    <string name="pen_only_enabled">Лише користування ручкою</string>
+    <string name="pen_only_disabled">Лише вимкнена ручка</string>
+    <string name="todo_title" description="memo template title" >Мемо</string>
+    <string name="todo_widget_all_todos" description="All memos" >Всі мемо</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >Нема мемо</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">"Об'єднати"</string>
+    <string name="quicknote_funcbar_play">Програти</string>
+    <string name="quicknote_funcbar_pause">Пауза</string>
+    <string name="quicknote_funcbar_save">Зберігти</string>
+    <string name="quicknote_savehint_dlg_first">Малюнок не збережено.</string>
+    <string name="quicknote_savehint_dlg_sec">Бажаєте зберегти це зараз?</string>
+    <string name="quicknote_savehint_dlg_saved">Малюнок було збережено в Pictures (Малюнки).</string>
+    <string name="quicknote_savehint_dlg_cleaned">Малюнок було очищено.</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >Виберіть шаблон для блокноту</string>
+    <!-- End: 28th New String -->
+
+    <string name="editor_phone_readonly">Режим лише читання</string> <!--Carol-->
+
+</resources>

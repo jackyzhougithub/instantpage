@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">Enter</string>
+    
+    <!-- <string name="go" description="Go" maxwidth="">Go</string> -->
+    <string name="edit" description="Edit" maxwidth="">Szerkesztés</string>
+    <string name="back" description="Back" maxwidth="">Vissza</string>
+    <string name="setting" description="Settings" maxwidth="">Beállítás</string>
+    <string name="backup" description="Backup" maxwidth="">Biztonsági másolat készítése</string>
+    <string name="restore" description="Restore" maxwidth="">Visszállítás</string>
+    <string name="next" description="Next" maxwidth="">Következő</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">Gyors bevitel</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">Az alapértelmezett érték 400 ms.</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms.</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Jegyzettömb neve</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Lap színe</string>
+    <string name="notebook" description="Notebook" maxwidth="">Jegyzettömb</string>
+    <string name="password" description="Password" maxwidth="">Jelszó</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Adjon meg egy 4-7 karakterből/számjegyből álló jelszót.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Jelenlegi jelszó</string>
+    <string name="password_newpin" description="New password" maxwidth="">Új Jelszó</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Új jelszó megerősítése</string>
+    <string name="password_hint" maxwidth="">Figyelem: A jelszónak 4-7 számjegy és/vagy karakter hosszúságúnak kell lennie.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Jelszó beállítása/módosítása</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">Helytelen aktuális jelszó.</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">A jelszavak nem egyeznek.</string>
+    <string name="no_thanks" description="No, thanks" maxwidth="">Nem, köszönöm!</string>
+    <string name="yes" description="Yes" maxwidth="">Igen</string>
+    <string name="share_to" description="Share to..." maxwidth="">Megosztás ezzel...</string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">Képfájl exportálása a galériába...</string>
+
+    <!-- <string name="prompt_pg_export" description="Export will create a ZIP file (/sdcard) for future Import." formatted="false" maxwidth="">Export will create a ZIP file (%s) for future Import.</string> -->
+    
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote jelszó</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">A SuperNote jelszavát %s napján módosították. Az új jelszó a következő: %s</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">Jegyzettömb címe</string>
+    <string name="prompt" description="Prompt" maxwidth="">Parancssor</string>
+    <string name="name" description="Name" maxwidth="">Név</string>
+    <string name="del" description="Delete" maxwidth="">Törlés</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Importálás...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Jegyzetek importálása</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">A fájllal társított megnyitási mód nem található.</string>
+    <!-- <string name="prompt_saving" description="Saving..." maxwidth="">Saving</string> -->
+    <!-- <string name="prompt_select_text" description="Slide your finger to expand the range of selection." maxwidth="">Slide your finger to expand the range of selection.</string> -->
+    
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">Sikeres visszaállítás!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">Sikertelen visszaállítás. A fájl sérült.</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">Biztonsági mentés...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">Sikeres biztonsági mentés!</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Sikeres importálás!</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Áthelyezés ide:</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Másolás ide:</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Törli a kijelölt oldal(aka)t?</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_left">    |</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_middum">|</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_right">|    </string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Hosszan nyomja meg az oldalt és húzza el a kívánt sorrendbe.</string>
+    <!-- 1st PadFone String Revised -->
+
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Az első oldal</string>
+    <string name="phone_book_name" description="Phone book name">Telefonkönyv</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">új oldal</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">Biztonsági mentésfájl neve</string>
+    <string name="clear_all" description="Clear all">Összes kijelölés törlése</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">Biztosan törölni akarja az összes rajzot? A műveletet nem lehet visszavonni.</string>
+    <string name="delete_alert" description="warning of deleting">Törölni akarja a rajzot?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Mozgassa az ujját az objektum áthelyezéséhez vagy átméretezéséhez.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Érintse meg az egy vagy több objektum kijelöléséhez vagy elhúzásához.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Az oldal megtelt.</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">Toll &amp; színe</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Toll</string>
+    
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Ez az oldal üres.</string>
+    
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">Az emlékeztő kép mentése megtörtént.</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Jegyzetfüzet</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">Még nem állított be jelszót.</string>
+    <string name="warning_activity_not_found" description="Activity not found">A PadFone nem támogatja ezt az fájl- vagy kodek típust.</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Nincs beilleszthető kép a vágólapon.</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Eltávolítás</string>
+
+    
+
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Új hozzáad.</string>
+
+    <!-- 2nd -->
+    <string name="small" description="the font size of the notebook" maxwidth="">kicsi</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">normál</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">nagy</string>
+    <string name="white" description="the background color of the notebook" maxwidth="">Fehér</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Sárga</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">Kék</string>
+    <string name="book_grid_line" description="the background style of the notebook">Vonalak</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Rács</string>
+    
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">A jegyzettömb adatainak megjelenítése</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">Állítson be jelszót a jegyezetek elrejtéséhez.</string>
+    
+    <string name="memo_link" description="press this button to link the page where the memo from">Hivatkozás ide:\n%s</string>
+    <string name="page_index" description="show the page index">%d. oldal</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">Kérjük, hozzon létre egy jegyzettömböt</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Nem található olvasható könyv vagy oldal</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Nincs könyvjelzővel megjelölt oldal.</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">Nincs könyv a Privát listán.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Törli?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Biztos, hogy törölni akarja ezt az oldalt?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">Félkövér</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Szín</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Másol</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Kivág</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Szerkeszt</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Csoportosít</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Csop. felold</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Alapvonal</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Könyvjelző</string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">Emlékez. létrehoz.</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Írásvédett</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">Megoszt</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Visszavonás</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Újra</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Beilleszt</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Választ</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Beilleszt</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Törlés</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">Vonás</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Ecset</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Radír</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Mégse</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Kész</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">Követk.</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">Másolás egyszer</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">Alaphelyzet</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Csak a szöveg megosztása</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Rács elrejt.</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">Széles:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">Magas:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Méret:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">A SuperNote névjegye</string>
+    <string name="set_on" description="On" maxwidth="">Be</string>
+    <string name="set_off" description="Off" maxwidth="">Ki</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Az olvasás mód az alapértelmezett</string>
+    <!--string name="app_name">SuperNote</string-->
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s oldal törölve.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Oldal(ak) másolása ide:</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">%d oldal áthelyezése ide: </string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">oldal(ak) exportálása</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Összes kijelölése</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Összes kijelölés megszüntetése</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">Az oldal(ak) törlése</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">az oldal(ak) áthelyezése</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">Érintőmozdulattal lapozhat vagy görgethet oldalakat.</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">Szín</string>
+    <string name="memo_del" description="Deleted memo">Törli a kijelölt emlékeztető(ke)t?</string>
+    <string name="pg_selected" description="show how many pages are selected">%s oldal kijelölve</string>
+    <string name="memo_count" description="show how many memos in this view">%s emlékeztető</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Üres emlékeztető</string>
+    <string name="book_grid_title" description="the title of the page display property">Vonalstílus</string>
+    <string name="page_counter" description="show the total page number the book has">%d oldal</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">az oldal(ak) másolása</string>
+    <string name="wrong_file_type" description="wrong_file_type">A fájltípus nem megfelelő.</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     A jegyzettömb most rejtett Privát nézetben.\r\n
+        A jegyzettömb összes könyvjelzője eltávolításra kerül a Könyvjelző nézetből.\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">Ne jelenjen meg többször ez az üzenet.</string>
+    <string name="editor_menu_share">Megoszt</string>
+
+    <string-array name="pg_size">
+        <item>Padhez</item>
+        <item>Telefonhoz</item>
+    </string-array>
+
+    
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">Megtörtént %d oldal másolása ide: %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Oldalméret</string>
+    <string name="editor_menu_addpage" maxwidth="12">Oldal hozzáadása</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Oldal eltávolítása</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Sérült fájl. A fájl importálása sikertelen.</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Oldal(ak) áthelyezése ide:</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Az oldal nem létezik</string>
+    
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Az utolsó oldal</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">Írásvédett módban van. Érintőmozdulattal lapozhat vagy görgethet oldalakat.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Nem kompatibilis oldalformátum</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">Üres</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">Kérjük, hozzon létre egy új jegyzettömböt</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">Vissza akarja állítani az összes korábban mentett fájlt az SD-kártyáról?</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Írás</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Típus</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Rajzolás</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">Oktatóprogram betöltése…</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">Oldalméret</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">A legördülő listáról válassza az A Pad készülékhez vagy az A telefonhoz elemet mint a jegyzettömb oldalmérete.</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">Telefon méret</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">Pad méret</string>
+    <string name="load_tutorial" description="" maxwidth="">Oktatóprogram betöltése…</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Hozzáadás a könyvjelzőköz</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">Eltávolítás a könyvjelzők közül</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Eltávolítja a könyvjelzők közül?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Könyvjelzők mutatása</string>
+    <!-- 5th -->
+    
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Gyors</item>
+        <item>Normál</item>
+        <item>Lassú</item>
+    </string-array>
+    
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">%s. oldal</string>
+    <string name="reset_password_title" description="reset the password">Jelszó visszaállítása</string>
+    <string name="reset_password_summary">Jelszó törlése</string>
+    <string name="reset_password_dialog_title">Jelszó visszaállítása</string>
+    <string name="reset_password_dialog_password_invalid">Érvénytelen jelszó</string>
+    <string name="confirm_reset_dialog_title">Jelszó visszaállítása</string>
+    <string name="no_memory_dialog_title">Figyelem</string>
+    <string name="no_memory_dialog_content">Nincs elegendő memória</string>
+    <string name="personal_book">Személyes\nJegyzetfüzet</string>
+    <string name="backup_fail">Sikertelen biztonsági mentés</string>
+
+    
+    <!-- 6th -->
+    <string name="dialog_file_name">Fájlnév</string>
+    <string name="dialog_save_to">Mentés helye</string>
+    
+    <!-- 10th, Start New String -->
+    <string name="new_page" description="Create New Page" maxwidth="15">Új oldal létrehozása</string>
+	
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">A jegyzettömb exportálva ide:</string>
+	<string name="notebook_selected" description="show how many pages are selected">%s jegyzettömb kijelölve</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s könyvjelző</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">Jegyzettömbök</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">Könyvjelző</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">Időbélyeg</string>
+ 
+	<string-array name="pg_sort">
+        <item>Név szerint</item>
+        <item>Legutóbbi módosítás szerint</item>
+	</string-array>
+    
+	<string-array name="notebook_sort">
+        <item>Név szerint</item>
+        <item>Legutóbbi módosítás szerint</item>
+	</string-array>
+ 
+	<string-array name="nb_show">
+        <item>Jegyzettömb-nézet</item>
+        <!--  item>All pages</item>-->
+        <item>Könyvjelző-nézet</item>
+        <!-- <item>Memo board</item> -->
+        <!--<item>Personal</item> -->
+  		<item>Időbélyegző-nézet</item>
+	</string-array>
+    
+	<string-array name="week_of_day">
+       <item>Vasárnap</item>
+       <item>Hétfő</item>
+       <item>Kedd</item>
+       <item>Szerda</item>
+       <item>Csütörtök</item>
+       <item>Péntek</item>
+       <item>Szombat</item>
+       <item>Ma</item>
+       <item>Tegnap</item>
+       <item>Múlt héten</item>
+       <item>Két héttel ezelőtt</item>
+       <item>Három héttel ezelőtt</item>
+       <item>Holnap</item>
+       <item>Következő hét</item>
+       <item>Két héttel később</item>
+       <item>Három héttel később</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>Január</item>
+       <item>Február</item>
+       <item>Március</item>
+       <item>Április</item>
+       <item>Május</item>
+       <item>Június</item>
+       <item>Július</item>
+       <item>Augusztus</item>
+       <item>Szeptember</item>
+       <item>Október</item>
+       <item>November</item>
+       <item>December</item>
+       <item>Előző hónap</item>
+       <item>Fél évvel ezelőtt</item>
+       <item>Több mint egy éve</item>
+       <item>Következő hónap</item>
+       <item>Fél évvel később</item>
+       <item>Egy év múlva</item>
+	</string-array>
+   
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">Törölni akarja ezt a jegyzettömböt?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Átnevezés</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Elrejtés</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Törlés</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Exportálás</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Kivágás</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Szerkesztés</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">Csere</string>	<!--by show-->
+    
+    
+    
+    <string name="latest_edited_lable" description="the latest edited page">Legutoljára szerkesztett oldal</string>
+    
+    
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Bevitel felismerési sebessége</string>
+    
+    <!-- add by Better -->
+    <string name="password_or_account_empty">A Fiók vagy jelszó mező nem maradhat üres.</string>
+   
+    <string name="nb_sync">Cloud Sync engedélyezése</string>
+    <string name="nb_async">Cloud Sync megszakítása</string>
+    
+    <string name="sync_status_none">Nincs szinkr. feladat</string>
+    <string name="sync_status_last_sync">Utoljára frissítve: </string>
+    <string name="sync_status_syncing">Szinkronizálás...</string>
+    <string name="sync_status_failed">Az adatok szink. sikertelen.</string>
+    <string name="sync_status_starting">Szinkronizálás indítása...</string>
+    <string name="sync_account_text">Fiók</string>
+    <string name="sync_sign_on">Bejelentkezés</string>
+    <string name="sync_sign_off">Kijelentkezés</string>
+    <string name="account_space_usage">Foglalt hely</string>  	<!-- by show -->
+    <string name="account_and_sync">Fiókszink. beállítások</string>
+    <string name="sync_setting_auto">Automata szinkronizálás</string>
+    <string name="sync_setting_auto_frequency">Auto. szink. gyakorisága</string>
+    <string name="sync_auto_interval_1">Percenként</string>
+    <string name="sync_auto_interval_15">15 percenként</string>
+    <string name="sync_auto_interval_30">30 percenként</string>
+    <string name="sync_auto_interval_60">60 percenként</string>
+    <string name="sync_auto_interval_1d">Mindennap</string>
+    <!-- add by Better -->
+    
+    <!-- begin show -->
+	<string name="webstorage_register">Regisztrálás</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">Mégse</string>
+	<string name="webstorage_ok">OK</string>-->
+	<string name="webstorage_signon">Bejelentkezés ide</string>
+	<!-- end show -->
+	
+    
+    <string name="export_pdf_prompt">A PDF-fájl mentési helye: </string>
+    <string name="share_type_image">Kép</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">Kész</string>  
+    <string name="Crop_Cancel">Mégse</string>	
+    <string name="Crop_Free">Lasszó</string>	
+    <string name="Crop_Rect">Téglalap</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">Áttöltés...</string>
+    <string name="prompt_export_pdf_to">A PDF-fájl mentési helye:</string>
+    <string name="browse_folder">Tallózás</string>
+    <string name="export_supernote_format">Exportálás Supernote formátumban</string>
+    <string name="file_export">Fájl exportálása</string>
+    <string name="editor_func_button_search">Keresés</string>
+    <string name="no_search_result">Nincs a keresési feltételeknek megfelelő elem.</string>
+    <string name="editor_func_button_shape">Alakzat</string>
+    <string name="SearchResultItemInfo_Loading">Betöltés...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">A fájl olvasása sikertelen.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Jegyzettömbök</string>
+    <string name="SearchResultItemInfo_Pages">Oldal</string>
+    <string name="SearchResultItemInfo_Personal">Személyes</string> 
+    <string name="SearchResultItemInfo_Page_Space">Oldal </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Kézírás-felismerés</string>
+    <string name="reset_index_language_title">Alapnyelv átállítása</string>  
+      <!-- wendy  -->
+    <string name="latest_edit_page">Legutoljára szerkesztett oldal</string>
+    <string name="password_not_set_sync">A felhőben mentett jegyzettömbök szervezése privát és nyilvános változatként történik. Szeretne jelszót beállítani a privát jegyzettömbökhöz? Amennyiben nem, az összes jegyzettömb szervezése nyilvánosként történik.</string>
+
+    <string name="bookpicker_name">Név</string>
+    <string name="bookpicker_date">Dátum</string>
+   	<string name="bookpicker_sync_books_list">Könyvlista szink.</string>
+   	<string name="bookpicker_cancel">Mégse</string>
+   	<string name="bookpicker_ok">OK</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">Vonás</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Átlátszóság</string>
+   	<string name="share_to_image">Kép</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">Szövegek</string>  
+   	<string name="export">Exportálás</string>
+   	<string name="transfer">Átvitel</string>
+   	<string name="book_export">Jegyzettömb exportálása</string>
+   	<string name="prompt_exports_pdf_to">A PDF-fájlok mentési helye:</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Cím</string>  
+   	<string name="template_travel_tips_date">Dátum</string>
+   	<string name="template_meeting_tips_title">Téma</string>
+   	<string name="template_meeting_tips_time">Idő</string>
+   	<string name="template_meeting_tips_contact">Jelenlevő</string>
+   	<string name="template">Sablon</string>
+   	<string name="template_input_tips">Kattintson ide a tartalom szerkesztéséhez.</string>
+   	<string name="template_eidt_content">Tartalom szerkesztése</string>
+   	<!--wendy begin -->
+	<string name="select_all">Mind</string>
+   	<string name="prompt_no_book_selected">Nem választott könyvet.</string>
+   	
+
+   	<!-- begin :darwin -->
+   	<string name="latestedit">Utolsó szerkesztés</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">A verzió nem elérhető.</string>
+   	<string name="loading_page">Oldaladatok betöltése…</string>
+   	<string name="prompt_transfer_format">A könyvet át kell formáznia, ami időt vehet igénybe. Folytatja?</string>
+   	<string name="prompt_saving">Mentés...</string>
+   	<string name="prompt_transferring">Áttöltés…</string> 
+   	<string name="prompt_incompatible_syncing">A(z) %s nem kompatibilis verzió. Frissítse SuperNote verzióját.</string>
+   	<string name="prompt_incompatible_file">A(z) %s nem kompatibilis verzió.</string>
+   	<!-- END: Better -->
+	
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">Bejelentkezés. Kérjük, várjon...</string>
+   	<string name="webstorage_login_account_password_wrong">Hibás fiók vagy jelszó</string>
+   	<string name="sync_setting_sign_failure">A bejelentkezés ide nem lehetséges: %s</string>
+   	<string name="sync_setting_sign_success">Bejelentkezés ide: %s</string>
+   	<string name="sync_setting_networkless_title">Nincs kapcsolat</string>
+   	<string name="sync_setting_networkless">A szolgáltatás használatához internetkapcsolat szükséges. Kérjük, engedélyezze a mobilhálózati kapcsolatot vagy Wi-Fi-t a Settings (Beállítások) menüben.</string>
+   	
+   	<!-- END: show -->
+	<!-- 10th, End New String --> 
+	
+    <!-- 11th, Begin New String --> 
+
+<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">Több</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    
+    <!-- Begin Allen -->
+    <string name="Sort">Rendezés</string>
+    <!-- End Allen -->   
+  	
+
+ 	<string-array name="editor_func_insert_array">
+        <item>Fotó</item>
+        <item>Fénykép fájlból</item>
+        <item>Szöveg képe</item>
+        <item>PDF oldal</item>
+        <item>Audio recording</item>
+        <item>Videó</item>
+        <item>Szövegfájl</item>
+        <item>Időbélyeg</item>
+        <item>Díszítőelemek a vágólapról</item>
+	</string-array>
+	
+ 	<!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>Fotó</item>
+        <item>Fénykép fájlból</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+ 	
+	<string name="sync_setting_sign_out">%s kijelentkeztetése</string>
+	<string name="sync_setting_sign_out_msg">A kijelentkeztetés megszünteti a jegyzetfüzetek elérését felhőfiókján és letiltja a felhővel történő szinkronizálást. Folytatni akarja?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">A jelszava módosult. Szeretné elküldeni a jelszót e-mail fiókjába a későbbi hivatkozáshoz? Ezzel megelőzhető a rejtett jegyzetfüzetekhez való elérés elvesztése.\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Lezár</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">Kiold</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">Lezárás az elrejtéshez</string>
+	<string name="editor_phone_toast_seletext">Húzza el a szöveg kiemeléséhez</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">Lezár</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Le akarja zárni a jegyzetfüzetet?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Kiold</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Ki akarja oldani a jegyzetfüzetet?</string>
+    
+    <string name="set_password_dialog_title">Jelszó beállítása</string>
+    <string name="editor_func_button_recognize">Felismerés</string>
+    <string name="editor_func_button_transform">Átalakít</string>   
+    <string name="editor_phone_toast_readonly">Csak olvasás mód: Olvasás módban van. Használja az ujját a lapozáshoz vagy az oldal felfelé/lefelé görgetéséhez.</string>   
+		<!-- Modify 0817-0822 End: Show --> 
+		
+		<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">Exportálás PDF-be</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Sikertelen keresés.</string>
+		<!-- Modify 0823 End: Show -->  
+	<!-- 11th, End New String --> 
+	
+	<!-- 11.5th, Begin New String --> 
+	<!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Vonal</string>
+    <string name="book_type_grid">Háló</string>
+    <string name="book_type_meeting">Találkozó</string>
+    <string name="book_type_diary">Napló</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>Angol</item>
+        <item>Egyszerűsített kínai és angol</item>
+        <item>Hagyományos kínai és angol</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Visszatörlés mozdulat</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Kézírás módban húzza az ujját jobbról balra a legutóbb bevitt szöveg visszatörléséhez.</string>
+    <!-- Modify 0825 END: Show -->
+    
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">Kezdés dátuma</string>
+    <string name="template_meeting_end_date_tips">Befejezés dátuma</string>
+    <string name="template_meeting_start_time_tips">Kezdés ideje</string>
+    <string name="template_meeting_end_time_tips">Befejezés ideje</string>
+    <!-- End Allen -->    
+    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Zárolt jegyzettömb megjelenítése </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Zárolt jegyzettömb elrejtése </string>
+    <!-- END: Darwin -->        
+    
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Folyamatos vonás</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Ha a kézírás áthalad a vörös vonalon, az írott betűk automatikusan balra tolódnak.</string>
+    <string name="text_continue" description="continue" max_width="-1">Tovább</string>
+    <!-- END: Better -->
+    
+    <string name="nb_Write_Text_Recognition_dialog_msg">A Supernote felismeri a írott szöveget és gépelt szöveggé változtatja, majd duplikálja a jegyzettömböt.</string>
+    <string name="set_index_language_title">Felismerési nyelv beállítása</string> 
+	<!-- 11.5th, End New String --> 	
+
+	<!-- 13th, Begin New String -->
+	<string name="allpage_view" description="allpage_view" maxwidth="20">Minden oldal</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Be tud jelentkezni ASUS WebStorage fiókján keresztül.</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">Felhasználónév</string>
+	<string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Megtörtént a zárolt jegyzettömbök elrejtése.</string>
+	<string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">A zárolt jegyzettömbök immár olvashatóak.</string>
+	<!-- 13th, End New String -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">A kijelző méretétől függetlenül, hosszú szavakat írhat.</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s időbélyegző</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Keresés folyamatban. Kérjük, várjon.</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">Tartalomkeresés</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+       <string name="share_large" description="Large" max_width="5">Nagy</string>
+       <string name="share_medium" description="Medium" max_width="6">Közepes</string>
+       <string name="share_small" description="Small" max_width="5">Kicsi</string>
+       <string name="share_size" description="Size" max_width="4">Méret</string>
+       <string name="recognizing" description="Recognizing" max_width="15">Felismerés</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">Teendő</string>-->
+	<string name="book_type_blank">Üres</string>
+	<!-- End: Allen --> 
+	<!-- 14th, End New String -->
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">Oldal mentése</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">Kis türelmet…</string>
+	<string name="password_not_set_import">A jegyzettömbök szervezése privát és nyilvános változatként történhet. Szeretne jelszót beállítani privát jegyzettömbjeihez? Ha nem hoz létre jelszót, az összes jegyzettömb szervezése nyilvánosként történik.</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">Nincs</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">Rácsnézet</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">Saját jegyzettömbök</string>
+   	<string name="widget_bt_add_a_notebook">Jegyzettömb hozzáadása</string>
+   	<string name="widget_passwordTip">Adja meg a jelszót</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">Fedőlap szerkesztése</string>
+    <string name="nb_editcover_name">Fedőlap</string>
+    <string name="nb_editcover_original_preview">Alapértelmezett</string>
+    <string name="nb_editcover_choose_title">Kép választása</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">Jegyzettömb cseréje</string>
+	<string name="widget_all_book_template">Jegyzettömbök és új hozzáadása</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!-- <string name="todo_widget_voice" description="voice input from todo widget">Beszéd</string>-->
+	<string name="todo_widget_add" description="Add">Hozzáadás</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">Hozzáadás ehhez:</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">Minden teendő</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Rendezés oldal szerint</item>
+        <item>Rendezés időpont szerint</item>
+    </string-array>
+    	
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">Fontosság beállítása</string>
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Magas</item>
+        <item>Normál</item>
+        <item>Alacsony</item>
+    </string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">Kész</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+  	<string name="meeting_form" description="meeting start time">Feladó</string>
+    <string name="meeting_to" description="meeting end time">Címzett</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Jegyzettömb választása</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">Beszéd</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >Felismerve</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >Nincs teendő</string>-->
+    <string name="sync_cancel_confirmText">Megerősítés</string>
+    <string name="sync_cancel_promptTop">Megtörténik a törölt és szinkronizált elemek törlése a másik eszközről is.</string>
+    <string name="sync_cancel_promptBottom">Megszünteti a jegyzettömbök szinkronizálását?</string>
+    <string name="sync_cancel_noMoreHint">Emlékeztető kikapcsolása</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >Exportálás mint</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Supernote formátum</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >Formátum választása</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>Kép</item>
+        <!--<item>Szövegek</item>-->
+        <item>PDF</item>
+        <item>Supernote formátum</item>
+    </string-array>
+    <string name="pen_only_enabled">Csak toll használata</string>
+    <string name="pen_only_disabled">Csak toll használatának letiltása</string>
+    <string name="todo_title" description="memo template title" >Emlékeztető</string>
+    <string name="todo_widget_all_todos" description="All memos" >Minden emlékeztető</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >Nincs emlékeztető</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">Egyesít</string>
+    <string name="quicknote_funcbar_play">Lejátszás</string>
+    <string name="quicknote_funcbar_pause">Szünet</string>
+    <string name="quicknote_funcbar_save">Mentés</string>
+    <string name="quicknote_savehint_dlg_first">A rajz mentése nem történt meg.</string>
+    <string name="quicknote_savehint_dlg_sec">Szeretné most menteni?</string>
+    <string name="quicknote_savehint_dlg_saved">A rajz mentése sikeresen megtörtént a Képek mappában.</string>
+    <string name="quicknote_savehint_dlg_cleaned">A rajzot eltávolították.</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >Válasszon sablont a jegyzetfüzethez.</string>
+    <!-- End: 28th New String -->
+
+	<string name="editor_phone_readonly">Csak olvasás mód</string> <!--Carol-->
+
+</resources>

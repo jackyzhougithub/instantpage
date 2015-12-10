@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+   
+    <!-- Begin:show -->
+    <integer name="is_orientation_allow">0</integer>
+    <integer name="orientation_lock_init_horizontal">0</integer>
+    <integer name="is_show_button_on_actionbar">1</integer>
+    <!-- End:show -->
+   	
+   	<!-- BEGIN: RICHARD -->
+	<integer name="device_type">0</integer>
+	<!-- END: RICHARD -->
+	
+	<!-- Shane -->
+	<integer name="eraser_popup_menu_position_x">-10</integer>
+	<integer name="eraser_popup_menu_position_y">4</integer>    
+   
+         <!-- Begin  Darwin -->
+	<integer name="default_share_dialog_height">-2</integer>
+    <!-- End    darwin -->
+</resources>

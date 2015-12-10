@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.asus.instantpage"
+        minSdkVersion 8
+        targetSdkVersion 21
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':asusDraw')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/com.asus.pen.jar')
+    compile files('libs/com.visionobjects.myscript.engine.jar')
+    compile files('libs/com.visionobjects.myscript.hwr.jar')
+    compile files('libs/com.visionobjects.myscript.inksearch.jar')
+    compile files('libs/com.visionobjects.myscript.shape.jar')
+    compile files('libs/libGoogleAnalyticsServices.jar')
+}

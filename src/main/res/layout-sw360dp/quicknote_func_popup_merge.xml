@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="222dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/asus_instantpg_popupwindow_merge"
+    android:orientation="vertical">
+    <TextView 
+        android:id="@+id/quick_note_merge_screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:textColor="#f0f0f0"
+        android:drawableLeft="@drawable/quicknote_merge_popup_m1_selector"
+        android:drawablePadding="7dp"
+        android:text="@string/quicknote_funcbar_merge_1"
+        android:gravity="center_vertical|left"
+        />
+    
+    <ImageView				        
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/asus_instantpg_sepline_popup"/>
+
+    <TextView 
+        android:id="@+id/quick_note_merge_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:textColor="#f0f0f0"
+        android:drawableLeft="@drawable/quicknote_merge_popup_m2_selector"
+        android:drawablePadding="7dp"
+        android:text="@string/quicknote_funcbar_merge_2"
+        android:gravity="center_vertical|left"
+        />
+   	<ImageView				        
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/asus_instantpg_sepline_popup"/>
+
+    <TextView 
+        android:id="@+id/quick_note_merge_notepager"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:textColor="#f0f0f0"
+        android:drawableLeft="@drawable/quicknote_merge_popup_m3_selector"
+        android:drawablePadding="7dp"
+        android:text="@string/quicknote_funcbar_merge_3"
+        android:gravity="center_vertical|left"
+        />
+
+</LinearLayout>

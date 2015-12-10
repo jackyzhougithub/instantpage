@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">Entrar</string>
+    
+    <!-- <string name="go" description="Go" maxwidth="">Go</string> -->
+    <string name="edit" description="Edit" maxwidth="">Editar</string>
+    <string name="back" description="Back" maxwidth="">Voltar</string>
+    <string name="setting" description="Settings" maxwidth="">Definições</string>
+    <string name="backup" description="Backup" maxwidth="">Cópia de segurança</string>
+    <string name="restore" description="Restore" maxwidth="">Restaurar</string>
+    <string name="next" description="Next" maxwidth="">Seguinte</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">Introdução rápida</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">A predefinição é 400ms.</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms.</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Nome do Caderno de notas</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Cor da página</string>
+    <string name="notebook" description="Notebook" maxwidth="">Caderno de notas</string>
+    <string name="password" description="Password" maxwidth="">Palavra-passe</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Introduza uma palavra-passe com 4 a 7 carateres/dígitos.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Palavra-passe actual</string>
+    <string name="password_newpin" description="New password" maxwidth="">Nova palavra-passe</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Confirmar nova palavra-passe</string>
+    <string name="password_hint" maxwidth="">Atenção: A palavra-passe poderá incluir 4 a 7 dígitos e/ou carateres.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Definir/Alterar a palavra-passe</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">A palavra-passe actual está incorrecta.</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">As palavras-passe não correspondem.</string>
+    <string name="no_thanks" description="No, thanks" maxwidth="">Não, obrigado</string>
+    <string name="yes" description="Yes" maxwidth="">Sim</string>
+    <string name="share_to" description="Share to..." maxwidth="">Partilhar em...</string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">Exportar ficheiro de imagem para a Galeria</string>
+
+    <!-- <string name="prompt_pg_export" description="Export will create a ZIP file (/sdcard) for future Import." formatted="false" maxwidth="">Export will create a ZIP file (%s) for future Import.</string> -->
+    
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">Palavra-passe do SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">A palavra-passe do meu SuperNote foi alterada em %s. A nova palavra-passe é: %s</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">Título do Caderno de notas</string>
+    <string name="prompt" description="Prompt" maxwidth="">Aviso</string>
+    <string name="name" description="Name" maxwidth="">Nome</string>
+    <string name="del" description="Delete" maxwidth="">Eliminar</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Importar...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Importar Notas</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Não foi encontrado o método para abrir associado a este ficheiro</string>
+    <!-- <string name="prompt_saving" description="Saving..." maxwidth="">Saving</string> -->
+    <!-- <string name="prompt_select_text" description="Slide your finger to expand the range of selection." maxwidth="">Slide your finger to expand the range of selection.</string> -->
+    
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">Restauro bem sucedido!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">O restauro falhou. O ficheiro está danificado.</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">A efectuar cópia de segurança...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">Cópia de segurança efectuada com com êxito!</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Importação efectuada com êxito!</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Mover para</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Copiar para</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Eliminar Página(s) seleccionada(s)?</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_left">    |</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_middum">|</string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="pointer_right">|    </string>
+
+    <!-- NOT TRANSLATED -->
+
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Mantenha premido sobre uma página e arraste para reordenar as páginas.</string>
+
+    <!-- 1st PadFone String Revised -->
+
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">A primeira página</string>
+    <string name="phone_book_name" description="Phone book name">Lista telefónica</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">nova página</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">Nome do ficheiro de cópia de segurança</string>
+    <string name="clear_all" description="Clear all">Limpar tudo</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">Tem certeza que deseja eliminar todos os desenhos? Esta acção não pode ser anulada.</string>
+    <string name="delete_alert" description="warning of deleting">Deseja eliminar o desenho?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Utilize o dedo para mover ou redimensionar o objecto.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Toque para seleccionar ou arrastar um objecto ou múltiplos objectos.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Esta página está cheia.</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">Cor da&amp; caneta</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Caneta</string>
+    
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Esta página está vazia.</string>
+    
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">A imagem do memorando foi guardada.</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Caderno de notas</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">A palavra-passe ainda não foi definida</string>
+    <string name="warning_activity_not_found" description="Activity not found">O seu PadFone não suporta este tipo de ficheiro ou tipo de codec.</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Não existe nenhuma mensagem na área de transferência para colar.</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Remover</string>
+
+    
+
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Ad nova</string>
+    <!-- 2nd -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">pequeno</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">normal</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">grande</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Branco</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Amarelo</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">Azul</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">Linhas</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Grelhas</string>
+    <!-- [END]Note, grids + lines = 14 -->
+    
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Info. cad. notas</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">Pal.-passe p/ ocultar notas.</string>
+    
+    <string name="memo_link" description="press this button to link the page where the memo from">Ligar a:\n%s</string>
+    <string name="page_index" description="show the page index">Página %d</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">Crie um caderno de notas</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Não existe nenhum livro ou página para leitura</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Não existem páginas de marcador.</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">Não existe nenhum livro da lista Privada.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Elim?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Tem certeza que deseja eliminar esta página?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">Negr.</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Cor</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Cop.</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Cort.</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Edit.</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Agru.</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Desa.</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Lbase</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Marcador</string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">Criar memo.</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Só de leit.</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">Part.</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Anul.</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Refa.</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Inse.</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Sele.</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Colar</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Elim.</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">Traço</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Pinc.</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Borr.</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Canc.</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Conc.</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">Seg.</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">Copiar uma vez</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">Repor</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Part. só texto</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Oc. grelha</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">Larg.:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">Altura:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Tam.:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Sobre o SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Ligado</string>
+    <string name="set_off" description="Off" maxwidth="">Desligado</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Modo de leitura predefinido</string>
+    <!--string name="app_name">SuperNote</string-->
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s página(s) eliminada(s).</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Copiar página(s) para</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Mover %d página(s) para </string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">exportar a(s) página(s)</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Seleccionar tudo</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Desmarcar tudo</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">Eliminar página(s)</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">mover página(s)</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">Pode utilizar gestos tácteis para virar ou deslocar a página.</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">Cor</string>
+    <string name="memo_del" description="Deleted memo">Apagar o(s) memorando(s) seleccionado(s)?</string>
+    <string name="pg_selected" description="show how many pages are selected">%s página(s) seleccionada(s)</string>
+    <string name="memo_count" description="show how many memos in this view">%s memorandos</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">O memorando está vazio</string>
+    <string name="book_grid_title" description="the title of the page display property">Estilo da linha</string>
+    <string name="page_counter" description="show the total page number the book has">%d página(s)</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">copiar página(s)</string>
+    <string name="wrong_file_type" description="wrong_file_type">O tipo de ficheiro não é correcto.</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     O caderno de notas está oculto em modo Privado neste momento.\r\n
+        Todos os Marcadores no Caderno de notas serão removidos do ecrã Marcadores.\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">Não mostrar novamente esta mensagem</string>
+    <string name="editor_menu_share">Partilhar</string>
+
+    <string-array name="pg_size">
+        <item>Para Pad</item>
+        <item>Para Telefone</item>
+    </string-array>
+
+    
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d página(s) copiada(s) para %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Tamanho da página</string>
+    <string name="editor_menu_addpage" maxwidth="12">Adic. página</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Rem. página</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Ficheiro danificado. Falha ao importar o ficheiro.</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Mover página(s) para</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">A página não existe</string>
+    
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">A última página</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">Está em modo só de leitura. Pode utilizar gestos tácteis para virar ou deslocar a página.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">O formato da página não é compatível</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">Vazio</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">Crie um novo caderno de notas</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">Deseja restaurar todos os ficheiros guardados previamente no cartão SD?</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Escr.</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Digit</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Desen</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">A carregar o tutorial...</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">Tamanho da página</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">        Seleccione Para Pad ou Para Telefone na lista pendente para definir o tamanho das páginas do caderno de notas.</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">Tamanho para telefone</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">Tamanho para Pad</string>
+    <string name="load_tutorial" description="" maxwidth="">A carregar o tutorial...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Adicionar aos marcadores</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">Remover dos marcadores</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Remover dos marcadores?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Exibir marcadores</string>
+    <!-- 5th -->
+    
+
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Rápida</item>
+        <item>Normal</item>
+        <item>Lenta</item>
+    </string-array>
+    
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">página %s</string>
+    <string name="reset_password_title" description="reset the password">Repor a palavra-passe</string>
+    <string name="reset_password_summary">Limpar a palavra-passe</string>
+    <string name="reset_password_dialog_title">Repor palavra-passe</string>
+    <string name="reset_password_dialog_password_invalid">Palavra-passe inválida</string>
+    <string name="confirm_reset_dialog_title">Repor palavra-passe</string>
+    <string name="no_memory_dialog_title">Atenção</string>
+    <string name="no_memory_dialog_content">Não existe memória suficiente</string>
+    <string name="personal_book">Pessoal\nBloco de notas</string>
+    <string name="backup_fail">A cópia de segurança falhou</string>
+
+    
+    <!-- 6th -->
+    <string name="dialog_file_name">Nome do Ficheiro</string>
+    <string name="dialog_save_to">Guardar em</string>
+    
+    <!-- 10th, Start New String -->
+    <string name="new_page" description="Create New Page" maxwidth="15">Criar nova pág</string>
+	
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Bloco de notas exportado para</string>
+	<string name="notebook_selected" description="show how many pages are selected">%s bloco(s) de notas seleccionado(s)</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s marcadores</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">Blocos de notas</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">Marcador</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">Carimbo de data e hora</string>
+ 
+	<string-array name="pg_sort">
+        <item>Por nome</item>
+        <item>Por data de modificação</item>
+	</string-array>
+    
+	<string-array name="notebook_sort">
+        <item>Por nome</item>
+        <item>Por data de modificação</item>
+	</string-array>
+ 
+	<string-array name="nb_show">
+        <item>Vista de bloco de notas</item>
+        <!--  item>All pages</item>-->
+        <item>Vista de marcadores</item>
+        <!-- <item>Memo board</item> -->
+        <!--<item>Personal</item> -->
+  		<item>Vista de carimbo de data e hora</item>
+	</string-array>
+    
+	<string-array name="week_of_day">
+       <item>Domingo</item>
+       <item>Segunda-feira</item>
+       <item>Terça-feira</item>
+       <item>Quarta-feira</item>
+       <item>Quinta-feira</item>
+       <item>Sexta-feira</item>
+       <item>Sábado</item>
+       <item>Hoje</item>
+       <item>Ontem</item>
+       <item>Semana passada</item>
+       <item>Há duas semanas</item>
+       <item>Há três semanas</item>
+       <item>Amanhã</item>
+       <item>Próxima semana</item>
+       <item>Duas semanas depois</item>
+       <item>Três semanas depois</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>Janeiro</item>
+       <item>Fevereiro</item>
+       <item>Março</item>
+       <item>Abril</item>
+       <item>Maio</item>
+       <item>Junho</item>
+       <item>Julho</item>
+       <item>Agosto</item>
+       <item>Setembro</item>
+       <item>Outubro</item>
+       <item>Novembro</item>
+       <item>Dezembro</item>
+       <item>Mês passado</item>
+       <item>Há seis meses</item>
+       <item>Há mais de um ano</item>
+       <item>Próximo mês</item>
+       <item>Seis meses depois</item>
+       <item>Um ano depois</item>
+	</string-array>
+   
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">Deseja eliminar o bloco de notas?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Mudar o nome</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Ocultar</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Eliminar</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Exportar</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Recortar</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Editar</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">Substituir</string>	<!--by show-->
+    
+    
+    
+    <string name="latest_edited_lable" description="the latest edited page">Última página editada</string>
+    
+    
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Velocidade de reconhecimento de escrita</string>
+    
+    <!-- add by Better -->
+    <string name="password_or_account_empty">O campo da conta ou palavra-passe não pode estar vazio.</string>
+   
+    <string name="nb_sync">Activar sincron. na nuvem</string>
+    <string name="nb_async">Cancelar sincron. na nuvem</string>
+    
+    <string name="sync_status_none">Nenhuma tarefa de sincronização.</string>
+    <string name="sync_status_last_sync">Última actualização: </string>
+    <string name="sync_status_syncing">A sincronizar...</string>
+    <string name="sync_status_failed">Falha ao sincronizar os dados.</string>
+    <string name="sync_status_starting">A iniciar a sincronização...</string>
+    <string name="sync_account_text">Conta</string>
+    <string name="sync_sign_on">Iniciar sessão</string>
+    <string name="sync_sign_off">Terminar sessão</string>
+    <string name="account_space_usage">Espaço utilizado</string>  	<!-- by show -->
+    <string name="account_and_sync">Defin. de sincron. da conta</string>
+    <string name="sync_setting_auto">Sincronização automática</string>
+    <string name="sync_setting_auto_frequency">Freq. sincron. automática</string>
+    <string name="sync_auto_interval_1">A cada 1 min.</string>
+    <string name="sync_auto_interval_15">A cada 15 min.</string>
+    <string name="sync_auto_interval_30">A cada 30 min.</string>
+    <string name="sync_auto_interval_60">A cada 60 min.</string>
+    <string name="sync_auto_interval_1d">Todos os dias</string>
+    <!-- add by Better -->
+    
+    <!-- begin show -->
+	<string name="webstorage_register">Registar</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">Cancelar</string>
+	<string name="webstorage_ok">Ok</string>-->
+	<string name="webstorage_signon">Iniciar sessão</string>
+	<!-- end show -->
+	
+    
+    <string name="export_pdf_prompt">Ficheiro PDF guardado em </string>
+    <string name="share_type_image">Imagem</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">Concluído</string>  
+    <string name="Crop_Cancel">Cancelar</string>	
+    <string name="Crop_Free">Laço</string>	
+    <string name="Crop_Rect">Rectângulo</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">A transferir...</string>
+    <string name="prompt_export_pdf_to">Ficheiro PDF guardado em</string>
+    <string name="browse_folder">Procurar</string>
+    <string name="export_supernote_format">Exportar formato Supernote</string>
+    <string name="file_export">Exportar ficheiro</string>
+    <string name="editor_func_button_search">Procurar</string>
+    <string name="no_search_result">Nenhum item corresponde à sua procura.</string>
+    <string name="editor_func_button_shape">Forma</string>
+    <string name="SearchResultItemInfo_Loading">A carregar...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Falha ao ler o ficheiro.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Blocos de notas</string>
+    <string name="SearchResultItemInfo_Pages">Páginas</string>
+    <string name="SearchResultItemInfo_Personal">Pessoal</string> 
+    <string name="SearchResultItemInfo_Page_Space">Página </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Escrever recon. texto</string>
+    <string name="reset_index_language_title">Repor idioma de índice</string>  
+      <!-- wendy  -->
+    <string name="latest_edit_page">Última página editada</string>
+    <string name="password_not_set_sync">Os blocos de notas guardados na nuvem são classificados como privados e públicos. Deseja criar uma palavra-passe para os blocos de notas privados? Caso contrário, todos os blocos de notas serão classificados como públicos.</string>
+
+    <string name="bookpicker_name">Nome</string>
+    <string name="bookpicker_date">Data</string>
+   	<string name="bookpicker_sync_books_list">Lista de livros sincronizados</string>
+   	<string name="bookpicker_cancel">Cancelar</string>
+   	<string name="bookpicker_ok">Ok</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">Traço</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opacidade</string>
+   	<string name="share_to_image">Imagem</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">Textos</string>  
+   	<string name="export">Exportar</string>
+   	<string name="transfer">Transferir</string>
+   	<string name="book_export">Exportar bloco de notas</string>
+   	<string name="prompt_exports_pdf_to">Ficheiros PDF guardados em</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Título</string>  
+   	<string name="template_travel_tips_date">Data</string>
+   	<string name="template_meeting_tips_title">Tópico</string>
+   	<string name="template_meeting_tips_time">Hora</string>
+   	<string name="template_meeting_tips_contact">Participante</string>
+   	<string name="template">Modelo</string>
+   	<string name="template_input_tips">Clique aqui para editar o conteúdo.</string>
+   	<string name="template_eidt_content">Editar conteúdo</string>
+   	<!--wendy begin -->
+	<string name="select_all">Tudo</string>
+   	<string name="prompt_no_book_selected">Nenhum livro seleccionado.</string>
+   	
+
+   	<!-- begin :darwin -->
+   	<string name="latestedit">Última edição</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">A versão não está disponível.</string>
+   	<string name="loading_page">A carregar dados de página...</string>
+   	<string name="prompt_transfer_format">Deve reformatar este livro e o processo poderá demorar algum tempo. Deseja continuar?</string>
+   	<string name="prompt_saving">A guardar...</string>
+   	<string name="prompt_transferring">A transferir...</string> 
+   	<string name="prompt_incompatible_syncing">%s não é uma versão compatível. Actualize o seu SuperNote.</string>
+   	<string name="prompt_incompatible_file">%s não é uma versão compatível.</string>
+   	<!-- END: Better -->
+	
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">A iniciar sessão. Aguarde...</string>
+   	<string name="webstorage_login_account_password_wrong">Conta ou palavra-passe errada</string>
+   	<string name="sync_setting_sign_failure">Não é possível iniciar sessão %s</string>
+   	<string name="sync_setting_sign_success">Iniciar sessão %s</string>
+   	<string name="sync_setting_networkless_title">Sem ligação</string>
+   	<string name="sync_setting_networkless">É necessária uma ligação à Internet para utilizar este serviço. Active a sua ligação de rede móvel ou Wi-Fi nas Definições.</string>
+   	
+   	<!-- END: show -->
+	<!-- 10th, End New String --> 
+
+    <!-- 11th, Begin New String --> 
+
+<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">Mais</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    
+    <!-- Begin Allen -->
+    <string name="Sort">Ordenar</string>
+    <!-- End Allen -->   
+  	
+
+ 	<string-array name="editor_func_insert_array">
+        <item>Foto</item>
+        <item>Imagem de ficheiro</item>
+        <item>Imagem de texto</item>
+        <item>Página PDF</item>
+        <item>Gravação de áudio</item>
+        <item>Vídeo</item>
+        <item>Ficheiro de texto</item>
+        <item>Carimbo de data e hora</item>
+        <item>Arte da área de transferência</item>
+	</string-array>
+	
+ 	<!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>Foto</item>
+        <item>Imagem de ficheiro</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+ 	
+	<string name="sync_setting_sign_out">Terminar sessão %s</string>
+	<string name="sync_setting_sign_out_msg">Ao terminar a sessão irá remover o acesso aos blocos de notas na sua conta na nuvem e desactivar a sincronização com a nuvem. Deseja continuar?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">A sua palavra-passe foi alterada. Deseja enviar a palavra-passe para a sua conta de e-mail para referência futura? Isto irá impedir a perda de acesso aos blocos de notas ocultos.\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Bloquear</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">Desbloquear</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">Bloquear para ocultar</string>
+	<string name="editor_phone_toast_seletext">Arraste para realçar o texto</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">Bloquear</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Deseja bloquear o bloco de notas?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Desbloquear</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Deseja desbloquear o bloco de notas?</string>
+    
+    <string name="set_password_dialog_title">Definir palavra-passe</string>
+    <string name="editor_func_button_recognize">Reconhecer</string>
+    <string name="editor_func_button_transform">Transformar</string>   
+    <string name="editor_phone_toast_readonly">Apenas modo de leitura: Está em Modo de leitura. Utilize o dedo para folhear ou deslocar a página para cima/baixo.</string>   
+		<!-- Modify 0817-0822 End: Show --> 
+		
+		<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">Exportar como PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">A pesquisa falhou.</string>
+		<!-- Modify 0823 End: Show -->
+	<!-- 11th, End New String --> 
+	
+	<!-- 11.5th, Begin New String --> 
+	<!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Linha</string>
+    <string name="book_type_grid">Grelha</string>
+    <string name="book_type_meeting">Reunião</string>
+    <string name="book_type_diary">Diário</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>Inglês</item>
+        <item>Chinês Simplificado e Inglês</item>
+        <item>Chinês Tradicional e Inglês</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Gesto de retroceder</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Em modo de escrita manual, deslize o dedo da direita para a esquerda para eliminar o último texto introduzido.</string>
+    <!-- Modify 0825 END: Show -->
+    
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">Data de início</string>
+    <string name="template_meeting_end_date_tips">Data de fim</string>
+    <string name="template_meeting_start_time_tips">Hora de início</string>
+    <string name="template_meeting_end_time_tips">Hora de fim</string>
+    <!-- End Allen -->    
+    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Exibir bloco de notas bloq.</string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Ocultar bloco de notas bloq.</string>
+    <!-- END: Darwin -->        
+    
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Linha de escrita contínua</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Quando a sua escrita passar a linha vermelha, as letras escritas passam automaticamente para a esquerda.</string>
+    <string name="text_continue" description="continue" max_width="-1">Continuar</string>
+    <!-- END: Better -->
+    
+    <string name="nb_Write_Text_Recognition_dialog_msg">O Supernote irá efectuar o reconhecimento de todos os textos escritos para textos digitados e duplicar este bloco de notas.</string>
+    <string name="set_index_language_title">Definir idioma de reconhecimento</string> 
+	<!-- 11.5th, End New String --> 
+
+	<!-- 13th, Begin New String  -->
+ 	<string name="allpage_view" description="allpage_view" maxwidth="20">Todas as páginas</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Pode iniciar sessão utilizando a sua conta ASUS WebStorage.</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">Nome do utilizador</string>
+	<string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Os blocos de notas bloqueados foram ocultados.</string>
+	<string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Os blocos de notas bloqueados podem ser lidos agora.</string>
+	<!-- 13th, End New String  -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Escrever palavras longas continuamente independentemente do tamanho do ecrã.</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s carimbo(s) de data e hora</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">A procurar, aguarde.</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">Proc. conteúdo</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+       <string name="share_large" description="Large" max_width="5">Gr.</string>
+       <string name="share_medium" description="Medium" max_width="6">Méd.</string>
+       <string name="share_small" description="Small" max_width="5">Peq.</string>
+       <string name="share_size" description="Size" max_width="4">Tam.</string>
+       <string name="recognizing" description="Recognizing" max_width="15">A reconhecer</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">A fazer</string>-->
+	<string name="book_type_blank">Vazio</string>
+	<!-- End: Allen --> 
+	<!-- 14th, End New String -->
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">Guardar pág.</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">Aguarde...</string>
+	<string name="password_not_set_import">Os blocos de notas podem ser definidos como privados ou públicos. Deseja criar uma palavra-passe para os seus blocos de notas privados? Se não for criada nenhuma palavra-passe, todos os seus blocos de notas serão definidos como públicos.</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">Nenhum</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">Ver grelha</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">Os meus blocos de notas</string>
+   	<string name="widget_bt_add_a_notebook">Adicionar um bloco de notas</string>
+   	<string name="widget_passwordTip">Introduza a palavra-passe</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">Editar capa</string>
+    <string name="nb_editcover_name">Capa</string>
+    <string name="nb_editcover_original_preview">Predefinição</string>
+    <string name="nb_editcover_choose_title">Escolher imagem</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">Substituir bloco de notas</string>
+	<string name="widget_all_book_template">Os meus blocos de notas e adicionar novo</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!--<string name="todo_widget_voice" description="voice input from todo widget">Voz</string>-->
+	<string name="todo_widget_add" description="Add">Adicionar</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">Adicionar a</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">Todas as tarefas</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Ordenar por página</item>
+        <item>Ordenar por hora</item>
+    </string-array>
+    	
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">Definir prioridade</string>
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Alta</item>
+        <item>Normal</item>
+        <item>Baixa</item>
+    </string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">Concluída</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+  	<string name="meeting_form" description="meeting start time">De</string>
+    <string name="meeting_to" description="meeting end time">Até</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Seleccionar bloco de notas</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">Voz</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >Reconhecido</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >Não existem tarefas</string>-->
+    <string name="sync_cancel_confirmText">Confirmar</string>
+    <string name="sync_cancel_promptTop">Os ficheiros sincronizados eliminados serão também eliminados no outro dispositivo.</string>
+    <string name="sync_cancel_promptBottom">Deseja remover a sincronização destes blocos de notas?</string>
+    <string name="sync_cancel_noMoreHint">Não lembrar novamente</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >Exportar como</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Formato Supernote</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >Seleccionar formato</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>Imagem</item>
+        <!--<item>Textos</item>-->
+        <item>PDF</item>
+        <item>Formato Supernote</item>
+    </string-array>
+    <string name="pen_only_enabled">Utilizar apenas Caneta</string>
+    <string name="pen_only_disabled">Desactivar apenas Caneta</string>
+    <string name="todo_title" description="memo template title" >Memo</string>
+    <string name="todo_widget_all_todos" description="All memos" >Todos os memos</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >Não existem Memos</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">Unir</string>
+    <string name="quicknote_funcbar_play">Reproduzir</string>
+    <string name="quicknote_funcbar_pause">Pausa</string>
+    <string name="quicknote_funcbar_save">Guardar</string>
+    <string name="quicknote_savehint_dlg_first">O desenho não foi guardado.</string>
+    <string name="quicknote_savehint_dlg_sec">Deseja guardá-lo agora?</string>
+    <string name="quicknote_savehint_dlg_saved">O desenho foi guardado nas Imagens.</string>
+    <string name="quicknote_savehint_dlg_cleaned">O desenho foi limpo.</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >Escolha um modelo para o seu bloco de notas</string>
+    <!-- End: 28th New String -->
+ 
+    <string name="editor_phone_readonly">Apenas modo de leitura</string> <!--Carol-->
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/asus_instantpg_hint"
+    android:paddingRight="13dp"
+    android:paddingLeft="13dp"
+    android:textSize="14sp"
+    android:fontFamily="sans-serif"
+    android:textColor="#ffffffff"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="28dp" >
+</TextView>

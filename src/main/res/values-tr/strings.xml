@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">Gir</string>
+    
+    <!-- <string name="go" description="Go" maxwidth="">Go</string> -->
+    <string name="edit" description="Edit" maxwidth="">Düzenle </string>
+    <string name="back" description="Back" maxwidth="">Geri</string>
+    <string name="setting" description="Settings" maxwidth="">Ayarlar</string>
+    <string name="backup" description="Backup" maxwidth="">Yedekle </string>
+    <string name="restore" description="Restore" maxwidth="">Geri Yükle</string>
+    <string name="next" description="Next" maxwidth="">Sonraki</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">karalama tanıma hızı</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">Varsayılan 400ms\'dir.</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms.</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Not Defteri Adı </string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Sayfa Rengi </string>
+    <string name="notebook" description="Notebook" maxwidth="">Not Defteri</string>
+    <string name="password" description="Password" maxwidth="">Parola </string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">4 ila 7 karakterden/rakamdan oluşan bir parola girin. </string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Yürürlükteki parola </string>
+    <string name="password_newpin" description="New password" maxwidth="">Yeni parola </string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Yeni parolayı onayla </string>
+    <string name="password_hint" maxwidth="">Dikkat: Parola 4 ila 7 rakam ve/veya karakterden oluşmalıdır.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Parolayı Belirle/Değiştir</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">Yürürlükteki parola yanlış. </string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Parolalar uyuşmuyor. </string>
+    <string name="no_thanks" description="No, thanks" maxwidth="">Hayır, teşekkürler </string>
+    <string name="yes" description="Yes" maxwidth="">Evet</string>
+    <string name="share_to" description="Share to..." maxwidth="">...ile paylaş </string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">Galeriye görüntü dosyası aktar </string>
+    <!-- <string name="prompt_pg_export" description="Export will create a ZIP file (/sdcard) for future Import." formatted="false" maxwidth="">Export will create a ZIP file (%s) for future Import.</string> -->
+    
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote parolası </string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">%s tarihinde SuperNote\'umun parolası değiştirildi. Yeni parola:  %s</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">Not Defteri Başlığı </string>
+    <string name="prompt" description="Prompt" maxwidth="">Bilgi istemi</string>
+    <string name="name" description="Name" maxwidth="">Adlandır </string>
+    <string name="del" description="Delete" maxwidth="">Sil</string>
+    <string name="prompt_import" description="Import..." maxwidth="">İçeriye aktar...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Notları İçeriye Aktar</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Bu dosya ile ilişkilendirilmiş açma yöntemi bulunamadı </string>
+    <!-- <string name="prompt_saving" description="Saving..." maxwidth="">Saving</string> -->
+    <!-- <string name="prompt_select_text" description="Slide your finger to expand the range of selection." maxwidth="">Slide your finger to expand the range of selection.</string> -->
+    
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">Başarıyla geri yüklendi!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">Geri yükleme başarısız.  Dosya bozuk.</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">Yedekleme...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">Başarıyla yedeklendi! </string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Başarıyla içeri aktarıldı!</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Taşı</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopyala </string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Seçili Sayfa(lar) silinsin mi? </string>
+
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_left">    |</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_middum">|</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_right">|    </string>
+    <!-- NOT TRANSLATED -->
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Sayfaları yeniden sıralamak için sayfaya uzun süreli basın ve sürükleyin. </string>
+
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">İlk sayfa</string>
+    <string name="phone_book_name" description="Phone book name">Telefon defteri</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">yeni syf</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">Yedek dosya adı</string>
+    <string name="clear_all" description="Clear all">Tüm Temzl</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">Tüm çizimleri silmek istediğinizden emin misiniz? Bu eylem geri alınamaz.</string>
+    <string name="delete_alert" description="warning of deleting">Çizimi silmek istiyor musunuz?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Nesneyi taşımak veya yeniden boyutlandırmak için parmağınızı kullanın.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Bir veya daha fazla nesneyi seçmek veya sürüklemek için dokunun.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Bu sayfa dolu.</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">Kalem &amp; Rengi</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Kalem</string>
+    
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Bu sayfa boş.</string>
+    
+    <string name="fifty_percent">%50</string>
+    <string name="hundred_percent">%100</string>
+    <string name="memo_saved" description="Memo saved">Memo görüntüsü kaydedildi.</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Dizüstü</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">Parola henüz ayarlanmadı</string>
+    <string name="warning_activity_not_found" description="Activity not found">PadFone\'unuz bu dosya veya codec türünü desteklemiyor.</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Panoda yapıştırılacak görüntü yok.</string>
+    <string name="two_hundred_percent">%200</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Kaldır</string>
+
+    
+
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Yeni Ekle</string>
+
+    <!-- 2nd -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">küçük</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">normal</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">byk</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Beyaz</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Sarı</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">Mavi</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">Çizgiler</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Izgaralar</string>
+    <!-- [END]Note, grids + lines = 14 -->
+    
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Dizst bilgi göster</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">Not gizle içn parola ayarla.</string>
+   
+    <string name="memo_link" description="press this button to link the page where the memo from">Bağla:\n%s</string>
+    <string name="page_index" description="show the page index">Sayfa %d</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">Dizüstü oluşturun</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Okunck kitap veya sayfa yok</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Yer işrt sayf yok.</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">Özel listesinde kitap yok.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Sil?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Bu sayfayı silmek istedğnzdn emin misiniz?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">Kaln</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Renk</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopy</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Kes</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Dznl</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Grupl</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Gr Çz</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Tb çz</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Yeriş</string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">Not Oluştur</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Salt okunur</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">Paylş</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Gr Al</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Yinel</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Ekle</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Seç</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Ypştr</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Sil</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">Vuruş</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Fırça</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Silgi</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">İptal</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Bitti</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">İleri</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">BrKereKpy</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">Sıfırl</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Ylnzc metin pylş</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Izgr gizle</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">Gnşlk:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">Yksklk:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Boyt:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">SuperNote Hakkında</string>
+    <string name="set_on" description="On" maxwidth="">Açık</string>
+    <string name="set_off" description="Off" maxwidth="">Kapalı</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Varsayılan olarak okuma modu</string>
+    <!--string name="app_name">SuperNote</string-->
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s sayfa silindi.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Sayfaları kopyala</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">%d sayfayı taşı </string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">sayfaları ver</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Tümünü seç</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Tümünün seçimini kaldır</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">Sayfaları sil</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">sayfaları taşı</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">Sayfayı döndürmek veya kaydırmak için dokunma hareketini kullanabilirsiniz.</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">Renk</string>
+    <string name="memo_del" description="Deleted memo">Seçili notlar silinsin mi?</string>
+    <string name="pg_selected" description="show how many pages are selected">%s sayfa seçildi</string>
+    <string name="memo_count" description="show how many memos in this view">%s not</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Not boş</string>
+    <string name="book_grid_title" description="the title of the page display property">Çizgi stili</string>
+    <string name="page_counter" description="show the total page number the book has">%d sayfa</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">sayfaları kopyala</string>
+    <string name="wrong_file_type" description="wrong_file_type">Dosya tipi doğru değil.</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     Not defteri şimdi Özel görünümde gizli.\r\n
+        Not Defterindeki Yer İmleri Yer İmi görünümünden kaldırılacaktır.\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">Bu iletiyi yeniden gösterme</string>
+    <string name="editor_menu_share">Paylaş</string>
+
+    <string-array name="pg_size">
+        <item>Pad için</item>
+        <item>Telefon için</item>
+    </string-array>
+
+    
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d sayfa %s konumuna kopyalandı</string>
+    <string name="page_size" description="Page Size" maxwidth="">Sayfa boyutu</string>
+    <string name="editor_menu_addpage" maxwidth="12">Sayfa ekle</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Sayfayı kaldır</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Bozuk dosya. Dosya alınamadı.</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Sayfaları taşı</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Sayfa yok.</string>
+    
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Son sayfa</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">Salt okunur moddasınız. Sayfayı döndürmek veya kaydırmak için dokunma hareketini kullanabilirsiniz.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Sayfa biçimi uyumlu değil</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">Boş</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">Lütfen yeni bir not defteri oluşturun</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">Önceden kaydedilen tüm dosyalarınızı SD karttan geri yüklemek istiyor musunuz?</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Yazma</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Tür</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Çizim</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">Öğretici yükleniyor...</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">Syf boyut</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">Açılır listeden, Dizüstü sayfaları sayfa boyutu olarak Pad İçin veya Telefon İçin\'i seçin.</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">Telfn boyt</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">Pad boyt</string>
+    <string name="load_tutorial" description="" maxwidth="">Öğretici yükleniyor...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Yer işaretine ekle</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">Yer işaretinden kaldr</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Yer işaretinden kaldr?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Yer işart gstr</string>
+    <!-- 5th -->
+    
+
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Hızlı</item>
+        <item>Normal</item>
+        <item>Yavaş</item>
+    </string-array>
+    
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">syf %s</string>
+    <string name="reset_password_title" description="reset the password">Şifreyi sıfırla</string>
+    <string name="reset_password_summary">Şifreyi temizle</string>
+    <string name="reset_password_dialog_title">Şifreyi Sıfırla</string>
+    <string name="reset_password_dialog_password_invalid">Geçersiz Şifre</string>
+    <string name="confirm_reset_dialog_title">Şifreyi Sıfırla</string>
+    <string name="no_memory_dialog_title">Dikkat</string>
+    <string name="no_memory_dialog_content">Yeterli hafıza yok</string>
+    <string name="personal_book">Kişisel\nDizüstü bilgisayar</string>
+    <string name="backup_fail">Yedekleme başarısız oldu</string>
+
+    
+    <!-- 6th -->
+    <string name="dialog_file_name">Dosya Adı</string>
+    <string name="dialog_save_to">Kaydet</string>
+    
+    <!-- 10th, Start New String -->
+    <string name="new_page" description="Create New Page" maxwidth="15">Yeni bir sayfa oluştur</string>
+	
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Dizüstünün aktarıldığı yer</string>
+	<string name="notebook_selected" description="show how many pages are selected">%s dizüstü seçildi</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s yerimi</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">Dizüstüler</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">Yerimi</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">Zaman pulu</string>
+ 
+	<string-array name="pg_sort">
+        <item>İsme göre</item>
+        <item>Son değiştirmeye göre</item>
+	</string-array>
+    
+	<string-array name="notebook_sort">
+        <item>İsme göre</item>
+        <item>Son değiştirmeye göre</item>
+	</string-array>
+ 
+	<string-array name="nb_show">
+        <item>Dizüstü Görünümü</item>
+        <!--  item>All pages</item>-->
+        <item>Yerimi Görünümü</item>
+        <!-- <item>Memo board</item> -->
+        <!--<item>Personal</item> -->
+  		<item>Zaman Pulu Görünümü</item>
+	</string-array>
+    
+	<string-array name="week_of_day">
+       <item>Pazar</item>
+       <item>Pazartesi</item>
+       <item>Salı</item>
+       <item>Çarşamba</item>
+       <item>Perşembe</item>
+       <item>Cuma</item>
+       <item>Cumartesi</item>
+       <item>Bugün</item>
+       <item>Dün</item>
+       <item>Geçen hafta</item>
+       <item>İki hafta önce</item>
+       <item>Üç hafta önce</item>
+       <item>Yarın</item>
+       <item>Sonraki hafta</item>
+       <item>İki hafta sonra</item>
+       <item>Üç hafta sonra</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>Ocak</item>
+       <item>Şubat</item>
+       <item>Mart</item>
+       <item>Nisan</item>
+       <item>Mayıs</item>
+       <item>Haziran</item>
+       <item>Temmuz</item>
+       <item>Ağustos</item>
+       <item>Eylül</item>
+       <item>Ekim</item>
+       <item>Kasım</item>
+       <item>Aralık</item>
+       <item>Geçen ay</item>
+       <item>Altı ay önce</item>
+       <item>Bir yıldan daha uzun süre önce</item>
+       <item>Sonraki ay</item>
+       <item>Altı ay sonra</item>
+       <item>Bir yıl sonra</item>
+	</string-array>
+   
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">Dizüstünü silmek istiyor musunuz?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Yeniden Adlandır</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Gizle</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Sil</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Ver</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Kırp</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Düzenle</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">Değiştir</string>	<!--by show-->
+    
+    
+    
+    <string name="latest_edited_lable" description="the latest edited page">Son düzenlenen sayfa</string>
+    
+    
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Giriş Algılama Hızı</string>
+    
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Hesap veya parola alanı boş olamaz.</string>
+   
+    <string name="nb_sync">Bulut Senki Etkinleştir</string>
+    <string name="nb_async">Bulut Senki İptal Et</string>
+    
+    <string name="sync_status_none">Senk görevi yok.</string>
+    <string name="sync_status_last_sync">Son güncelleme: </string>
+    <string name="sync_status_syncing">Senkronize ediyor...</string>
+    <string name="sync_status_failed">Verileri senkronize edemedi.</string>
+    <string name="sync_status_starting">Senkronizasyona başlıyor…</string>
+    <string name="sync_account_text">Hesap</string>
+    <string name="sync_sign_on">Oturum aç</string>
+    <string name="sync_sign_off">Oturum kapat</string>
+    <string name="account_space_usage">Kullanılan alan</string>  	<!-- by show -->
+    <string name="account_and_sync">Hesap Senk Ayarları</string>
+    <string name="sync_setting_auto">Oto Senk</string>
+    <string name="sync_setting_auto_frequency">Oto Senk Sıklığı</string>
+    <string name="sync_auto_interval_1">Her 1 dk</string>
+    <string name="sync_auto_interval_15">Her 15 dk</string>
+    <string name="sync_auto_interval_30">Her 30 dk</string>
+    <string name="sync_auto_interval_60">Her 60 dk</string>
+    <string name="sync_auto_interval_1d">Hergün</string>
+    <!-- add by Better -->
+    
+    <!-- begin show -->
+	<string name="webstorage_register">Kaydol</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">İptal</string>
+	<string name="webstorage_ok">Tamam</string>-->
+	<string name="webstorage_signon">oturum açamıyor</string>
+	<!-- end show -->
+	    
+    
+    <string name="export_pdf_prompt">PDF Dosyasının kaydedildiği yer </string>
+    <string name="share_type_image">Resim</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">Bitti</string>  
+    <string name="Crop_Cancel">İptal</string>	
+    <string name="Crop_Free">Lasso</string>	
+    <string name="Crop_Rect">Kare</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">Aktarıyor…</string>
+    <string name="prompt_export_pdf_to">PDF dosyasının kaydedildiği yer</string>
+    <string name="browse_folder">Gözat</string>
+    <string name="export_supernote_format">Supernote biçiminde dışarı aktar</string>
+    <string name="file_export">Dosya Dışarı Aktar</string>
+    <string name="editor_func_button_search">Ara</string>
+    <string name="no_search_result">Aramanız ile eşleşen öğe yok.</string>
+    <string name="editor_func_button_shape">Şekil</string>
+    <string name="SearchResultItemInfo_Loading">Yüklüyor...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Dosyayı okuyamadı.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Dizüstleri</string>
+    <string name="SearchResultItemInfo_Pages">Sayfalar</string>
+    <string name="SearchResultItemInfo_Personal">Kişisel</string> 
+    <string name="SearchResultItemInfo_Page_Space">Sayfa </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Metin Algılamayı Yaz</string>
+    <string name="reset_index_language_title">Endeks Dilini Sıfırla</string>  
+      <!-- wendy  -->
+    <string name="latest_edit_page">Son düzenlenen sayfa</string>
+    <string name="password_not_set_sync">Buluta kaydedilen dizüstleri özel veya genel olarak düzenlendi. Özel dizüstleri için parola oluşturmak istiyor musunuz? Eğer istemiyorsanız, bu durumda tüm dizüstleri genel olarak düzenlenecektir.</string>
+
+    <string name="bookpicker_name">Ad</string>
+    <string name="bookpicker_date">Tarih</string>
+   	<string name="bookpicker_sync_books_list">Kitap listesini senkronize et</string>
+   	<string name="bookpicker_cancel">İptal</string>
+   	<string name="bookpicker_ok">Tamam</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">Darbe</string>
+    <string name="newto_editor_func_popup_d_brush_alpha" maxwidth="10">Opaklık</string>
+   	<string name="share_to_image">Resim</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">Metinler</string>  
+   	<string name="export">Ver</string>
+   	<string name="transfer">Aktar</string>
+   	<string name="book_export">Dizüstüne Aktar</string>
+   	<string name="prompt_exports_pdf_to">PDF dosyalarının kaydedildiği yer</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Unvan</string>  
+   	<string name="template_travel_tips_date">Tarih</string>
+   	<string name="template_meeting_tips_title">Başlık</string>
+   	<string name="template_meeting_tips_time">Saat</string>
+   	<string name="template_meeting_tips_contact">Katılan</string>
+   	<string name="template">Şablon</string>
+   	<string name="template_input_tips">İçeriği düzenlemek için buraya tıklayın.</string>
+   	<string name="template_eidt_content">İçeriği düzenle</string>
+   	<!--wendy begin -->
+	<string name="select_all">Tümü</string>
+   	<string name="prompt_no_book_selected">Kitap seçilmedi.</string>
+   	
+
+   	<!-- begin :darwin -->
+   	<string name="latestedit">Son Düzenleme</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">Sürüm hazır değil.</string>
+   	<string name="loading_page">Sayfa verisini yüklüyor...</string>
+   	<string name="prompt_transfer_format">Bu kitabı yeniden biçimlendirmeniz gereklidir ve süreç biraz zaman alabilir. Devam etmek istiyor musunuz?</string>
+   	<string name="prompt_saving">Kaydediyor...</string>
+   	<string name="prompt_transferring">Aktarıyor...</string> 
+   	<string name="prompt_incompatible_syncing">%s uyumlu bir sürüm değil. Lütfen SuperNote\'unuzu güncelleyin.</string>
+   	<string name="prompt_incompatible_file">%s uyumlu bir sürüm değil.</string>
+   	<!-- END: Better -->
+	
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">Oturum açıyor. Lütfen bekleyin...</string>
+   	<string name="webstorage_login_account_password_wrong">Hesap veya Parola yanlış</string>
+   	<string name="sync_setting_sign_failure">%s oturum açamıyor</string>
+   	<string name="sync_setting_sign_success">%s oturum açamıyor</string>
+   	<string name="sync_setting_networkless_title">Bağlantı yok</string>
+   	<string name="sync_setting_networkless">Bu hizmeti kullanmak için internet bağlantınızın olması gereklidir. Lütfen mobil ağ bağlantınızı veya Wi-Fi\'yi Ayarlara girin.</string>
+   	
+   	<!-- END: show -->
+	<!-- 10th, End New String --> 
+
+    <!-- 11th, Begin New String --> 
+
+<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">Diğer</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    
+    <!-- Begin Allen -->
+    <string name="Sort">Sırala</string>
+    <!-- End Allen -->   
+  	
+
+ 	<string-array name="editor_func_insert_array">
+        <item>Fotoğraf</item>
+        <item>Dosyadan resim</item>
+        <item>Metin görüntüsü</item>
+        <item>PDF sayfası</item>
+        <item>Ses kaydı</item>
+        <item>Video</item>
+        <item>Metin dosyası</item>
+        <item>Zaman pulu</item>
+        <item>Klavyeden sanat eseri</item>
+	</string-array>
+	
+ 	<!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>Fotoğraf</item>
+        <item>Dosyadan resim</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+ 	
+	<string name="sync_setting_sign_out">Oturum kapatılıyor: %s</string>
+	<string name="sync_setting_sign_out_msg">Oturumu kapatma bulut hesabınızdaki not defterine erişimi kaldırır ve bulut senkronizasyonunu engeller. Devam etmek istiyor musunuz?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Parolanız değişti. Daha sonra başvurmak için parolanızı e-posta hesabınıza göndermek istiyor musunuz? Bu, gizli not defterine erişim kaybını önler.\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Kilitle</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">Kilidi kaldır</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">Giz içn kltl</string>
+	<string name="editor_phone_toast_seletext">Metni vurgulamak için sürükle</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">Kilitle</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Not defterini kilitlemek istiyor musunuz?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Kilidi kaldır</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Not defterinin kilidini açmak istiyor musunuz?</string>
+    
+    <string name="set_password_dialog_title">Parola Ayarla</string>
+    <string name="editor_func_button_recognize">Tanı</string>
+    <string name="editor_func_button_transform">Dönüştür</string>   
+    <string name="editor_phone_toast_readonly">Yalnızca okuma modu: Okuma Modundasınız. Sayfaları çevirmek veya yukarı/aşağı kaydırmak için parmağınızı kullanın.</string>   
+		<!-- Modify 0817-0822 End: Show --> 
+		
+		<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">PDF olarak ver</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Arama başarısız oldu.</string>
+		<!-- Modify 0823 End: Show -->
+	<!-- 11th, End New String --> 
+	
+	<!-- 11.5th, Begin New String --> 
+	 <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Çizgi</string>
+    <string name="book_type_grid">Izgara</string>
+    <string name="book_type_meeting">Toplantı</string>
+    <string name="book_type_diary">Günlük</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>İngilizce</item>
+        <item>Basitleştirilmiş Çince ve İngilizce</item>
+        <item>Geleneksel Çince ve İngilizce</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Geri hareketi</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">El yazısı modunda, son girilen metni silmek için sağdan sola parmğnz kaydırın.</string>
+    <!-- Modify 0825 END: Show -->
+    
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">Başlangıç Tarihi</string>
+    <string name="template_meeting_end_date_tips">Bitiş Tarihi</string>
+    <string name="template_meeting_start_time_tips">Başlangıç Saati</string>
+    <string name="template_meeting_end_time_tips">Bitiş Saati</string>
+    <!-- End Allen -->    
+    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Kilitli not defterini göster </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Kilitli not defterini gizle </string>
+    <!-- END: Darwin -->        
+    
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Sürekli Yazma Çizgisi</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Yazdıklarınız kırmızı çizgiyi geçtiğinde, yazılan harfler otomatik olarak sola kaydırılır.</string>
+    <string name="text_continue" description="continue" max_width="-1">Devam</string>
+    <!-- END: Better -->
+    
+    <string name="nb_Write_Text_Recognition_dialog_msg">Süpernot tüm el yazılarını metin olarak tanır ve bu not defterini çoğaltır.</string>
+    <string name="set_index_language_title">Tanıma Dilini Ayarla</string> 
+	<!-- 11.5th, End New String -->
+	
+	<!-- 13th, Begin New String  -->
+	<string name="allpage_view" description="allpage_view" maxwidth="20">Tüm Sayfalar</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">ASUS WebStorage hesabınızda oturum açabilirsiniz.</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">Kullanıcı adı</string>
+	<string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Kilitli diz üstü bilgisayarlar gizlendi.</string>
+	<string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Kilitli diz üstü bilgisayarlar şimdi okunabilir.</string>
+	<!-- 13th, End New String  -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Ekran boyutuna bakmaksızın uzun kelimeyi kesintisiz yaz.</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s Zaman etiket(ler)i</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Aranıyor, lütfen bekleyin.</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">İçerik Arama</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+       <string name="share_large" description="Large" max_width="5">Büyük</string>
+       <string name="share_medium" description="Medium" max_width="6">Orta</string>
+       <string name="share_small" description="Small" max_width="5">Küçük</string>
+       <string name="share_size" description="Size" max_width="4">Boyut</string>
+       <string name="recognizing" description="Recognizing" max_width="15">Tanınıyor</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">Yapılacak</string>-->
+	<string name="book_type_blank">Boş</string>
+	<!-- End: Allen -->
+	<!-- 14th, End New String -->	
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">Syf kaydet</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">Lütfen bekleyin...</string>
+	<string name="password_not_set_import">Dizüstü bilgisayarlar özel ve genel olarak düzenlenebilir. Özel dizüstü bilgisayarlar için parola oluşturmak istiyor musunuz? Parola oluşturulmazsa, tüm dizüstü bilgisayarlar genel olarak düzenlenecektir.</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">Hiçbiri</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">Kılavuzu Görüntüle</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">Not defterlerim</string>
+   	<string name="widget_bt_add_a_notebook">Bir not defteri ekle</string>
+   	<string name="widget_passwordTip">Lütfen şifreyi girin</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">Kapağı Düzenle</string>
+    <string name="nb_editcover_name">Kapak</string>
+    <string name="nb_editcover_original_preview">Varsayılan</string>
+    <string name="nb_editcover_choose_title">Resim Seçin</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">Not defterini değiştir</string>
+	<string name="widget_all_book_template">Not defterlerim ve yeni ekle</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!--<string name="todo_widget_voice" description="voice input from todo widget">Ses</string>-->
+	<string name="todo_widget_add" description="Add">Ekle</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">Şuraya Ekle</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">Tüm yapılacaklar</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Sayfaya göre sırala</item>
+        <item>Zamana göre sırala</item>
+    </string-array>
+    	
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">Önceliği Ayarla</string>
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Yüksek</item>
+        <item>Normal</item>
+        <item>Düşük</item>
+    </string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">Tamamlandı</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+   	<string name="meeting_form" description="meeting start time">Kimden</string>
+    <string name="meeting_to" description="meeting end time">Kime</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Not defteri seç</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">Konuşma</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >Tanındı</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >Yapılacak iş yok</string>-->
+    <string name="sync_cancel_confirmText">Onayla</string>
+    <string name="sync_cancel_promptTop">Silinen eşitlenmiş öğeler diğer aygıtta da silinecek.</string>
+    <string name="sync_cancel_promptBottom">Bu dizüstü bilgisayarların eşitlenmesini kaldırmak istiyor musunuz?</string>
+    <string name="sync_cancel_noMoreHint">Tekrar anımsatma</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >Dışa aktarma biçimi</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Supernote biçimi</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >Biçim seç</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>Resim</item>
+        <!--<item>Metinler</item>-->
+        <item>PDF</item>
+        <item>Supernote biçimi</item>
+    </string-array>
+    <string name="pen_only_enabled">Yalnızca Kalem Kullan</string>
+    <string name="pen_only_disabled">Yalnızca Kalemi Devre Dışı Bırak</string>
+    <string name="todo_title" description="memo template title" >Kısa Not</string>
+    <string name="todo_widget_all_todos" description="All memos" >Tüm Kısa Notlar</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >Hiç Kısa Not yok</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">Birleştir</string>
+    <string name="quicknote_funcbar_play">Yürüt</string>
+    <string name="quicknote_funcbar_pause">Duraklat</string>
+    <string name="quicknote_funcbar_save">Kaydet</string>
+    <!--<string name="quicknote_savehint_dlg_first">Çizim kaydedilmedi.</string>-->
+    <string name="quicknote_savehint_dlg_sec">Şimdi kaydetmek istiyor musunuz?</string>
+    <string name="quicknote_savehint_dlg_saved">Çizim Resimler kısmına kaydedildi.</string>
+    <string name="quicknote_savehint_dlg_cleaned">Çizim temizlendi.</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >Defteriniz için bir şablon seçin</string>
+    <!-- End: 28th New String -->
+
+    <string name="editor_phone_readonly">Yalnızca okuma modu</string> <!--Carol-->
+
+</resources>

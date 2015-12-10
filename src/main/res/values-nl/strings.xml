@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cover_enter" description="Enter" maxwidth="24">Enter</string>
+    
+    <!-- <string name="go" description="Go" maxwidth="">Go</string> -->
+    <string name="edit" description="Edit" maxwidth="">Bewerken</string>
+    <string name="back" description="Back" maxwidth="">Vorige</string>
+    <string name="setting" description="Settings" maxwidth="">instelling</string>
+    <string name="backup" description="Backup" maxwidth="">Back-up</string>
+    <string name="restore" description="Restore" maxwidth="">Herstellen</string>
+    <string name="next" description="Next" maxwidth="">Volgende</string>
+    <string name="set_stoptime" description="Fast Input" maxwidth="">Snelle invoer</string>
+    <string name="set_stoptime_desc" description="Default is 400ms." maxwidth="">Standaard is 400ms.</string>
+    <string name="set_stoptime_info" description="400ms." formatted="false" maxwidth="">%dms.</string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Naam notitieblok</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Paginakleur</string>
+    <string name="notebook" description="Notebook" maxwidth="">Notitieblok</string>
+    <string name="password" description="Password" maxwidth="">Wachtwoord</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Voer wachtwoord in van 4 tot 7 tekens/cijfers.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Huidig wachtwoord</string>
+    <string name="password_newpin" description="New password" maxwidth="">Nieuw wachtwoord</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Nieuw wachtwoord bevestigen</string>
+    <string name="password_hint" maxwidth="">Opgelet: Het wachtwoord kan 4 tot 7 cijfers en/of tekens bevatten.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Wachtwoord instellen/wijzigen</string>
+    <string name="password_oldpassword_error" description="Current password is incorrect." maxwidth="">Het huidige wachtwoord is onjuist.</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Wachtwoorden komen niet overeen.</string>
+    <string name="no_thanks" description="No, thanks" maxwidth="">Nee, bedankt</string>
+    <string name="yes" description="Yes" maxwidth="">Ja</string>
+    <string name="share_to" description="Share to..." maxwidth="">Delen met...</string>
+    <string name="to_gallery" description="Export image file to Gallery" maxwidth="">Afbeeldingsbestand exporteren naar Galerie</string>
+
+    <!-- <string name="prompt_pg_export" description="Export will create a ZIP file (/sdcard) for future Import." formatted="false" maxwidth="">Export will create a ZIP file (%s) for future Import.</string> -->
+    
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote-wachtwoord</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Op %s is het wachtwoord van mijn SuperNote gewijzigd. Het nieuwe wachtwoord is: %s</string>
+    <string name="notebook_title" description="Notebook Title" maxwidth="">Titel notitieblok</string>
+    <string name="prompt" description="Prompt" maxwidth="">Vragen</string>
+    <string name="name" description="Name" maxwidth="">Naam</string>
+    <string name="del" description="Delete" maxwidth="">Verwijderen</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Importeren...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Notities importeren</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">De open methode die is gekoppeld aan dit bestand, is niet gevonden</string>
+    <!-- <string name="prompt_saving" description="Saving..." maxwidth="">Saving</string> -->
+    <!-- <string name="prompt_select_text" description="Slide your finger to expand the range of selection." maxwidth="">Slide your finger to expand the range of selection.</string> -->
+    
+    <string name="prompt_restore_ok" description="Restore successful!" maxwidth="">Herstel gelukt!</string>
+    <string name="prompt_restore_err" description="Restore failed. The file is corrupt." maxwidth="">Herstel mislukt. Het bestand is beschadigd.</string>
+    <string name="prompt_backup" description="Backup..." maxwidth="">Bezig met maken van back-up...</string>
+    <string name="prompt_backup_ok" description="Backup successful!" maxwidth="">Back-up gelukt.</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Importeren gelukt.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Verplaatsen naar</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopiëren naar</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Geselecteerde pagina(\'s) verwijderen?</string>
+
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_left">    |</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_middum">|</string>
+    <!-- NOT TRANSLATED -->
+    <string name="pointer_right">|    </string>
+    <!-- NOT TRANSLATED -->
+    <string name="slash">/</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Druk lang op de pagina en sleep om de pagina\'s opnieuw te ordenen.</string>
+
+    <!-- 1st PadFone String Revised -->
+
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Eerste pagina</string>
+    <string name="phone_book_name" description="Phone book name">Telefoonboek</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">nieuwe pagina</string>
+    <string name="backup_filename" description="Backup&apos;s file name" maxwidth="">Naam back-upbestand</string>
+    <string name="clear_all" description="Clear all">Alles wissen</string>
+    <string name="clear_all_alert" description="Can&apos;t undo after clear all">Weet u zeker dat u alle tekeningen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="delete_alert" description="warning of deleting">Wilt u de tekening verwijderen?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Gebruik uw vinger om het object te verplaatsen of de grootte te wijzigen.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Tik om een object of meerdere objecten te selecteren of te slepen.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Deze pagina is vol.</string>
+    <string name="editor_pen_color_dialog_title" description="editor_color_dialog_title">Pen &amp; kleur</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Pen</string>
+    
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Deze pagina is leeg.</string>
+    
+    <string name="fifty_percent">50%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="memo_saved" description="Memo saved">De memoafbeelding is opgeslagen.</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Notebook</string>
+    <string name="password_no" description="The password has not been set." maxwidth="">Het wachtwoord is nog niet ingesteld.</string>
+    <string name="warning_activity_not_found" description="Activity not found">Uw PadFone biedt geen ondersteuning voor dit bestandstype of codectype.</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Er is geen afbeelding in het klembord dat u kunt plakken.</string>
+    <string name="two_hundred_percent">200%</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Verwijderen</string>
+
+    
+
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Nieuw toev.</string>
+
+    <!-- 2nd -->
+    <!-- [START]Note, small + normal + big = 10 -->
+    <string name="small" description="the font size of the notebook" maxwidth="">klein</string>
+    <string name="normal" description="the font size of the notebook" maxwidth="">normaal</string>
+    <string name="big" description="the font size of the notebook" maxwidth="">groot</string>
+    <!-- [END]Note, small + normal + big = 10 -->
+    <!-- [START]Note, white + yellow + blue = 10 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Wit</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Geel</string>
+    <string name="blue" description="the background color of the notebook" maxwidth="">Blauw</string>
+    <!-- [END]Note, white + yellow + blue = 10 -->
+    <!-- [START]Note, grids + lines = 14 -->
+    <string name="book_grid_line" description="the background style of the notebook">Lijnen</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Rasters</string>
+    <!-- [END]Note, grids + lines = 14 -->
+    
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Informatie notitieboekje weergeven</string>
+    <string name="password_not_set" description="You have not set up the password for hiding notes, please set up the password. [MAX=28]" maxwidth="">Stel uw wachtwoord voor het verbergen van uw notities in.</string>
+    
+    <string name="memo_link" description="press this button to link the page where the memo from">Koppelen met:\n%s</string>
+    <string name="page_index" description="show the page index">Pagina %d</string>
+    <string name="no_book_exists" description="no book exists, notify the user to create a new book" maxwidth="">Maak een notitieboekje</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Geen boek of pagina om te lezen</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Geen bladwijzerpagina\'s.</string>
+    <string name="no_private_book_exists" description="no book is private" maxwidth="">Geen boek in de privélijst.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Verwijderen?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Weet u zeker dat u deze pagina wilt verwijderen?</string>
+    <string name="editor_func_button_bold" description="editor_func_button_bold [MAX=5]" maxwidth="">Vet</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Kleur</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopiëren</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Knippen</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Bewerken</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Groep</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Groep opheffen</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Basislijn</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Bladwijzer</string>
+    <!--<string name="editor_menu_creatememo" description="[MAX=12]" maxwidth="">Een memo maken</string>--><!--by smilefish-->
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Alleen-lezen</string>
+    <string name="editor_share_to_dialog_title" description="editor_share_to_dialog_title [MAX=5]" maxwidth="">Delen</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Ongedaan maken</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Opnieuw</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Invoegen</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Selecteren</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Plakken</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Verwijderen</string>
+    <string name="editor_func_button_stroke" description="editor_func_button_stroke [MAX=5]" maxwidth="">Pennenstreek</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Penseel</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Gum</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Annuleren</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Gereed</string>
+    <string name="editor_func_button_next" description="editor_func_button_next [MAX=5]" maxwidth="">Volgende</string>
+    <string name="editor_func_button_duplicate" description="editor_func_button_duplicate" maxwidth="">Eenmaal kopiëren</string>
+    <string name="reset" description="Reset [MAX=6]" maxwidth="">Reset</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Alleen tekst delen</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Raster verbergen</string>
+    <string name="preview_width" description="Width: [MAX=6]" maxwidth="">Breedte:</string>
+    <string name="preview_height" description="Height: [MAX=7]" maxwidth="">Hoogte:</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Grootte:</string>
+    <!-- 3rd -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Over SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Aan</string>
+    <string name="set_off" description="Off" maxwidth="">Uit</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Leesmodus als standaard</string>
+    <!--string name="app_name">SuperNote</string-->
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s pagina(\'s) verwijderd.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Pagina(\'s) kopiëren naar</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">%d pagina(\'s) verplaatsen naar </string>
+    <string name="pg_export" description="export the page(s)" maxwidth="">de pagina(\'s) exporteren</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Alles selecteren</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Alle selecties opheffen</string>
+    <string name="pg_delete" description="delete the page(s)" maxwidth="">Pagina(\'s) verwijderen</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">pagina(\'s) verwijderen</string>
+    <string name="editor_readonlymode_hint" description="hint in read only mode">U kunt de aanraakbeweging gebruiken om een pagina om te draaien of om te scrollen.</string>
+    <string name="editor_color_dialog_title" description="editor_color_dialog_title">Kleur</string>
+    <string name="memo_del" description="Deleted memo">Geselecteerde memo(\'s) verwijderen?</string>
+    <string name="pg_selected" description="show how many pages are selected">%s pagina(\'s) geselecteerd</string>
+    <string name="memo_count" description="show how many memos in this view">%s memo\'s</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">De memo is leeg</string>
+    <string name="book_grid_title" description="the title of the page display property">Lijnstijl</string>
+    <string name="page_counter" description="show the total page number the book has">%d pagina(\'s)</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">pagina(\'s) kopiëren</string>
+    <string name="wrong_file_type" description="wrong_file_type">Onjuist bestandstype.</string>
+    <string name="note_hide_hint" description="tell the user the book which is selected would be hide, and the book would only be seen in the private view">     Notitieblok is nu verborgen in de persoonlijke weergave.\r\n
+        Alle bladwijzers in het notitieblok worden verwijderd uit de bladwijzerweergave.\r\n</string>
+    <string name="note_hide_hint_dont_show" description="dont show the messgae again">Dit bericht niet meer weergeven.</string>
+    <string name="editor_menu_share">Delen</string>
+
+    <string-array name="pg_size">
+        <item>Voor pad</item>
+        <item>Voor telefoon</item>
+    </string-array>
+
+    
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d pagina(\'s) gekopieerd naar %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Paginagrootte</string>
+    <string name="editor_menu_addpage" maxwidth="12">Pagina toevoegen</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Pagina verwijderen</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Beschadigd bestand. Kan bestand niet importeren.</string>
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Pagina(\'s) verplaatsen naar</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">De pagina bestaat niet.</string>
+    
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Laatste pagina</string>
+    <string name="prompt_readonly" description="You\&apos;re in readonly mode. You can use finger gesture to flip or scroll page." maxwidth="">U bent in de modus alleen-lezen. U kunt de aanraakbeweging gebruiken om een pagina om te draaien of om te scrollen.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Paginaformaat is niet compatibel</string>
+    <string name="nb_empty" description="the book list is empty" maxwidth="">Leeg</string>
+    <string name="page_empty" description="notify there is no page and please create a new notebook">Maak een nieuw notitieblok</string>
+    <string name="prompt_restore" description="Does the user want to restore the application" maxwidth="">Wilt u alle eerder opgeslagen bestanden herstellen vanaf de SD-kaart?</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Schrijven</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Type</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Tekenen</string>
+    <string name="loading_tutorial" description="loading tutorial file" maxwidth="">Bezig met laden van zelfstudie…</string>
+    <!-- 4th -->
+    <string name="page_size_tutorial_title_1" description="" maxwidth="">Paginagrootte</string>
+    <string name="page_size_tutorial_detail" description="" maxwidth="">Selecteer Voor pad of Voor telefoon in de vervolgkeuzelijst als de paginagrootte voor de notebookpagina\'s.</string>
+    <string name="page_size_tutorial_phone_size" description="" maxwidth="">Telefoongrootte</string>
+    <string name="page_size_tutorial_pad_size" description="" maxwidth="">Padgrootte</string>
+    <string name="load_tutorial" description="" maxwidth="">Bezig met laden van zelfstudie…</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Aan bladwijzers toevoegen</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">Verwijderen uit bladwijzers</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Verwijderen uit bladwijzers?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Bladwijzers weergeven</string>
+    <!-- 5th -->
+    
+
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Snel</item>
+        <item>Normaal</item>
+        <item>Langzaam</item>
+    </string-array>
+    
+
+    <string name="latest_edit_page_info" description="the page number of the latest page, e.g. page 6" maxwidth="">pagina %s</string>
+    <string name="reset_password_title" description="reset the password">Het wachtwoord resetten</string>
+    <string name="reset_password_summary">Het wachtwoord wissen</string>
+    <string name="reset_password_dialog_title">Wachtwoord resetten</string>
+    <string name="reset_password_dialog_password_invalid">Ongeldig wachtwoord</string>
+    <string name="confirm_reset_dialog_title">Wachtwoord resetten</string>
+    <string name="no_memory_dialog_title">Opgelet</string>
+    <string name="no_memory_dialog_content">Er is niet voldoende geheugen</string>
+    <string name="personal_book">Personal\nNotebook</string>
+    <string name="backup_fail">Back-up mislukt</string>
+
+    
+    <!-- 6th -->
+    <string name="dialog_file_name">Bestandsnaam</string>
+    <string name="dialog_save_to">Opslaan naar</string>
+    
+    
+	<!-- 10th, Start New String -->
+	<string name="new_page" description="Create New Page" maxwidth="15">Een nieuwe pagina maken</string>
+	
+	<string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Notitieblok is geëxporteerd naar</string>
+	<string name="notebook_selected" description="show how many pages are selected">%s notitieblok(ken) geselecteerd</string>
+	<string name="pg_title_counter" description="show total pages number of the all page view\&apos;s title">%s bladwijzers</string>
+	<string name="notebook_view" description="notebook_view" maxwidth="">Notitieblokken</string>
+	<string name="bookmark_view" description="bookmark_view" maxwidth="">Bladwijzer</string>
+	<string name="timestamp_view" description="timestamp_view" maxwidth="">Tijdstempel</string>
+ 
+	<string-array name="pg_sort">
+        <item>Op naam</item>
+        <item>Op Laatst gewijzigd</item>
+	</string-array>
+    
+	<string-array name="notebook_sort">
+        <item>Op naam</item>
+        <item>Op Laatst gewijzigd</item>
+	</string-array>
+ 
+	<string-array name="nb_show">
+        <item>Notitieblokweergave</item>
+        <!--  item>All pages</item>-->
+        <item>Bladwijzerweergave</item>
+        <!-- <item>Memo board</item> -->
+        <!--<item>Personal</item> -->
+  		<item>Tijdstempelweergave</item>
+	</string-array>
+    
+	<string-array name="week_of_day">
+       <item>Zondag</item>
+       <item>Maandag</item>
+       <item>Dinsdag</item>
+       <item>Woensdag</item>
+       <item>Donderdag</item>
+       <item>Vrijdag</item>
+       <item>Zaterdag</item>
+       <item>Vandaag</item>
+       <item>Gisteren</item>
+       <item>Vorige week</item>
+       <item>Twee weken geleden</item>
+       <item>Drie weken geleden</item>
+       <item>Morgen</item>
+       <item>Volgende week</item>
+       <item>Twee weken later</item>
+       <item>Drie weken later</item>
+	</string-array>
+	<string-array name="month_of_year">
+       <item>Januari</item>
+       <item>Februari</item>
+       <item>Maart</item>
+       <item>April</item>
+       <item>Mei</item>
+       <item>Juni</item>
+       <item>Juli</item>
+       <item>Augustus</item>
+       <item>September</item>
+       <item>Oktober</item>
+       <item>November</item>
+       <item>December</item>
+       <item>Vorige maand</item>
+       <item>Een half jaar geleden</item>
+       <item>Meer dan een jaar geleden</item>
+       <item>Volgende maand</item>
+       <item>Een half jaar later</item>
+       <item>Na een jaar</item>
+	</string-array>
+   
+	<string name="nb_del_msg" description="Delete notebook" maxwidth="0">Wilt u de notitieblok verwijderen?</string>
+	<string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Naam wijzigen</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Verbergen</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Verwijderen</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Exporteren</string>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Bijsnijden</string>	<!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Bewerken</string>	<!--by show-->
+    <string name="editor_func_button_changeimg" description="editor_func_button_changeimg [MAX=5]" maxwidth="">Vervangen</string>	<!--by show-->
+    
+    
+    
+    <string name="latest_edited_lable" description="the latest edited page">Laatst bewerkte pagina</string>
+    
+    
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Ingangsherkenningssnelheid</string>
+    
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Account of wachtwoordveld kan niet leeg zijn.</string>
+   
+    <string name="nb_sync">Cloud Sync inschakelen</string>
+    <string name="nb_async">Cloud Sync annuleren</string>
+    
+    <string name="sync_status_none">Geen synchronisatietaak.</string>
+    <string name="sync_status_last_sync">Laatst bijgewerkt: </string>
+    <string name="sync_status_syncing">Bezig met synchroniseren…</string>
+    <string name="sync_status_failed">Kan de gegevens niet synchroniseren.</string>
+    <string name="sync_status_starting">Het synchroniseren wordt gestart…</string>
+    <string name="sync_account_text">Account</string>
+    <string name="sync_sign_on">Aanmelden</string>
+    <string name="sync_sign_off">Afmelden</string>
+    <string name="account_space_usage">Gebruikte ruimte</string>  	<!-- by show -->
+    <string name="account_and_sync">Instellingen accountsynchronisatie</string>
+    <string name="sync_setting_auto">Automatisch synchroniseren</string>
+    <string name="sync_setting_auto_frequency">Frequentie automatisch synchroniseren</string>
+    <string name="sync_auto_interval_1">Elke min</string>
+    <string name="sync_auto_interval_15">Elke 15 min</string>
+    <string name="sync_auto_interval_30">Elke 30 min</string>
+    <string name="sync_auto_interval_60">Elke 60 min</string>
+    <string name="sync_auto_interval_1d">Dagelijks</string>
+    <!-- add by Better -->
+    
+    <!-- begin show -->
+	<string name="webstorage_register">Registreren</string>
+	<!-- not used any more --><!--
+	<string name="webstorage_cancel">Annuleren</string>
+	<string name="webstorage_ok">Ok</string>-->
+	<string name="webstorage_signon">Aanmelden</string>
+	<!-- end show -->
+	    
+    
+    <string name="export_pdf_prompt">PDF-bestand is opgeslagen in </string>
+    <string name="share_type_image">Afbeelding</string>
+    <string name="share_type_pdf">PDF</string>
+     <!--BEGIN: Show-->
+    <string name="Crop_Done">Gereed</string>  
+    <string name="Crop_Cancel">Annuleren</string>	
+    <string name="Crop_Free">Lasso</string>	
+    <string name="Crop_Rect">Rechthoek</string>	
+     <!--END: Show-->
+    <string name="tranferring_v1_to_cloud_book">Bezig met overdragen…</string>
+    <string name="prompt_export_pdf_to">PDF-bestand is opgeslagen in</string>
+    <string name="browse_folder">Bladeren</string>
+    <string name="export_supernote_format">Een Supernote-indeling exporteren</string>
+    <string name="file_export">Bestand exporteren</string>
+    <string name="editor_func_button_search">Zoeken</string>
+    <string name="no_search_result">Er zijn geen items die overeenkomen met uw zoekactie.</string>
+    <string name="editor_func_button_shape">Vorm</string>
+    <string name="SearchResultItemInfo_Loading">Bezig met laden…</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Kan bestand niet lezen.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Notitieblokken</string>
+    <string name="SearchResultItemInfo_Pages">Pagina’s</string>
+    <string name="SearchResultItemInfo_Personal">Persoonlijk</string> 
+    <string name="SearchResultItemInfo_Page_Space">Pagina </string> 
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Herkenning geschreven tekst</string>
+    <string name="reset_index_language_title">Indextaal opnieuw instellen</string>  
+      <!-- wendy  -->
+    <string name="latest_edit_page">Laatst bewerkte pagina</string>
+    <string name="password_not_set_sync">Notitieblokken die op de cloud zijn opgeslagen, worden georganiseerd als persoonlijk en openbaar. Wilt u een wachtwoord maken voor persoonlijke notitieblokken? Als u dat niet doet, worden alle notitieblokken georganiseerd als openbaar.</string>
+
+    <string name="bookpicker_name">Naam</string>
+    <string name="bookpicker_date">Datum</string>
+   	<string name="bookpicker_sync_books_list">Boekenlijst synchroniseren</string>
+   	<string name="bookpicker_cancel">Annuleren</string>
+   	<string name="bookpicker_ok">Ok</string>
+   	<string name="newto_editor_func_popup_d_brush_stroke">Pennenstreek</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Ondoorzichtigheid</string>
+   	<string name="share_to_image">Afbeelding</string>
+   	<string name="share_to_pdf">PDF</string>
+   	<string name="share_to_text">Teksten</string>  
+   	<string name="export">Exporteren</string>
+   	<string name="transfer">Overdracht</string>
+   	<string name="book_export">Notitieblok exporteren</string>
+   	<string name="prompt_exports_pdf_to">PDF-bestanden worden opgeslagen in</string> 
+	<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Titel</string>  
+   	<string name="template_travel_tips_date">Datum</string>
+   	<string name="template_meeting_tips_title">Onderwerp</string>
+   	<string name="template_meeting_tips_time">Tijd</string>
+   	<string name="template_meeting_tips_contact">Deelnemer</string>
+   	<string name="template">Sjabloon</string>
+   	<string name="template_input_tips">Klik hier om de inhoud te bewerken.</string>
+   	<string name="template_eidt_content">Inhoud bewerken</string>
+   	<!--wendy begin -->
+	<string name="select_all">Alles</string>
+   	<string name="prompt_no_book_selected">Er is geen boek geselecteerd.</string>
+   	
+
+   	<!-- begin :darwin -->
+   	<string name="latestedit">Laatst bewerkt</string>
+   	<!-- end : darwin -->
+   	<!-- BEGIN: Better -->
+   	<string name="sync_file_no_version">Versie niet beschikbaar.</string>
+   	<string name="loading_page">Bezig met laden van paginagegevens…</string>
+   	<string name="prompt_transfer_format">U moet dit blok opnieuw opmaken en het proces kan enige tijd in beslag nemen. Wilt u doorgaan?</string>
+   	<string name="prompt_saving">Bezig met opslaan…</string>
+   	<string name="prompt_transferring">Bezig met overdragen…</string> 
+   	<string name="prompt_incompatible_syncing">%s is geen compatibele versie. Voer een update uit van uw SuperNote.</string>
+   	<string name="prompt_incompatible_file">%s is geen compatibele versie.</string>
+   	<!-- END: Better -->
+	
+	<!-- BEGIN: show -->
+   	<string name="webstorage_login_signing_in">Bezig met aanmelden. Een ogenblik geduld…</string>
+   	<string name="webstorage_login_account_password_wrong">Account of wachtwoord onjuist</string>
+   	<string name="sync_setting_sign_failure">Kan niet aanmelden bij %s</string>
+   	<string name="sync_setting_sign_success">%s aanmelden</string>
+   	<string name="sync_setting_networkless_title">Geen verbinding</string>
+   	<string name="sync_setting_networkless">Voor deze service hebt u een internetverbinding nodig. Schakel uw mobiele netwerkverbinding of Wifi in Instellingen in.</string>
+   	
+   	<!-- END: show -->
+	<!-- 10th, End New String --> 
+
+    <!-- 11th, Begin New String --> 
+
+<!-- Modify 0817-0822 BEGIN: Show -->  
+   	<!-- BEGIN: Better -->
+   	<string name="editor_func_button_more">Meer</string>
+   	<!-- END: Better -->
+    <!-- End New String -->
+    
+    <!-- Begin Allen -->
+    <string name="Sort">Sorteren</string>
+    <!-- End Allen -->   
+  	
+
+ 	<string-array name="editor_func_insert_array">
+        <item>Foto</item>
+        <item>Afbeelding van bestand</item>
+        <item>Tekstafbeelding</item>
+        <item>PDF-pagina</item>
+        <item>Audio-opname</item>
+        <item>Video</item>
+        <item>Tekstbestand</item>
+        <item>Tijdstempel</item>
+        <item>Illustratie van klembord</item>
+	</string-array>
+	
+ 	<!-- Begin:Darwin -->
+ 	<string-array name="nb_editcover_choose_item">
+        <item>Foto</item>
+        <item>Afbeelding van bestand</item>
+   	</string-array>
+ 	<!-- End  :Darwin -->
+ 	
+	<string name="sync_setting_sign_out">%s afmelden</string>
+	<string name="sync_setting_sign_out_msg">Bij het afmelden wordt de toegang tot notitieblokken op uw cloud-account verwijderd en wordt cloud-synchronisatie uitgeschakeld. Wilt u doorgaan?\n</string>
+	<string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Uw wachtwoord is gewijzigd. Wilt u uw wachtwoord verzenden naar uw e-mailaccount voor latere referentie? Hierdoor wordt verhinderd dat de toegang tot notitieblokken verloren gaat.\n</string>
+	<string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Vergrendelen</string>
+	<string name="nb_unhide" description="Unlock Notebook" maxwidth="">Ontgrendelen</string>
+	<string name="nb_lock_hide" description="Lock to hide" maxwidth="">Vergrendelen om te verbergen</string>
+	<string name="editor_phone_toast_seletext">Slepen om de tekst te markeren</string>
+	<string name="move_to_personal_title" description="move a book to personal, dialog title">Vergrendelen</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Wilt u de notitieblok vergrendelen?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Ontgrendelen</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Wilt u de notitieblok ontgrendelen?</string>
+    
+    <string name="set_password_dialog_title">Wachtwoord instellen</string>
+    <string name="editor_func_button_recognize">Herkennen</string>
+    <string name="editor_func_button_transform">Transformeren</string>   
+    <string name="editor_phone_toast_readonly" maxwidth="120">"Alleen leesmodus: u bent in de leesmodus. Gebruik uw vinger om door de pagina's te bladeren of omhoog/omlaag te schuiven."</string>
+		<!-- Modify 0817-0822 End: Show --> 
+		
+		<!-- Modify 0823 Begin: Show --> 
+	<string name="export_pdf">Exporteren als PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Zoeken mislukt.</string>
+		<!-- Modify 0823 End: Show -->
+	<!-- 11th, End New String --> 
+	
+	<!-- 11.5th, Begin New String --> 
+	<!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Lijn</string>
+    <string name="book_type_grid">Raster</string>
+    <string name="book_type_meeting">Vergadering</string>
+    <string name="book_type_diary">Dagboek</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    
+    <!-- Modify 0825 BEGIN: Show -->
+	<string-array name="index_language_values">
+        <item>Engels</item>
+        <item>Vereenvoudigd Chinees en Engels</item>
+        <item>Traditioneel Chinees en Engels</item>
+    </string-array>    
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Backspace-beweging</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Veeg in de handschriftmodus met uw vinger van rechts naar links om de laatst ingevoerde tekst te verwijderen.</string>
+    <!-- Modify 0825 END: Show -->
+    
+    <!-- Begin Allen -->
+    <string name="template_meeting_start_date_tips">Startdatum</string>
+    <string name="template_meeting_end_date_tips">Einddatum</string>
+    <string name="template_meeting_start_time_tips">Starttijd</string>
+    <string name="template_meeting_end_time_tips">Eindtijd</string>
+    <!-- End Allen -->    
+    
+   	<!-- BEGIN: Darwin -->   	
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Vergrendeld notitieblok weergeven </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Vergrendeld notitieblok verbergen </string>
+    <!-- END: Darwin -->        
+    
+    <!-- BEGIN: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Doorlopende schrijfregel</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Wanneer uw handschrift voorbij de rode lijn gaat, worden de geschreven letters automatisch naar links verschoven.</string>
+    <string name="text_continue" description="continue" max_width="-1">Doorgaan</string>
+    <!-- END: Better -->
+    
+    <string name="nb_Write_Text_Recognition_dialog_msg">Supernote herkent alles, van geschreven teksten tot getypte teksten, en dupliceert het notitieblok.</string>
+    <string name="set_index_language_title">Herkenningstaal instellen</string> 
+	<!-- 11.5th, End New String --> 
+	
+	<!-- 13th, Begin New String  -->
+	<string name="allpage_view" description="allpage_view" maxwidth="20">Alle pagina\'s</string><!-- darwin add -->
+   	<string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">U kunt aanmelden met uw ASUS WebStorage-account.</string>  	    
+   	<string name="username" description="User Name" maxwidth="15">Gebruikersnaam</string>
+	 <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">De vergrendelde notitieblokken zijn verborgen.</string>
+	 <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">De vergrendelde notitieblokken kunnen nu worden gelezen.</string>
+	<!-- 13th, End New String  -->
+	
+	<!-- 14th, Begin New String -->
+	<string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Lang woord ononderbroken schrijven ongeacht schermgrootte.</string>
+	<string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\&apos;s title">%s tijdstempel(s)</string>
+	<string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Bezig met zoeken, een moment geduld aub.</string>
+	<!-- Begin Allen -->
+ 	<string name="content_search" description="Inform the user whether to open the search function when create a new book" maxwidth="14">Inhoud zoeken</string> 
+	<!-- End Allen -->
+	<!-- Begin Darwin  -->
+       <string name="share_large" description="Large" max_width="5">Groot</string>
+       <string name="share_medium" description="Medium" max_width="6">Gemiddeld</string>
+       <string name="share_small" description="Small" max_width="5">Klein</string>
+       <string name="share_size" description="Size" max_width="4">Grootte</string>
+       <string name="recognizing" description="Recognizing" max_width="15">Bezig met herkennen</string>
+  	<!-- End   Darwin  -->
+  	<!-- Begin: Allen -->
+	<!--<string name="todo_title">Te doen</string>-->
+	<string name="book_type_blank">Leeg</string>
+	<!-- End: Allen --> 
+	<!-- 14th, End New String -->
+	
+	<!-- 16th, Begin New String -->
+	<string name="editor_menu_savepage" maxwidth="12">Pagina opslaan</string>
+	<!-- 16th, End New String -->
+	
+	<!-- 17th, Begin New String -->
+	<string name="my_bit_cast_wait_text">Een ogenblik geduld...</string>
+	<string name="password_not_set_import">De notitieblokken kunnen zowel privé als openbaar worden geordend. Wilt u een wachtwoord maken voor uw persoonlijke notitieblokken? Als er geen wachtwoord is gemaakt, worden alle notitieblokken geordend als openbaar.</string>
+	<!-- 17th, End New String -->
+	
+	<!-- 18th, Begin New String -->
+	<string name="book_grid_none" description="the background style of the notebook">Geen</string>
+	
+	<!-- Begin: Better -->
+   	<string name="quicknote_menu_view_grid">Raster weergeven</string>
+   	<!-- End: Better -->
+
+	<string name="widget_bt_my_notebooks">Mijn notitieblokken</string>
+   	<string name="widget_bt_add_a_notebook">Een notitieblok toevoegen</string>
+   	<string name="widget_passwordTip">Geef het wachtwoord op</string>
+
+	<!-- darwin begin -->
+    <string name="nb_editcover">Omslag bewerken</string>
+    <string name="nb_editcover_name">Omslag</string>
+    <string name="nb_editcover_original_preview">Standaard</string>
+    <string name="nb_editcover_choose_title">Foto kiezen</string>
+    <!-- darwin end -->
+	<!-- 18th, End New String -->
+	
+	<!-- 20th, Begin New String -->
+	<string name="widget_dialog_replace_notebook">Notitieblok vervangen</string>
+	<string name="widget_all_book_template">Mijn notitieblokken en nieuwe toevoegen</string>
+	<!-- 20th, End New String -->
+	
+	<!-- 21th, Begin New String -->
+	<!-- Begin Allen -->
+	<!--<string name="todo_widget_voice" description="voice input from todo widget">Spraak</string>-->
+	<string name="todo_widget_add" description="Add">Toevoegen</string>
+	<string name="todo_widget_add_to" description="Add to" maxwidth="12">Toevoegen aan</string>
+	<!--<string name="todo_widget_all_todos" description="All todos">Alle taken</string>-->
+	<string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Sorteren op pagina</item>
+        <item>Sorteren op tijd</item>
+    </string-array>
+    	
+	<string name="set_priority" description="set priority dialog title" maxwidth="12">Prioriteit instellen</string>
+	<!-- End Allen -->
+	<!-- 21th, End New String -->
+	
+	<!-- 22th, Begin New String -->   
+	<string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Hoog</item>
+        <item>Normaal</item>
+        <item>Laag</item>
+    </string-array>
+    	
+	<string name="todo_item_completed" description="todo item is completed">Voltooid</string>
+    <!-- 22th, End New String -->
+    
+    <!-- 23rd, Begin New String [Carol] -->
+  	<string name="meeting_form" description="meeting start time">Van</string>
+    <string name="meeting_to" description="meeting end time">Aan</string>
+	<string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Notitieboekje selecteren</string>
+	<string name="todo_widget_voice" description="voice input from todo widget">Spraak</string>
+	<!-- 23rd, End New String-->
+
+    <!-- Start: 24th New String [Carol] -->
+    <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX" >Herkend</string>
+    <!--<string name="todo_widget_no_item_tips" description="no todo item tips" >Er zijn geen taken</string>-->
+    <string name="sync_cancel_confirmText">Bevestigen</string>
+    <string name="sync_cancel_promptTop">Verwijderde gesynchroniseerde items worden ook verwijderd op het andere apparaat.</string>
+    <string name="sync_cancel_promptBottom">Wilt u de synchronisatie van deze notitieblokken opheffen?</string>
+    <string name="sync_cancel_noMoreHint">Mij niet meer herinneren</string>
+    <!-- End: 24th New String -->
+    
+    <!-- Start: 25th New String [Carol] -->
+    <string name="export_as" description="used as title of export_format dialog" >Exporteren als</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Supernote-indeling</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog" >Indeling selecteren</string>
+    <string-array name="share_format_array" description="share format chooser" >
+        <item>Afbeelding</item>
+        <!--<item>Teksten</item>-->
+        <item>PDF</item>
+        <item>Supernote-indeling</item>
+    </string-array>
+    <string name="pen_only_enabled">Alleen pen gebruiken</string>
+    <string name="pen_only_disabled">Alleen pen uitschakelen</string>
+    <string name="todo_title" description="memo template title" >Memo</string>
+    <string name="todo_widget_all_todos" description="All memos" >"Alle memo's"</string>
+    <string name="todo_widget_no_item_tips" description="no memo item tips" >"Er zijn geen memo's"</string>
+    <!-- End: 25th New String -->
+    
+    <!-- Start: 28th New String [Carol] -->
+    <string name="quicknote_funcbar_merge">Samenvoegen</string>
+    <string name="quicknote_funcbar_play">Afspelen</string>
+    <string name="quicknote_funcbar_pause">Pauzeren</string>
+    <string name="quicknote_funcbar_save">Opslaan</string>
+    <string name="quicknote_savehint_dlg_first">Tekening niet opgeslagen.</string>
+    <string name="quicknote_savehint_dlg_sec">Wilt u deze nu opslaan?</string>
+    <string name="quicknote_savehint_dlg_saved">De tekening is opgeslagen onder Afbeeldingen</string>
+    <string name="quicknote_savehint_dlg_cleaned">De tekening is gewist.</string>
+    <string name="choose_a_template" description="choose a template for your notebook" >Kies een sjabloon voor uw notebook</string>
+    <!-- End: 28th New String -->
+
+	<string name="editor_phone_readonly">"Alleen leesmodus"</string> <!--Carol-->
+	
+</resources>

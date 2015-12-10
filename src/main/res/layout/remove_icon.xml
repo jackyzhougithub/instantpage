@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:id="@+id/remove_icon" >
+
+   <TextView
+        style="@style/RemoveIconButton"
+        android:id="@+id/remove_icon_text"
+        android:background="@drawable/ic_launcher_clear_background_holo"
+        android:drawableLeft="@drawable/ic_launcher_clear_normal_holo"
+        android:text="@string/quicknote_close"
+        android:paddingTop="4dp"
+        android:layout_centerHorizontal="true" >
+    </TextView>
+
+</LinearLayout>

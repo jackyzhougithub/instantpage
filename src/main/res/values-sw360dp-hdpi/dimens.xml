@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">35px</dimen>
+    <dimen name="memo_link_text_size">13.33dp</dimen>
+    
+    <dimen name="baseline_top">166.67dp</dimen>
+    <dimen name="baseline_shift">-6.67px</dimen>
+    <dimen name="baseline_bottom_shift">15.33dp</dimen>
+    <dimen name="baseline_scale">5dp</dimen>
+    
+    <dimen name="thumb_padding_left">6.66dp</dimen>
+    <dimen name="thumb_padding_top">20dp</dimen>
+    <dimen name="microview_width">212px</dimen>
+    <dimen name="microview_height">284px</dimen>
+    
+    <dimen name="phone_book_width">540px</dimen>
+    <dimen name="phone_book_text_size_normal">31.7499999px</dimen>
+    <dimen name="phone_book_text_size_big">40px</dimen>
+    <dimen name="phone_book_text_size_small">29px</dimen>
+    
+    <dimen name="pad_book_width">1164px</dimen>
+    <dimen name="pad_book_text_size_normal">31.7499999px</dimen>
+    <dimen name="pad_book_text_size_big">40px</dimen>
+    <dimen name="pad_book_text_size_small">29px</dimen>
+        
+    <!-- Begin Siupo value = 800/1164-->
+    <dimen name="edittext_scale_pad">0.687285px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo -->
+    <dimen name="dpi_base_dpi">1.0px</dimen>
+    <dimen name="touch_tolerance">30.0px</dimen>
+    <dimen name="click_tolerance">20.0px</dimen>
+    <dimen name="phone_vertical_scroll_bar_height">140.0px</dimen>
+    <dimen name="default_canvas_width">1280.0px</dimen>
+    <dimen name="default_canvas_height">1593.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">1164.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">1593.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">540.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">647.0px</dimen>
+    <!-- End Siupo -->
+    
+    <!-- Begin wendy -->
+	<dimen name="timestamp_textsize">12dp</dimen>
+	<!-- End wendy -->
+	
+	<!-- BEGIN: Better -->
+	<dimen name="continious_line_tips_desc_margin_top">146dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_left">14dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_right">59dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_top">276dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_left">40dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_top">276dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_left">0dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_right">14dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_bottom">69dp</dimen>
+	<!-- END: Better -->
+
+	<!-- Begin Darwin -->
+	<dimen name="default_share_dialog_width">360dp</dimen>
+	<!-- End   Darwin -->
+
+	<!-- Begin Richard For Multi Window-->
+	<dimen name="multi_window_page_item">105dp</dimen>
+	<dimen name="all_page_view_itemspace">7dp</dimen>
+	<dimen name="multi_window_page_item_left_margin">16dp</dimen>
+	<!-- End Richard -->
+	
+	<!-- Begin  Smilefish -->
+	<dimen name="edit_cover_dialog_width">340dp</dimen>
+	<dimen name="edit_cover_dialog_height">530dp</dimen>
+    <!-- End    Smilefish -->
+	
+	<!-- Begin  Smilefish -->
+	<dimen name="app_title_text_size">17dp</dimen>
+	<dimen name="app_icon_padding_left">0dp</dimen>
+	<dimen name="app_icon_padding_right">4dp</dimen>
+	
+	<dimen name="bottom_bar_button_margin">13dp</dimen>
+	<dimen name="bottom_bar_button_width">60dp</dimen>
+	<dimen name="bottom_bar_button_height">52dp</dimen>
+	<dimen name="bottom_bar_button_padding_bottom">13dp</dimen>
+	<dimen name="bottom_bar_button_scribble_width">137dp</dimen>
+	
+	<dimen name="todo_title_margin_top">18dp</dimen>
+	<dimen name="todo_priority_dialog_x">27dp</dimen>
+	<dimen name="todo_priority_dialog_y">-75dp</dimen>
+	<dimen name="todo_edit_text_width_pad">640dp</dimen>
+	<dimen name="todo_edit_text_width_phone">224dp</dimen>
+	<dimen name="todo_total_height_phone">445dp</dimen>
+	<dimen name="todo_total_height_pad">986dp</dimen>
+	
+	<dimen name="maskLine_margin">51.67dp</dimen>
+	
+	<dimen name="attacher_text_width">94dp</dimen>
+    <dimen name="attacher_line_height">30dp</dimen>
+    
+    <dimen name="addbook_dialog_name_margin_top">75dp</dimen>
+    <!-- End    Smilefish -->
+    
+    <!-- Carrot -->
+	<dimen name="preview_image_width">660px</dimen>
+	<dimen name="preview_image_height">150px</dimen>
+	<dimen name="preview_content_width">562px</dimen>
+	<dimen name="preview_content_height">48px</dimen>
+	<dimen name="preview_content_x">51px</dimen>
+	<dimen name="preview_content_y">52px</dimen>
+	<!-- Carrot -->
+
+</resources>

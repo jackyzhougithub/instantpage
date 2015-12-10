@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="icon_press">#eead10</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="no">#00000000</drawable>
+    <drawable name="fbar_btn_pressed">#ee9d0c</drawable>
+    <drawable name="fbar_new_bg">#7a6e46</drawable>
+    <drawable name="popup_press_bg">#B5B5B5</drawable>
+    <drawable name="func_bar_press_bg">#38FFFFFF</drawable>
+    <drawable name="no_bg">#00FFFFFF</drawable>
+    
+    <!--begin Carol-->
+    <color name="func_bar_selected_color">#7c5f25</color>
+    <color name="eraser_selected_color">#747474</color>
+    <color name="toolbar_mode_bg">#2a2a2a</color>
+    <color name="toolbar_pointer_bg">#626262</color>   
+    <!--end-->    
+    <!-- remove line -->
+    <color name="brush_library_item_press_color">#c8c8c8</color>
+    <color name="brush_library_item_color">#f0f0f0</color>
+    <color name="pen_picker_nobg">#6b6b6b</color>
+    
+    <!-- GriaffitiBoardActivity -->
+    <color name="gb_function_bar_bg">#64AED5</color>
+    <color name="gb_checked_color">#378ebc</color>
+    <color name="pen_picker_selected_bg">#adadad</color>
+    <color name="gb_erase_radiobutton_checked_color">#8d8c8c</color>
+    <color name="select_view_frame_line_color">#979797</color>
+    
+</resources>
